@@ -1,0 +1,15 @@
+FROM ace-rtl-base
+
+WORKDIR /app
+
+# Create /code directory and set permissions
+RUN mkdir -p /code && chmod 777 /code
+
+# Copy ACE-RTL source code
+COPY src /app/src
+COPY prompts /app/prompts
+# Copy agent code
+COPY agent.py /app/agent.py
+
+# Set entrypoint
+ENTRYPOINT ["python3.12", "/app/agent.py"]

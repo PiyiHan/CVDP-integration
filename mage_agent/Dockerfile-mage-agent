@@ -1,0 +1,48 @@
+FROM ace-rtl-base@sha256:6460b01f13fd1d7f3a334ec08273fd04ff3fee78c522174e91175b2ef70c4357
+#To avoid duplicate load
+# FROM mage-base
+
+WORKDIR /app
+
+# Create /code directory and set permissions
+RUN mkdir -p /code && chmod 777 /code
+
+# Copy requirements file
+COPY requirements.txt ./
+
+RUN pip install -r requirements.txt
+# Copy MAGE source code
+COPY src /app/src
+# Copy agent code
+COPY mage_agent.py /app/agent.py
+
+#RUN pip list | grep llama
+
+# Set entrypoint
+ENTRYPOINT ["python3.12", "/app/agent.py"]
+
+# # 复制MAGE代码（构建上下文是项目根目录）
+# # 注意：MAGE代码较大，如果网络允许也可以通过git clone在镜像中下载
+# COPY cvdp-integration/agent/docker-deps/MAGE /app/MAGE
+#
+# # 或者：如果MAGE代码在workspace，可以通过volume挂载
+# # 但CVDP可能不支持自定义volume，所以使用COPY方式
+#
+# # 安装MAGE依赖（MAGE已经在unified-base中安装了基础依赖）
+# # 如果需要安装MAGE作为包，取消下面的注释
+# # WORKDIR /app/MAGE
+# # RUN pip3.12 install -e . || echo "MAGE package install failed, using source directly"
+#
+# # 复制MAGE agent wrapper
+# COPY cvdp-integration/agent/mage_agent.py /app/mage_agent.py
+#
+# # 设置环境变量（MAGE需要）
+# ENV PYTHONPATH="/app/MAGE:${PYTHONPATH}"
+#
+# # 设置默认API base（可以从.env文件覆盖）
+# # 注意：如果使用自定义API base，需要在构建时通过ARG传递，或运行时通过环境变量覆盖
+# ARG OPENAI_API_BASE=https://api.openai.com/v1
+# ENV OPENAI_API_BASE=${OPENAI_API_BASE}
+#
+# # CVDP接口：读取prompt.json，生成RTL
+# ENTRYPOINT ["python3.12", "/app/mage_agent.py"]

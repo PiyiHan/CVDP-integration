@@ -1,0 +1,38 @@
+FROM ace-rtl-base@sha256:6460b01f13fd1d7f3a334ec08273fd04ff3fee78c522174e91175b2ef70c4357
+
+WORKDIR /app
+
+# Create /code directory for RTL benchmarks
+RUN mkdir -p /code && chmod 777 /code
+
+# Copy DeCO requirements
+COPY pyproject.toml /app/
+
+# Install DeCO dependencies
+RUN pip install --no-cache-dir langgraph>=0.2.0 langchain-core>=0.3.0 langchain-openai>=0.2.0 \
+    pyyaml requests pydantic openai python-dotenv rich tqdm nltk tabulate numpy colorama tiktoken
+
+# Copy DeCO source code (maintaining structure)
+COPY models /app/models
+COPY knowledge /app/knowledge
+COPY agents /app/agents
+COPY extraction /app/extraction
+COPY meta /app/meta
+COPY mas /app/mas
+COPY utils /app/utils
+COPY config /app/config
+
+# Copy main.py (the agent wrapper)
+COPY main.py /app/main.py
+
+# Copy benchmarks (optional - can use volume mount)
+COPY data/benchmarks /app/data/benchmarks
+
+# Create output directories
+RUN mkdir -p /app/data/kb /app/data/outputs
+
+# Set environment variables
+ENV OPENAI_API_BASE=https://api.shubiaobiao.cn/v1
+
+# Set entrypoint to main.py
+ENTRYPOINT ["python3.12", "/app/main.py"]
