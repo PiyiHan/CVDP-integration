@@ -9,8 +9,8 @@ RUN mkdir -p /code && chmod 777 /code
 COPY pyproject.toml /app/
 
 # Install DeCO dependencies
-RUN pip install --no-cache-dir langgraph>=0.2.0 langchain-core>=0.3.0 langchain-openai>=0.2.0 \
-    pyyaml requests pydantic openai python-dotenv rich tqdm nltk tabulate numpy colorama tiktoken
+RUN pip install --no-cache-dir langgraph>=0.2.0 langchain-core>=0.3.0 langchain>=1.0.0 langchain-openai>=0.2.0 \
+    pyyaml requests pydantic openai python-dotenv psutil nltk tabulate numpy colorama ruamel.yaml tiktoken
 
 # Copy DeCO source code (maintaining structure)
 COPY models /app/models
@@ -29,10 +29,10 @@ COPY main.py /app/main.py
 COPY data/benchmarks /app/data/benchmarks
 
 # Create output directories
-RUN mkdir -p /app/data/kb /app/data/outputs
+RUN mkdir -p /code/rundir/memory
 
 # Set environment variables
 ENV OPENAI_API_BASE=https://api.shubiaobiao.cn/v1
 
-# Set entrypoint to main.py
-ENTRYPOINT ["python3.12", "/app/main.py"]
+# Set entrypoint to main.py with CVDP defaults
+ENTRYPOINT ["python3.12", "/app/main.py", "--mode", "generate_memories", "--bench", "/code/", "--memory-dir", "/code/rundir/memory"]
