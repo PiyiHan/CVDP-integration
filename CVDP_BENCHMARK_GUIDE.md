@@ -175,6 +175,9 @@ FORCE_AGENTIC="--force-agentic"           # 强制agentic模式（VerilogEval等
 2. 优化`prompt`（添加文件路径和集成说明）
 3. 统一文件扩展名（`.sv`）
 4. 使用`--force-agentic`标志
+5. **Testbench位置**: `verif/testbench.sv` 放在 `context` 中（agent可见），而非 `harness.files` 中
+6. **RefModule内联**: 参考实现（ref.sv）自动内联拼接到testbench开头，使testbench自包含，无需额外引用
+7. **Iverilog兼容性修复**（VerilogEval转换脚本特有）: VerilogEval原始testbench的`$dumpvars`引用了未声明的`tb_mismatch`，iverilog 13.0 (devel) 不兼容。自动在`$dumpvars`所在`initial begin`前插入`tb_match`/`tb_mismatch`的前向声明
 
 ### 测试流程
 
@@ -320,3 +323,9 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 - **文档状态**: 已清理并更新
 - **测试覆盖**: Single, Samples, Full, Golden模式均已测试
 - **功能验证**: CVDP集成流程正常，VerilogEval数据集可用
+
+### 变更记录
+
+- testbench从`harness.files`移至`context`（agent可见）
+- RefModule内联拼接到testbench开头
+- 修复iverilog 13.0 (devel) 对`$dumpvars`前向引用`tb_mismatch`的elaboration报错（VerilogEval转换脚本特有，VerilogEval原始testbench的`$dumpvars`在`tb_mismatch`声明之前，iverilog devel版本不兼容）

@@ -17,6 +17,7 @@ CVDP格式：
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from typing import List, Dict, Any
@@ -166,6 +167,60 @@ def generate_docker_compose() -> str:
     return docker_compose
 
 
+def fix_testbench_declaration_order(testbench: str) -> str:
+    """
+    Fix iverilog compatibility: insert forward declarations of tb_match/tb_mismatch
+    before the initial block that contains $dumpvars.
+
+    VerilogEval testbenches have this pattern inside module tb:
+        initial begin
+            $dumpfile(...);
+            $dumpvars(1, ..., tb_mismatch, ...);
+        end
+        ...
+        wire tb_match;
+        wire tb_mismatch = ~tb_match;
+
+    iverilog requires declarations before use. We insert forward declarations
+    just before the 'initial begin' that contains $dumpvars.
+    """
+    dumpvars_pattern = re.compile(r"\$dumpvars\(", re.MULTILINE)
+    wire_match = re.compile(r"^\s*wire\s+tb_match\s*;", re.MULTILINE)
+    wire_mismatch = re.compile(
+        r"^\s*wire\s+tb_mismatch\s*=\s*~\s*tb_match\s*;", re.MULTILINE
+    )
+
+    wire_match_obj = wire_match.search(testbench)
+    wire_mismatch_obj = wire_mismatch.search(testbench)
+    dumpvars_match = dumpvars_pattern.search(testbench)
+
+    if not wire_match_obj or not wire_mismatch_obj or not dumpvars_match:
+        return testbench
+
+    testbench_before_dumpvars = testbench[: dumpvars_match.start()]
+    initial_pattern = re.compile(r"^(\s*)initial\s+begin", re.MULTILINE)
+
+    all_initials = list(initial_pattern.finditer(testbench_before_dumpvars))
+    if not all_initials:
+        return testbench
+
+    initial_match = all_initials[-1]
+
+    indent = initial_match.group(1)
+
+    forward_decls = f"{indent}wire tb_match;\n{indent}wire tb_mismatch;\n"
+
+    tb_with_forwards = (
+        testbench[: initial_match.start()]
+        + forward_decls
+        + testbench[initial_match.start() :]
+    )
+    tb_final = wire_match.sub("", tb_with_forwards, count=1)
+    tb_final = wire_mismatch.sub("", tb_final, count=1)
+
+    return tb_final
+
+
 def convert_verilogeval_problem(problem_dir: Path, problem_id: str) -> Dict[str, Any]:
     """
     转换单个VerilogEval问题到CVDP格式
@@ -220,47 +275,43 @@ You can use the following tools during development:
 - Test harness is located at `/code/verif/testbench.sv`
 - You must ensure your generated code compiles and passes the provided testbench"""
 
-    # 构建context（CVDP需要input.context字段；AgenticProcessor还需顶层context）
+    # 将RefModule内联拼接到testbench中，使testbench自包含
+    combined_testbench = testbench.strip() if testbench else ""
+    combined_testbench = fix_testbench_declaration_order(combined_testbench)
+    if reference:
+        combined_testbench = reference.strip() + "\n\n" + combined_testbench
+
+    # 构建context（agent运行时能看到的文件）
     context = {}
     if interface:
         context["interface.txt"] = interface.strip()
 
     # 构建CVDP格式
-    # CVDP期望categories格式：["cid003", "easy"]，其中cid003表示category ID
-    # 我们使用一个通用的category ID：cid999（表示VerilogEval）
-    # 顶层 "context" 与 "prompt" 供 AgenticProcessor 使用（--force-agentic 或未做 transform 时）
     cvdp_data = {
         "id": cvdp_id,
-        "categories": ["cid999", "easy"],  # CVDP需要cid格式的categories
-        "system_message": generate_system_message(),  # 添加system_message
+        "categories": ["cid999", "easy"],
+        "system_message": generate_system_message(),
         "context": context,
         "prompt": full_prompt,
         "input": {"prompt": full_prompt, "context": context},
         "harness": {
             "files": {
-                # CVDP需要完整的harness文件结构
-                # docker-compose.yml是必需的
                 "docker-compose.yml": generate_docker_compose(),
-                # test_runner.py是Python测试运行器（使用cocotb）
                 "src/test_runner.py": generate_cvdp_test_runner(problem_id, testbench),
-                # 生成test文件（cocotb测试）
                 f"src/test_{problem_id}.py": generate_cocotb_test(
                     problem_id, testbench
                 ),
-                # 生成.env配置文件
                 "src/.env": generate_env_file(problem_id),
-                # 如果需要，也可以包含原始的SystemVerilog testbench
-                "verif/{MODULE_NAME}_tb.sv": testbench.strip() if testbench else "",
             }
         },
         "output": {
-            "context": {
-                f"rtl/{problem_id}.sv": reference.strip()
-                if reference
-                else ""  # 统一使用.sv扩展名
-            }
+            "context": {f"rtl/{problem_id}.sv": reference.strip() if reference else ""}
         },
     }
+
+    # testbench放到context中（agent可见），而非harness.files中（CVDP验证用）
+    if combined_testbench:
+        cvdp_data["context"]["verif/testbench.sv"] = combined_testbench
 
     # 如果有参考实现，添加到patch中（CVDP格式）
     if reference:

@@ -24,6 +24,9 @@ CVDP_DIR="/Users/peiyihan/Codes/cvdp_benchmark"
 DATASET_DIR="/Users/peiyihan/Codes/cvdp_benchmark/dataset_verilogeval/verilogeval.jsonl"
 DATASET_PROBLEM_ID="verilogeval_Prob001_zero_0001"
 
+# DATASET_DIR="example_dataset/cvdp_v1.0.4_example_agentic_code_generation_no_commercial_with_solutions.jsonl"
+# DATASET_PROBLEM_ID="cvdp_agentic_fixed_arbiter_0001"
+
 # Force agentic mode for custom datasets
 # CVDP detects dataset format by checking if ID contains 'agentic' (e.g., cvdp_agentic_xxx_0001)
 # Custom datasets like VerilogEval have IDs like verilogeval_Prob001_zero_0001 and require force-agentic
