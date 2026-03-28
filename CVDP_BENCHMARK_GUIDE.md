@@ -161,7 +161,7 @@ FORCE_AGENTIC="--force-agentic"           # 强制agentic模式（VerilogEval等
 - **文件位置**: `/Users/peiyihan/Codes/cvdp_benchmark/datase_verilogeval/verilogeval.jsonl`
 - **问题数量**: 157个
 - **难度**: easy（所有问题）
-- **分类**: cid999（VerilogEval专用）
+- **分类**: cid003（VerilogEval，作为 Specification-to-RTL category）
 - **模块名**: 统一使用`TopModule`
 
 ### 转换脚本
@@ -179,18 +179,41 @@ FORCE_AGENTIC="--force-agentic"           # 强制agentic模式（VerilogEval等
 6. **RefModule内联**: 参考实现（ref.sv）自动内联拼接到testbench开头，使testbench自包含，无需额外引用
 7. **Iverilog兼容性修复**（VerilogEval转换脚本特有）: VerilogEval原始testbench的`$dumpvars`引用了未声明的`tb_mismatch`，iverilog 13.0 (devel) 不兼容。自动在`$dumpvars`所在`initial begin`前插入`tb_match`/`tb_mismatch`的前向声明
 
-### 测试流程
+### Non-Agentic (Copilot) 模式
 
+CVDP 直接调用 LLM API 生成代码，无需 Docker 容器。通过 `-m <model>` 指定模型名，通过 `--force-copilot` 标志让 agentic 数据集以 copilot 模式运行。
+
+**执行流程**:
+1. CVDP 将 prompt 发送到 OpenAI API（通过 `OPENAI_BASE_URL` 连接自定义 endpoint）
+2. LLM 返回 JSON，CVDP 解析后写入 `output.context` 中列出的文件（如 `rtl/TopModule.sv`）
+3. CVDP 启动 harness Docker 容器运行 iverilog/vvp 测试
+4. Docker 退出码 0 = PASS，非 0 = FAIL
+
+**配置**:
+- 模型: `LLM_MODEL` 环境变量（默认: `gpt-4o-mini`）
+- API endpoint: `OPENAI_BASE_URL` 环境变量（copilot 命令自动从 `OPENAI_API_BASE` 同步）
+- API Key: `OPENAI_USER_KEY` 环境变量
+- 无需修改 CVDP 源码
+
+**命令**:
 ```bash
-# 1. 转换数据集（如果需要）
-python3 scripts/verilogeval_to_cvdp.py <verilogeval_dir> <output.jsonl>
+# 单个问题调试
+./cvdp_benchmark.sh copilot-single
 
-# 2. 运行single模式测试
-./cvdp_benchmark.sh single
+# 指定模型
+LLM_MODEL=gpt-4o ./cvdp_benchmark.sh copilot-single
 
-# 3. 运行samples模式（Pass@k评估）
-./cvdp_benchmark.sh samples datase_verilogeval/verilogeval.jsonl 5 1 work_samples
+# 完整基准测试
+./cvdp_benchmark.sh copilot-full
+
+# Pass@k 评估
+./cvdp_benchmark.sh copilot-samples datase_verilogeval/verilogeval.jsonl 5 1
 ```
+
+**输出目录**: `work_copilot_single/`（或指定的 prefix），包含:
+- `report.json` / `report.txt` — 测试结果汇总
+- `<problem_id>/raw_result.json` — 每个问题的详细结果
+- `<problem_id>/harness/` — harness 执行日志和临时文件
 
 ## Memory文件结构
 
@@ -226,7 +249,7 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 
 ```json
 {
-  "cid999": {
+  "cid003": {
     "easy": {
       "Passed Tests": 0,
       "Failed Tests": 1,
@@ -319,9 +342,9 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 
 ## 更新日志
 
-- **最后更新**: 2026-03-28
+- **最后更新**: 2026-03-29
 - **文档状态**: 已清理并更新
-- **测试覆盖**: Single, Samples, Full, Golden模式均已测试
+- **测试覆盖**: Agentic (single/samples/full/golden) + Non-Agentic (copilot-single) 均已测试
 - **功能验证**: CVDP集成流程正常，VerilogEval数据集可用
 
 ### 变更记录
@@ -347,3 +370,14 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 - 157个问题的完整数据集转换 → 全部成功
 
 **修改文件**: 仅 `scripts/verilogeval_to_cvdp.py` 中的 `generate_cocotb_test()` 函数，未修改 CVDP 框架源码
+
+### 2026-03-29: Copilot 模式集成与数据集格式修复
+
+**新增**: `cvdp_benchmark.sh` 新增 `copilot-single`、`copilot-full`、`copilot-samples` 子命令，支持通过 LLM API 直接生成代码（无需 Docker agent）
+
+**修复**:
+1. `categories` 从 `cid999` 改为 `cid003`（Spec-to-RTL category），修复 copilot 模式下的 assertion 错误
+2. `output.context` 和 `patch` 中的文件路径从 `rtl/{problem_id}.sv` 改为 `rtl/TopModule.sv`，匹配 harness `.env` 中的 `VERILOG_SOURCES`
+3. `cvdp_benchmark.sh` copilot 命令自动 `export OPENAI_BASE_URL="${OPENAI_API_BASE}"`，无需手动设置
+
+**验证**: `copilot-single` 端到端测试通过，gpt-4o-mini 生成的 TopModule.sv 正确，Mismatches: 0 in 20 samples

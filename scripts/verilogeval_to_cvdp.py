@@ -316,7 +316,7 @@ You can use the following tools during development:
     # 构建CVDP格式
     cvdp_data = {
         "id": cvdp_id,
-        "categories": ["cid999", "easy"],
+        "categories": ["cid003", "easy"],
         "system_message": generate_system_message(),
         "context": context,
         "prompt": full_prompt,
@@ -332,7 +332,7 @@ You can use the following tools during development:
             }
         },
         "output": {
-            "context": {f"rtl/{problem_id}.sv": reference.strip() if reference else ""}
+            "context": {f"rtl/{MODULE_NAME}.sv": reference.strip() if reference else ""}
         },
     }
 
@@ -343,7 +343,7 @@ You can use the following tools during development:
     # 如果有参考实现，添加到patch中（CVDP格式）
     if reference:
         cvdp_data["patch"] = {
-            f"rtl/{problem_id}.sv": f"@@ -0,0 +1,{len(reference.split(chr(10)))} @@\n+{reference.strip().replace(chr(10), chr(10) + '+')}"
+            f"rtl/{MODULE_NAME}.sv": f"@@ -0,0 +1,{len(reference.split(chr(10)))} @@\n+{reference.strip().replace(chr(10), chr(10) + '+')}"
         }
 
     return cvdp_data
