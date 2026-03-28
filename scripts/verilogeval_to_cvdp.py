@@ -113,23 +113,50 @@ def test_areg_param(test):
 
 def generate_cocotb_test(problem_id: str, testbench: str) -> str:
     """
-    生成cocotb测试文件
-    这是一个简化的测试，主要验证模块能正常编译和运行
+    生成cocotb测试文件，通过iverilog/vvp运行VerilogEval的testbench
+    验证Agent生成的TopModule与RefModule的行为是否一致
     """
-    # 使用统一的MODULE_NAME常量
-    module_name = MODULE_NAME
-
-    # 简化的cocotb测试
     test_code = f'''import cocotb
-from cocotb.clock import Clock
-from cocotb.triggers import Timer
+import subprocess
+import re
 
 @cocotb.test()
 async def test_{problem_id}(dut):
-    """Basic test for {module_name}"""
-    # 简单的功能测试：验证模块能正常实例化
-    await Timer(10, units="ns")
-    cocotb.log.info("Test passed: Module instantiated successfully")
+    """Functional correctness test via iverilog/vvp testbench simulation"""
+    rtl_source = "/code/rtl/TopModule.sv"
+    testbench_source = "/code/verif/testbench.sv"
+    output_vvp = "/code/rundir/test.vvp"
+
+    compile_cmd = [
+        "iverilog", "-Wall", "-Winfloop", "-Wno-timescale",
+        "-g2012", "-s", "tb", "-o", output_vvp,
+        testbench_source, rtl_source
+    ]
+
+    comp = subprocess.run(compile_cmd, capture_output=True, text=True, timeout=30)
+
+    if comp.returncode != 0:
+        assert False, f"iverilog compilation failed: {{comp.stderr}}"
+    if "syntax error" in comp.stderr:
+        assert False, f"Syntax error: {{comp.stderr}}"
+
+    sim = subprocess.run(
+        ["vvp", "-n", output_vvp],
+        capture_output=True, text=True, timeout=30
+    )
+
+    output = sim.stdout
+    match = re.search(r"Mismatches: (\\d+) in (\\d+) samples", output)
+
+    if match:
+        mismatches, total = int(match.group(1)), int(match.group(2))
+        assert mismatches == 0, (
+            f"Test failed: {{mismatches}} out of {{total}} samples mismatched"
+        )
+    else:
+        assert False, (
+            f"Testbench output not matched. stdout: {{output}}, stderr: {{sim.stderr}}"
+        )
 '''
     return test_code
 

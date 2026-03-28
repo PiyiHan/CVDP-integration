@@ -319,7 +319,7 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 
 ## 更新日志
 
-- **最后更新**: 2026-03-27
+- **最后更新**: 2026-03-28
 - **文档状态**: 已清理并更新
 - **测试覆盖**: Single, Samples, Full, Golden模式均已测试
 - **功能验证**: CVDP集成流程正常，VerilogEval数据集可用
@@ -329,3 +329,21 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 - testbench从`harness.files`移至`context`（agent可见）
 - RefModule内联拼接到testbench开头
 - 修复iverilog 13.0 (devel) 对`$dumpvars`前向引用`tb_mismatch`的elaboration报错（VerilogEval转换脚本特有，VerilogEval原始testbench的`$dumpvars`在`tb_mismatch`声明之前，iverilog devel版本不兼容）
+
+### 2026-03-28: VerilogEval真实功能测试集成
+
+**问题**: `verilogeval_to_cvdp.py` 生成的 cocotb 测试（`test_{problem_id}.py`）仅为占位代码，只验证模块能实例化（等10ns后声明pass），不验证功能正确性。而 VerilogEval 的真实 testbench（`verif/testbench.sv`）已包含 RefModule + tb 的比较逻辑，输出 `Mismatches: X in Y samples`，但从未被 harness 调用。
+
+**方案**: 修改 `generate_cocotb_test()` 函数，在 cocotb test 中通过 subprocess 调用 iverilog/vvp 编译运行完整的 testbench，解析 `Mismatches` 输出来判定 pass/fail。
+
+**执行流程**:
+1. Phase 1 (Agent): `docker-compose-agent.yml` 运行 Agent，生成 `TopModule.sv` 到 `/code/rtl/`
+2. Phase 2 (Harness): `docker-compose.yml` 运行 pytest → cocotb test → subprocess 调用 `iverilog` 编译 `testbench.sv` + `TopModule.sv`，`vvp` 运行仿真，解析 `Mismatches: X in Y samples` 输出
+3. Docker 退出码 0 = PASS，非0 = FAIL，CVDP 框架直接复用
+
+**测试验证**:
+- 4个不同问题（Prob001_zero, Prob002_m2014_q4i, Prob003_step_one, Prob005_notgate）的正确答案 → 全部 PASS
+- 4个不同问题的错误答案 → 全部 FAIL（正确报告 mismatch 数量）
+- 157个问题的完整数据集转换 → 全部成功
+
+**修改文件**: 仅 `scripts/verilogeval_to_cvdp.py` 中的 `generate_cocotb_test()` 函数，未修改 CVDP 框架源码
