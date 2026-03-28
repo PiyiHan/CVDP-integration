@@ -32,7 +32,7 @@ COPY data/benchmarks /app/data/benchmarks
 RUN mkdir -p /code/rundir/memory
 
 # Set environment variables
-ENV OPENAI_API_BASE=https://api.openai.com/v1
+ENV OPENAI_API_BASE=https://api.shubiaobiao.cn/v1
 
 # Set entrypoint to main.py with CVDP defaults
 ENTRYPOINT ["python3.12", "/app/main.py", "--mode", "generate_memories", "--bench", "/code/", "--memory-dir", "/code/rundir/memory"]

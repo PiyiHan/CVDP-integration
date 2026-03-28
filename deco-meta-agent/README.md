@@ -79,7 +79,7 @@ docker run --rm \
 ### Environment Variables
 
 - `OPENAI_API_KEY` (required): Your OpenAI API key
-- `OPENAI_API_BASE` (optional): API base URL (default: configured via environment)
+- `OPENAI_API_BASE` (optional): API base URL (default: configured in Dockerfile-agent as ENV, can be overridden at runtime via `-e`)
 
 ### CLI Arguments
 
