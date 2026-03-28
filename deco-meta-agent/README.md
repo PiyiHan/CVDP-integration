@@ -40,7 +40,7 @@ Generate execution memories from RTL benchmarks:
 
 ```bash
 docker run --rm \
-  -e OPENAI_API_KEY="sk-LxJGbhqqaFvZQuzO8f0c6994757a40538e7342Fe4a2626E4" \
+  -e OPENAI_API_KEY="$OPENAI_API_KEY" \
   -v $(pwd)/benchmarks:/app/data/benchmarks:ro \
   -v $(pwd)/memories:/app/data/memories \
   deco-meta-agent \
@@ -79,7 +79,7 @@ docker run --rm \
 ### Environment Variables
 
 - `OPENAI_API_KEY` (required): Your OpenAI API key
-- `OPENAI_API_BASE` (optional): API base URL (default: https://api.shubiaobiao.cn/v1)
+- `OPENAI_API_BASE` (optional): API base URL (default: configured via environment)
 
 ### CLI Arguments
 
@@ -110,7 +110,7 @@ docker run --rm \
 ### Example 1: Generate Memories (Primary Use Case)
 ```bash
 docker run --rm \
-  -e OPENAI_API_KEY="sk-LxJGbhqqaFvZQuzO8f0c6994757a40538e7342Fe4a2626E4" \
+  -e OPENAI_API_KEY="$OPENAI_API_KEY" \
   -v $(pwd)/benchmarks:/app/data/benchmarks:ro \
   -v $(pwd)/memories:/app/data/memories \
   deco-meta-agent \
@@ -224,8 +224,7 @@ docker run --rm \
 Set default values via `.env`:
 ```bash
 OPENAI_API_KEY=your-key
-OPENAI_API_BASE=https://api.shubiaobiao.cn/v1
-MAX_CASES=100
+OPENAI_API_BASE=https://api.openai.com/v1
 LLM_MODEL=gpt-4-turbo
 ```
 
@@ -299,9 +298,8 @@ export FILTER_FLAGS="--filter-failed"
 ### Environment Configuration
 Set default values via `.env`:
 ```bash
-OPENAI_API_KEY=your-key
-OPENAI_API_BASE=https://api.shubiaobiao.cn/v1
-MAX_CASES=100
+OPENAI_API_KEY=your-api-key
+OPENAI_API_BASE=https://api.openai.com/v1
 LLM_MODEL=gpt-4-turbo
 BENCHMARK_DIR=/path/to/benchmarks
 MEMORY_DIR=/tmp/memories
