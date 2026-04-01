@@ -159,7 +159,11 @@ copilot-samples)
   echo "Agentic Commands (Docker container-based agents):"
   echo "  build                                Build agent Docker image"
   echo "  golden [dataset] [prefix]            Test golden reference solutions"
+<<<<<<< HEAD
   echo "  full [dataset] [prefix]              Run full benchmark with agent"
+=======
+  echo "  full <dataset> [prefix]              Run full benchmark with agent"
+>>>>>>> d288c7f2b3acc5a776e8ebab22a27ee4abe1e211
   echo "  samples <dataset> [n=5] [k=1] [prefix]"
   echo "                                       Run Pass@k evaluation with agent"
   echo "  single [dataset] [problem_id] [prefix]"
