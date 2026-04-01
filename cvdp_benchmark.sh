@@ -29,17 +29,62 @@ DATASET_PROBLEM_ID="verilogeval_Prob001_zero_0001"
 FORCE_AGENTIC="--force-agentic"
 
 # Non-agentic (copilot) mode: default LLM model, override via LLM_MODEL env var
-LLM_MODEL="${LLM_MODEL:-gpt-4o-mini}"
+LLM_MODEL="deepseek-v3-2-251201"
+
+# ----------------------------------------
+# Prefix helpers
+# Format: work_{mode}_{model|agent}_{dataset}[_{problem_id}][_n{samples}]
+# ----------------------------------------
+
+_shorten_dataset() {
+    local name="$1"
+    name="${name##*/}"
+    name="${name%.jsonl}"
+    name="${name%.json}"
+    name="${name#cvdp_v[0-9]*.[0-9]*_}"
+    name="${name#cvdp_}"
+    if [ ${#name} -gt 20 ]; then
+        name="${name:0:20}"
+    fi
+    echo "$name"
+}
+
+_shorten_model() {
+    echo "${1%%-*}"
+}
+
+_shorten_problem() {
+    local pid="$1" ds_short="$2"
+    pid="${pid%_[0-9][0-9][0-9][0-9]}"
+    if [[ "$pid" == "${ds_short}_"* ]]; then
+        pid="${pid#"${ds_short}"_}"
+    fi
+    if [ ${#pid} -gt 30 ]; then
+        pid="${pid:0:30}"
+    fi
+    echo "$pid"
+}
+
+make_prefix() {
+    local mode="$1" identity="$2" dataset="$3"
+    shift 3
+    local ds_short
+    ds_short=$(_shorten_dataset "$dataset")
+    local p="work_${mode}_$(_shorten_model "$identity")_${ds_short}"
+    while [ $# -gt 0 ]; do
+        case "$1" in
+            pid=*) p="${p}_$(_shorten_problem "${1#pid=}" "$ds_short")" ;;
+            n=*)   p="${p}_n${1#n=}" ;;
+        esac
+        shift
+    done
+    echo "$p"
+}
 
 case "$1" in
 convert-verilogeval)
   if [ $# -lt 3 ]; then
     echo "Usage: $0 convert-verilogeval <verilogeval_dataset_dir> <output.jsonl> [dataset_name]"
-    echo ""
-    echo "Example:"
-    echo "  $0 convert-verilogeval \\"
-    echo "    /Users/peiyihan/Codes/verilog-eval/dataset_spec-to-rtl \\"
-    echo "    ~/Codes/cvdp_benchmark/dataset_verilogeval/verilogeval.jsonl"
     exit 1
   fi
   python3 "$SCRIPTS_DIR/verilogeval_to_cvdp.py" "$2" "$3" "${4:-verilogeval}"
@@ -58,35 +103,55 @@ build)
   ;;
 golden)
   cd "$CVDP_DIR"
-  python run_benchmark.py -f ${2:-example_dataset/cvdp_v1.0.4_example_agentic_code_generation_no_commercial_with_solutions.jsonl} -p ${3:-work_golden}
-  echo "Golden results in ${3:-work_golden}/report.txt"
+  DATASET="${2:-example_dataset/cvdp_v1.0.4_example_agentic_code_generation_no_commercial_with_solutions.jsonl}"
+  PREFIX=$(make_prefix golden golden "$DATASET")
+  python run_benchmark.py -f "$DATASET" -p "${3:-$PREFIX}"
+  echo "Golden results in ${3:-$PREFIX}/report.txt"
   ;;
 full)
   cd "$CVDP_DIR"
-  python run_benchmark.py -f ${2:-example_dataset/cvdp_v1.0.4_example_agentic_code_generation_no_commercial_with_solutions.jsonl} -l -g $AGENT_NAME -p ${3:-work_full}
+  DATASET="${2:-$DATASET_DIR}"
+  PREFIX=$(make_prefix full "$AGENT_NAME" "$DATASET")
+  python run_benchmark.py -f "$DATASET" -l -g $AGENT_NAME -p "${3:-$PREFIX}"
   ;;
 samples)
+  DATASET="$2"
+  N="${3:-5}"
+  K="${4:-1}"
+  PREFIX=$(make_prefix samples "$AGENT_NAME" "$DATASET" n=$N)
   cd "$CVDP_DIR"
-  python run_samples.py -f $2 -l -g $AGENT_NAME -n ${3:-5} -k ${4:-1} -p ${5:-work_samples}
+  python run_samples.py -f "$DATASET" -l -g $AGENT_NAME -n "$N" -k "$K" -p "${5:-$PREFIX}"
   ;;
 single)
   cd "$CVDP_DIR"
-  python run_benchmark.py -f ${2:-$DATASET_DIR} -i ${3:-$DATASET_PROBLEM_ID} -l -g $AGENT_NAME $FORCE_AGENTIC -p ${4:-work_single}
+  DATASET="${2:-$DATASET_DIR}"
+  PID="${3:-$DATASET_PROBLEM_ID}"
+  PREFIX=$(make_prefix single "$AGENT_NAME" "$DATASET" pid="$PID")
+  python run_benchmark.py -f "$DATASET" -i "$PID" -l -g $AGENT_NAME $FORCE_AGENTIC -p "${4:-$PREFIX}"
   ;;
 copilot-single)
   cd "$CVDP_DIR"
+  DATASET="${2:-$DATASET_DIR}"
+  PID="${3:-$DATASET_PROBLEM_ID}"
+  PREFIX=$(make_prefix copilot-single "$LLM_MODEL" "$DATASET" pid="$PID")
   export OPENAI_BASE_URL="${OPENAI_API_BASE}"
-  python run_benchmark.py -f ${2:-$DATASET_DIR} -i ${3:-$DATASET_PROBLEM_ID} -l -m $LLM_MODEL --force-copilot -p ${4:-work_copilot_single}
+  python run_benchmark.py -f "$DATASET" -i "$PID" -l -m $LLM_MODEL --force-copilot -p "${4:-$PREFIX}"
   ;;
 copilot-full)
   cd "$CVDP_DIR"
+  DATASET="${2:-$DATASET_DIR}"
+  PREFIX=$(make_prefix copilot-full "$LLM_MODEL" "$DATASET")
   export OPENAI_BASE_URL="${OPENAI_API_BASE}"
-  python run_benchmark.py -f ${2:-$DATASET_DIR} -l -m $LLM_MODEL --force-copilot -p ${3:-work_copilot_full}
+  python run_benchmark.py -f "$DATASET" -l -m $LLM_MODEL --force-copilot -p "${3:-$PREFIX}"
   ;;
 copilot-samples)
+  DATASET="$2"
+  N="${3:-5}"
+  K="${4:-1}"
+  PREFIX=$(make_prefix copilot-samples "$LLM_MODEL" "$DATASET" n=$N)
   cd "$CVDP_DIR"
   export OPENAI_BASE_URL="${OPENAI_API_BASE}"
-  python run_samples.py -f $2 -l -m $LLM_MODEL --force-copilot -n ${3:-5} -k ${4:-1} -p ${5:-work_copilot_samples}
+  python run_samples.py -f "$DATASET" -l -m $LLM_MODEL --force-copilot -n "$N" -k "$K" -p "${5:-$PREFIX}"
   ;;
 *)
   echo "Usage: $0 {build|golden|full|samples|single|copilot-single|copilot-full|copilot-samples|convert-verilogeval|download-cvdp}"
@@ -94,8 +159,9 @@ copilot-samples)
   echo "Agentic Commands (Docker container-based agents):"
   echo "  build                                Build agent Docker image"
   echo "  golden [dataset] [prefix]            Test golden reference solutions"
-  echo "  full <dataset> [prefix]              Run full benchmark with agent"
-  echo "  samples <dataset> [n] [k] [prefix]   Run Pass@k evaluation with agent"
+  echo "  full [dataset] [prefix]              Run full benchmark with agent"
+  echo "  samples <dataset> [n=5] [k=1] [prefix]"
+  echo "                                       Run Pass@k evaluation with agent"
   echo "  single [dataset] [problem_id] [prefix]"
   echo "                                       Run single problem with agent (debug)"
   echo ""
@@ -103,7 +169,7 @@ copilot-samples)
   echo "  copilot-single [dataset] [problem_id] [prefix]"
   echo "                                       Run single problem with LLM (debug)"
   echo "  copilot-full [dataset] [prefix]      Run full benchmark with LLM"
-  echo "  copilot-samples <dataset> [n] [k] [prefix]"
+  echo "  copilot-samples <dataset> [n=5] [k=1] [prefix]"
   echo "                                       Run Pass@k evaluation with LLM"
   echo ""
   echo "Other Commands:"
@@ -118,17 +184,18 @@ copilot-samples)
   echo "  OPENAI_API_BASE  = Custom API endpoint (agentic Docker env)"
   echo "  OPENAI_BASE_URL  = Custom API endpoint (copilot, read by OpenAI SDK)"
   echo ""
+  echo "Default output prefix: work_{mode}_{model|agent}_{dataset}[_{problem_id}][_n{samples}]"
   echo "Examples:"
-  echo "  # Agentic (default VerilogEval)"
+  echo "  work_copilot-single_deepseek_verilogeval_Prob001_zero"
+  echo "  work_single_deco_verilogeval_Prob001_zero"
+  echo "  work_copilot-full_deepseek_verilogeval"
+  echo "  work_copilot-samples_deepseek_verilogeval_n5"
+  echo ""
+  echo "Usage examples:"
   echo "  $0 single"
-  echo "  # Agentic (explicit dataset/problem)"
-  echo "  $0 single datase_verilogeval/verilogeval.jsonl verilogeval_Prob001_zero_0001"
-  echo "  # Non-agentic single"
   echo "  $0 copilot-single"
-  echo "  # Non-agentic with different model"
   echo "  LLM_MODEL=gpt-4o $0 copilot-single"
-  echo "  # Non-agentic full"
-  echo "  $0 copilot-full datase_verilogeval/verilogeval.jsonl"
+  echo "  $0 copilot-full dataset_verilogeval/verilogeval.jsonl"
   exit 1
   ;;
 esac

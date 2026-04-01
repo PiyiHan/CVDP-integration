@@ -74,21 +74,36 @@ cd /Users/peiyihan/Codes/cvdp_integration
 ./cvdp_benchmark.sh <command> [args...]
 ```
 
+### 输出目录自动命名
+
+默认输出前缀由**模式、模型/agent、数据集、问题ID、样本数**拼接生成：
+
+```
+work_{mode}_{model|agent}_{dataset}[_{problem_id}][_n{samples}]
+```
+
+| 命令 | 自动生成前缀示例 |
+|------|-----------------|
+| `copilot-single` | `work_copilot-single_deepseek_verilogeval_Prob001_zero` |
+| `single` | `work_single_deco_verilogeval_Prob001_zero` |
+| `copilot-full` | `work_copilot-full_deepseek_verilogeval` |
+| `copilot-samples` | `work_copilot-samples_deepseek_verilogeval_n5` |
+| `full` | `work_full_deco_verilogeval` |
+
+- **模型名**: 取第一段（`deepseek-v3-2-251201` → `deepseek`）
+- **Agent名**: 取第一段（`deco-meta-agent` → `deco`）
+- **数据集名**: 取basename，去扩展名和版本前缀，截断至20字符
+- **问题ID**: 去尾`_NNNN`迭代后缀，去与数据集重复的前缀，截断至30字符
+
+可通过`[prefix]`参数覆盖默认值。
+
 ### 配置变量
 
 编辑脚本顶部的变量以配置测试环境：
 
 ```bash
-# Agent配置
 AGENT_NAME="deco-meta-agent"              # Docker镜像名称
-AGENT_BUILD_DIR="/path/to/agent"         # Agent构建目录
-AGENT_SOURCE_DIR="/path/to/source"        # Agent源代码目录
-
-# 数据集配置
-DATASET_DIR="/path/to/dataset.jsonl"    # 默认数据集路径
-DATASET_PROBLEM_ID="problem_id"           # 默认问题ID
-
-# 模式控制
+LLM_MODEL="deepseek-v3-2-251201"          # Copilot模型名（可环境变量覆盖）
 FORCE_AGENTIC="--force-agentic"           # 强制agentic模式（VerilogEval等）
 ```
 
@@ -107,21 +122,11 @@ FORCE_AGENTIC="--force-agentic"           # 强制agentic模式（VerilogEval等
 ```
 
 **作用**: 只运行test harness，不涉及agent
-**参数**:
-- `dataset`: 数据集路径（默认：example_dataset/...）
-- `prefix`: 输出目录前缀（默认：work_golden）
 
 #### 3. single - 单个问题调试
 
 ```bash
-# 使用默认数据集（VerilogEval）
-./cvdp_benchmark.sh single
-
-# 指定数据集和问题
-./cvdp_benchmark.sh single datase_verilogeval/verilogeval.jsonl verilogeval_Prob001_zero_0001
-
-# 指定输出前缀
-./cvdp_benchmark.sh single dataset.jsonl problem_id work_debug
+./cvdp_benchmark.sh single [dataset] [problem_id] [prefix]
 ```
 
 **作用**: 快速调试单个问题
@@ -340,6 +345,83 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 - **转换脚本**: `/Users/peiyihan/Codes/cvdp_integration/scripts/verilogeval_to_cvdp.py`
 - **测试脚本**: `/Users/peiyihan/Codes/cvdp_integration/cvdp_benchmark.sh`
 
+## Token使用量追踪
+
+### 概述
+
+Copilot和Agentic两种模式均支持自动统计LLM token使用量，生成`metrics.json`文件，可通过`collect_metrics.py`汇总。
+
+### Copilot模式
+
+**原理**: `OpenAI_Instance`和`OpenAI_Responses_Instance`在每次`prompt()`调用后，从API响应的`response.usage`中提取`prompt_tokens`/`completion_tokens`/`total_tokens`并累加。`CopilotProcessor.create_context()`在LLM调用成功后将累计值写入`{issue_dir}/metrics.json`，然后重置计数器。
+
+**模型支持**: `model_factory.py`采用fallback机制——任何未在注册表中的模型名自动使用`OpenAI_Instance`，因此任何OpenAI-compatible API（DeepSeek、Qwen、GLM等）均可直接通过`-m <model_name>`或`LLM_MODEL`环境变量指定，无需修改代码。
+
+**改动文件**:
+- `cvdp_benchmark/src/llm_lib/openai_llm.py`: 加`_token_usage`累加器、`get_token_usage()`、`reset_token_usage()`
+- `cvdp_benchmark/src/llm_lib/openai_llm_responses.py`: 同上
+- `cvdp_benchmark/src/dataset_processor.py`: `CopilotProcessor.create_context()`写`metrics.json`
+- `cvdp_benchmark/src/llm_lib/model_factory.py`: 移除硬编码模型列表，未识别模型fallback到`OpenAI_Instance`
+
+**输出位置**: 每个问题的issue目录下，如：
+```
+work_copilot_single/cvdp_verilogeval/metrics.json
+work_copilot_full/cvdp_verilogeval/metrics.json
+```
+
+**metrics.json格式**:
+```json
+{
+  "success": true,
+  "tokens": {
+    "input_tokens": 1234,
+    "output_tokens": 567,
+    "total_tokens": 1801
+  },
+  "agent_name": "deepseek-v3-2-251201",
+  "mode": "copilot"
+}
+```
+
+### Agentic模式
+
+**原理**: `LLMWrapper`同时使用两种token追踪：(1) `generate()`方法直接从`response.usage_metadata`提取；(2) `TokenUsageCallback`（LangChain `BaseCallbackHandler`）捕获agent通过`chat_model`发起的调用（ReAct循环中的tool call等），这些调用不经过`generate()`。Agent执行结束时（`main.py`），`llm.save_metrics()`将汇总数据写入`/code/rundir/metrics.json`，通过volume mount暴露给宿主机。
+
+**改动文件**:
+- `promptrtl/utils/llm.py`: 新增`TokenUsageCallback`类 + `LLMWrapper`加累加器、`save_metrics()`
+- `promptrtl/main.py`: `generate_memories`模式结束后调`llm.save_metrics()`
+
+**输出位置**: Agent的rundir目录下，如：
+```
+work_single/deco-meta-agent/harness/1/rundir/metrics.json
+work_full/deco-meta-agent/harness/<id>/rundir/metrics.json
+```
+
+**metrics.json格式**:
+```json
+{
+  "success": true,
+  "tokens": {
+    "input_tokens": 5000,
+    "output_tokens": 2000,
+    "total_tokens": 7000
+  },
+  "llm_call_count": 8,
+  "model": "deepseek-chat",
+  "mode": "agentic"
+}
+```
+
+### 汇总统计
+
+使用`collect_metrics.py`汇总所有`metrics.json`:
+```bash
+python3 scripts/collect_metrics.py work_copilot_full/
+python3 scripts/collect_metrics.py work_single/ --json summary.json
+```
+
+输出包括: 总token数、成功率、按模式/agent分类统计、平均时间等。
+
 ## 更新日志
 
 - **最后更新**: 2026-03-29
@@ -381,3 +463,32 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 3. `cvdp_benchmark.sh` copilot 命令自动 `export OPENAI_BASE_URL="${OPENAI_API_BASE}"`，无需手动设置
 
 **验证**: `copilot-single` 端到端测试通过，gpt-4o-mini 生成的 TopModule.sv 正确，Mismatches: 0 in 20 samples
+
+### 2026-03-31: Token使用量追踪 + 通用模型支持 + 自动输出目录
+
+**新增**: Copilot和Agentic模式均自动统计LLM token使用量，输出`metrics.json`，可通过`collect_metrics.py`汇总。
+
+**新增**: 输出目录自动命名，格式`work_{mode}_{model|agent}_{dataset}[_{problem_id}][_n{samples}]`，无需手动指定prefix。
+
+**新增**: `model_factory.py`通用模型支持——未识别的模型名自动fallback到`OpenAI_Instance`，任何OpenAI-compatible API（DeepSeek、Qwen、GLM等）均可直接用`-m <model_name>`。
+
+**Copilot模式改动** (`cvdp_benchmark`):
+- `src/llm_lib/openai_llm.py`: `OpenAI_Instance`加`_token_usage`累加器，`prompt()`从`response.usage`提取token
+- `src/llm_lib/openai_llm_responses.py`: 同上，从`resp.usage`提取
+- `src/dataset_processor.py`: `CopilotProcessor.create_context()`写`{issue_dir}/metrics.json`
+- `src/llm_lib/model_factory.py`: 移除硬编码模型列表，未识别模型fallback到`OpenAI_Instance`
+
+**Agentic模式改动** (`promptrtl`):
+- `utils/llm.py`: 新增`TokenUsageCallback`（LangChain `BaseCallbackHandler`），捕获agent通过`chat_model`发起的LLM调用token。`LLMWrapper.generate()`从`response.usage_metadata`提取token。`save_metrics()`写`/code/rundir/metrics.json`
+- `main.py`: `generate_memories`结束后调`llm.save_metrics()`
+
+**脚本改动** (`cvdp_integration`):
+- `cvdp_benchmark.sh`: 所有命令的`[prefix]`参数改为可选，默认由`make_prefix()`自动生成。格式示例：
+  - `work_copilot-single_deepseek_verilogeval_Prob001_zero`
+  - `work_single_deco_verilogeval_Prob001_zero`
+  - `work_copilot-full_deepseek_verilogeval`
+
+**端到端验证**:
+- Copilot (`deepseek-v3-2-251201`): 1,269 tokens (1249 input / 20 output)
+- Agentic (`gpt-4o-mini`, 4 LLM calls): 4,952 tokens (4733 input / 219 output)
+- `collect_metrics.py`正确按mode/agent分类汇总
