@@ -5,15 +5,11 @@
 
 set -e
 
+# ----------------------------------------
+# Global configuration (defaults)
+# ----------------------------------------
+
 # Agent configuration
-# AGENT_BUILD_DIR="/Users/peiyihan/Codes/cvdp_integration/ace-rtl_agent"
-# AGENT_SOURCE_DIR="/Users/peiyihan/Codes/ACE-RTL"
-# AGENT_NAME="ace-rtl-agent"
-
-# AGENT_BUILD_DIR="/Users/peiyihan/Codes/cvdp_integration/mage_agent"
-# AGENT_SOURCE_DIR="/Users/peiyihan/Codes/MAGE"
-# AGENT_NAME="mage-agent"
-
 AGENT_BUILD_DIR="/Users/peiyihan/Codes/cvdp_integration/deco-meta-agent"
 AGENT_SOURCE_DIR="/Users/peiyihan/Codes/promptrtl"
 AGENT_NAME="deco-meta-agent"
@@ -28,8 +24,32 @@ DATASET_PROBLEM_ID="verilogeval_Prob001_zero_0001"
 # Force agentic mode for custom datasets (VerilogEval etc.)
 FORCE_AGENTIC="--force-agentic"
 
-# Non-agentic (copilot) mode: default LLM model, override via LLM_MODEL env var
+# Copilot defaults (override via --model / --api-base)
 LLM_MODEL="deepseek-v3-2-251201"
+API_BASE=""
+
+# ----------------------------------------
+# Parse global flags (--model, --api-base)
+# These can appear before or after the command
+# ----------------------------------------
+POSITIONAL_ARGS=()
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --model)
+            LLM_MODEL="$2"
+            shift 2
+            ;;
+        --api-base)
+            API_BASE="$2"
+            shift 2
+            ;;
+        *)
+            POSITIONAL_ARGS+=("$1")
+            shift
+            ;;
+    esac
+done
+set -- "${POSITIONAL_ARGS[@]}"
 
 # ----------------------------------------
 # Prefix helpers
@@ -56,7 +76,7 @@ _shorten_model() {
 _shorten_problem() {
     local pid="$1" ds_short="$2"
     pid="${pid%_[0-9][0-9][0-9][0-9]}"
-    if [[ "$pid" == "${ds_short}_"* ]]; then
+    if [[ "$pid" == "${ds_short}"_* ]]; then
         pid="${pid#"${ds_short}"_}"
     fi
     if [ ${#pid} -gt 30 ]; then
@@ -81,10 +101,13 @@ make_prefix() {
     echo "$p"
 }
 
+# ----------------------------------------
+# Commands
+# ----------------------------------------
 case "$1" in
 convert-verilogeval)
   if [ $# -lt 3 ]; then
-    echo "Usage: $0 convert-verilogeval <verilogeval_dataset_dir> <output.jsonl> [dataset_name]"
+    echo "Usage: $0 [--model M] [--api-base URL] convert-verilogeval <verilogeval_dataset_dir> <output.jsonl> [dataset_name]"
     exit 1
   fi
   python3 "$SCRIPTS_DIR/verilogeval_to_cvdp.py" "$2" "$3" "${4:-verilogeval}"
@@ -112,6 +135,7 @@ full)
   cd "$CVDP_DIR"
   DATASET="${2:-$DATASET_DIR}"
   PREFIX=$(make_prefix full "$AGENT_NAME" "$DATASET")
+  export LLM_MODEL="$LLM_MODEL"
   python run_benchmark.py -f "$DATASET" -l -g $AGENT_NAME -p "${3:-$PREFIX}"
   ;;
 samples)
@@ -120,6 +144,7 @@ samples)
   K="${4:-1}"
   PREFIX=$(make_prefix samples "$AGENT_NAME" "$DATASET" n=$N)
   cd "$CVDP_DIR"
+  export LLM_MODEL="$LLM_MODEL"
   python run_samples.py -f "$DATASET" -l -g $AGENT_NAME -n "$N" -k "$K" -p "${5:-$PREFIX}"
   ;;
 single)
@@ -127,6 +152,7 @@ single)
   DATASET="${2:-$DATASET_DIR}"
   PID="${3:-$DATASET_PROBLEM_ID}"
   PREFIX=$(make_prefix single "$AGENT_NAME" "$DATASET" pid="$PID")
+  export LLM_MODEL="$LLM_MODEL"
   python run_benchmark.py -f "$DATASET" -i "$PID" -l -g $AGENT_NAME $FORCE_AGENTIC -p "${4:-$PREFIX}"
   ;;
 copilot-single)
@@ -134,14 +160,14 @@ copilot-single)
   DATASET="${2:-$DATASET_DIR}"
   PID="${3:-$DATASET_PROBLEM_ID}"
   PREFIX=$(make_prefix copilot-single "$LLM_MODEL" "$DATASET" pid="$PID")
-  export OPENAI_BASE_URL="${OPENAI_API_BASE}"
+  export OPENAI_BASE_URL="${API_BASE:-$OPENAI_API_BASE}"
   python run_benchmark.py -f "$DATASET" -i "$PID" -l -m $LLM_MODEL --force-copilot -p "${4:-$PREFIX}"
   ;;
 copilot-full)
   cd "$CVDP_DIR"
   DATASET="${2:-$DATASET_DIR}"
   PREFIX=$(make_prefix copilot-full "$LLM_MODEL" "$DATASET")
-  export OPENAI_BASE_URL="${OPENAI_API_BASE}"
+  export OPENAI_BASE_URL="${API_BASE:-$OPENAI_API_BASE}"
   python run_benchmark.py -f "$DATASET" -l -m $LLM_MODEL --force-copilot -p "${3:-$PREFIX}"
   ;;
 copilot-samples)
@@ -150,20 +176,20 @@ copilot-samples)
   K="${4:-1}"
   PREFIX=$(make_prefix copilot-samples "$LLM_MODEL" "$DATASET" n=$N)
   cd "$CVDP_DIR"
-  export OPENAI_BASE_URL="${OPENAI_API_BASE}"
+  export OPENAI_BASE_URL="${API_BASE:-$OPENAI_API_BASE}"
   python run_samples.py -f "$DATASET" -l -m $LLM_MODEL --force-copilot -n "$N" -k "$K" -p "${5:-$PREFIX}"
   ;;
 *)
-  echo "Usage: $0 {build|golden|full|samples|single|copilot-single|copilot-full|copilot-samples|convert-verilogeval|download-cvdp}"
+  echo "Usage: $0 [--model M] [--api-base URL] {build|golden|full|samples|single|copilot-single|copilot-full|copilot-samples|convert-verilogeval|download-cvdp}"
+  echo ""
+  echo "Global flags (can appear anywhere):"
+  echo "  --model <name>     Override LLM model (default: $LLM_MODEL)"
+  echo "  --api-base <url>   Override API endpoint (default: \$OPENAI_API_BASE)"
   echo ""
   echo "Agentic Commands (Docker container-based agents):"
   echo "  build                                Build agent Docker image"
   echo "  golden [dataset] [prefix]            Test golden reference solutions"
-<<<<<<< HEAD
-  echo "  full [dataset] [prefix]              Run full benchmark with agent"
-=======
   echo "  full <dataset> [prefix]              Run full benchmark with agent"
->>>>>>> d288c7f2b3acc5a776e8ebab22a27ee4abe1e211
   echo "  samples <dataset> [n=5] [k=1] [prefix]"
   echo "                                       Run Pass@k evaluation with agent"
   echo "  single [dataset] [problem_id] [prefix]"
@@ -183,7 +209,8 @@ copilot-samples)
   echo ""
   echo "Configuration:"
   echo "  AGENT_NAME       = $AGENT_NAME"
-  echo "  LLM_MODEL        = $LLM_MODEL (override: LLM_MODEL=gpt-4o $0 copilot-single)"
+  echo "  LLM_MODEL        = $LLM_MODEL (override: --model kimi-k2.5)"
+  echo "  API_BASE         = ${API_BASE:-\$OPENAI_API_BASE} (override: --api-base https://...)"
   echo "  FORCE_AGENTIC    = $FORCE_AGENTIC"
   echo "  OPENAI_API_BASE  = Custom API endpoint (agentic Docker env)"
   echo "  OPENAI_BASE_URL  = Custom API endpoint (copilot, read by OpenAI SDK)"
@@ -198,8 +225,9 @@ copilot-samples)
   echo "Usage examples:"
   echo "  $0 single"
   echo "  $0 copilot-single"
-  echo "  LLM_MODEL=gpt-4o $0 copilot-single"
-  echo "  $0 copilot-full dataset_verilogeval/verilogeval.jsonl"
+  echo "  $0 --model kimi-k2.5 copilot-single"
+  echo "  $0 --model glm-5 --api-base https://api.example.com/v1 copilot-full dataset.jsonl"
+  echo "  $0 copilot-samples dataset.jsonl 5 1"
   exit 1
   ;;
 esac

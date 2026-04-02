@@ -71,8 +71,62 @@ CVDP解析Memory并生成测试报告
 
 ```bash
 cd /Users/peiyihan/Codes/cvdp_integration
-./cvdp_benchmark.sh <command> [args...]
+./cvdp_benchmark.sh [--model <name>] [--api-base <url>] <command> [args...]
 ```
+
+### 全局标志
+
+| 标志 | 说明 | 默认值 |
+|------|------|--------|
+| `--model <name>` | 覆盖模型名（Copilot 和 Agentic 均生效） | `deepseek-v3-2-251201` |
+| `--api-base <url>` | 覆盖 API endpoint | `$OPENAI_API_BASE` |
+
+全局标志可出现在命令行的任意位置（命令前或命令后均可）：
+
+```bash
+# 用默认模型和API
+./cvdp_benchmark.sh copilot-samples dataset.jsonl 5 1
+
+# Copilot 模式指定模型
+./cvdp_benchmark.sh --model kimi-k2.5 copilot-samples dataset.jsonl 5 1
+
+# Copilot 模式指定模型和API
+./cvdp_benchmark.sh --model glm-5 --api-base https://api.openai-proxy.org/v1 copilot-full dataset.jsonl
+
+# Agentic 模式指定 agent 使用的 LLM 模型
+./cvdp_benchmark.sh --model claude-sonnet-4-6 single dataset.jsonl problem_id
+./cvdp_benchmark.sh --model claude-sonnet-4-6 full dataset.jsonl
+
+# 只换API，模型用默认
+./cvdp_benchmark.sh --api-base https://api.example.com/v1 copilot-single
+```
+
+### Agentic 模式的模型配置
+
+Agentic 模式下，Agent 在 Docker 容器内运行，LLM 模型名通过环境变量链路传递：
+
+```
+--model claude-sonnet-4-6
+  → cvdp_benchmark.sh 设置 LLM_MODEL shell 变量
+    → dataset_processor.py 将 LLM_MODEL 写入 docker-compose-agent.yml environment
+      → Docker 容器内 promptrtl/config/settings.py 从 os.environ.get("LLM_MODEL") 读取
+        → LLMWrapper 自动检测模型类型，选择 ChatOpenAI 或 ChatAnthropic
+```
+
+**模型自动切换**（`promptrtl/utils/llm.py`）：
+- 模型名以 `claude` 开头 → 使用 `langchain_anthropic.ChatAnthropic`，连接 `ANTHROPIC_API_BASE`（默认 `https://api.openai-proxy.org/anthropic`），API Key 优先读 `ANTHROPIC_API_KEY`，fallback 到 `OPENAI_USER_KEY`
+- 其他模型 → 使用 `langchain_openai.ChatOpenAI`，连接 `OPENAI_API_BASE`
+- Token 追踪通过 `_TokenTrackingChatModel` 包装器统一处理，兼容两种模型
+
+Agent 容器内的关键环境变量（均通过 docker-compose environment 传入）：
+
+| 变量 | 来源 | 用途 |
+|------|------|------|
+| `LLM_MODEL` | `--model` 标志 → `dataset_processor.py` | Agent 使用的 LLM 模型名 |
+| `OPENAI_API_BASE` | 宿主机 `os.environ.get("OPENAI_API_BASE")` | OpenAI-compatible API endpoint |
+| `OPENAI_USER_KEY` | `config.get("OPENAI_USER_KEY")`（`.env` 或环境变量） | API Key（OpenAI 和 Anthropic 共用） |
+| `ANTHROPIC_API_KEY` | 宿主机 `os.environ.get("ANTHROPIC_API_KEY")`，fallback 到 `OPENAI_USER_KEY` | Anthropic API Key |
+| `ANTHROPIC_API_BASE` | 宿主机 `os.environ.get("ANTHROPIC_API_BASE")`，默认 `https://api.openai-proxy.org/anthropic` | Anthropic API endpoint |
 
 ### 输出目录自动命名
 
@@ -99,13 +153,18 @@ work_{mode}_{model|agent}_{dataset}[_{problem_id}][_n{samples}]
 
 ### 配置变量
 
-编辑脚本顶部的变量以配置测试环境：
+脚本顶部变量定义全局默认值（可通过 `--model`/`--api-base` 覆盖）：
 
 ```bash
 AGENT_NAME="deco-meta-agent"              # Docker镜像名称
-LLM_MODEL="deepseek-v3-2-251201"          # Copilot模型名（可环境变量覆盖）
+LLM_MODEL="deepseek-v3-2-251201"          # Copilot模型名（覆盖: --model kimi-k2.5）
 FORCE_AGENTIC="--force-agentic"           # 强制agentic模式（VerilogEval等）
 ```
+
+**API Key 配置**：
+- 通过 `OPENAI_USER_KEY` 环境变量或 `cvdp_benchmark/.env` 文件设置
+- `.env` 优先级低于环境变量
+- 不同 API 可共用一个 key（如果 API 相同），也可通过环境变量切换
 
 ### 可用命令
 
@@ -195,9 +254,9 @@ CVDP 直接调用 LLM API 生成代码，无需 Docker 容器。通过 `-m <mode
 4. Docker 退出码 0 = PASS，非 0 = FAIL
 
 **配置**:
-- 模型: `LLM_MODEL` 环境变量（默认: `gpt-4o-mini`）
-- API endpoint: `OPENAI_BASE_URL` 环境变量（copilot 命令自动从 `OPENAI_API_BASE` 同步）
-- API Key: `OPENAI_USER_KEY` 环境变量
+- 模型: `--model <name>` 标志（默认: `deepseek-v3-2-251201`）
+- API endpoint: `--api-base <url>` 标志（默认: `$OPENAI_API_BASE`）
+- API Key: `OPENAI_USER_KEY` 环境变量或 `.env` 文件
 - 无需修改 CVDP 源码
 
 **命令**:
@@ -206,7 +265,10 @@ CVDP 直接调用 LLM API 生成代码，无需 Docker 容器。通过 `-m <mode
 ./cvdp_benchmark.sh copilot-single
 
 # 指定模型
-LLM_MODEL=gpt-4o ./cvdp_benchmark.sh copilot-single
+./cvdp_benchmark.sh --model gpt-4o copilot-single
+
+# 指定模型和API
+./cvdp_benchmark.sh --model kimi-k2.5 --api-base https://api.openai-proxy.org/v1 copilot-full
 
 # 完整基准测试
 ./cvdp_benchmark.sh copilot-full
@@ -308,6 +370,28 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 2. 检查生成的RTL代码
 3. 验证文件扩展名（`.sv` vs `.v`）
 
+## 配置与环境变量
+
+### 关键环境变量
+
+| 变量 | 默认值 | 说明 |
+|------|--------|------|
+| `OPENAI_API_BASE` | — | 自定义 API endpoint（copilot 模式自动同步到 `OPENAI_BASE_URL`） |
+| `OPENAI_BASE_URL` | — | OpenAI SDK 读取的 endpoint |
+| `OPENAI_USER_KEY` | — | API Key |
+| `LLM_MODEL` | `gpt-4o-mini` | Copilot 模式使用的模型名 |
+| `MODEL_TIMEOUT` | `60` | **LLM API 调用超时（秒）**。DeepSeek 等模型在 prompt 较长时可能需要更长时间，建议设为 `180` 或 `300` |
+| `DOCKER_TIMEOUT` | `600` | Docker 容器运行超时（秒） |
+| `TASK_TIMEOUT` | `300` | 单个任务超时（秒） |
+| `QUEUE_TIMEOUT` | `disabled` | 整个队列超时（秒） |
+
+**设置方式**（优先级从高到低）：
+1. 命令行环境变量：`MODEL_TIMEOUT=180 ./cvdp_benchmark.sh copilot-full`
+2. `.env` 文件：在 `cvdp_benchmark/.env` 中取消注释并修改
+3. 代码默认值：`src/constants.py` 中的 `SCORING_CONFIG`
+
+> **注意**: `MODEL_TIMEOUT` 过短会导致 LLM 调用超时失败（重试 3 次后放弃）。DeepSeek 等模型在 prompt 较长（>10K 字符）时响应可能超过 60 秒，建议设为 `180`。
+
 ## 执行时间估算
 
 | 模式 | 问题数 | 预计时间 |
@@ -385,11 +469,15 @@ work_copilot_full/cvdp_verilogeval/metrics.json
 
 ### Agentic模式
 
-**原理**: `LLMWrapper`同时使用两种token追踪：(1) `generate()`方法直接从`response.usage_metadata`提取；(2) `TokenUsageCallback`（LangChain `BaseCallbackHandler`）捕获agent通过`chat_model`发起的调用（ReAct循环中的tool call等），这些调用不经过`generate()`。Agent执行结束时（`main.py`），`llm.save_metrics()`将汇总数据写入`/code/rundir/metrics.json`，通过volume mount暴露给宿主机。
+**原理**: `LLMWrapper`同时使用两种token追踪：(1) `generate()`方法直接从`response.usage_metadata`提取；(2) `TokenUsageCallback`（LangChain `BaseCallbackHandler`）捕获agent通过`chat_model`发起的调用。此外`_TokenTrackingChatModel`包装器在每次`invoke()`调用时拦截`usage_metadata`，确保通过`create_agent()`框架的调用也能被追踪。Agent执行结束时（`main.py`），`llm.save_metrics()`将汇总数据写入`/code/rundir/metrics.json`，通过volume mount暴露给宿主机。
+
+**模型支持**: `LLMWrapper`自动检测模型类型——`claude`开头的模型使用`langchain_anthropic.ChatAnthropic`，其他使用`langchain_openai.ChatOpenAI`。Token追踪对两种模型均生效。
 
 **改动文件**:
-- `promptrtl/utils/llm.py`: 新增`TokenUsageCallback`类 + `LLMWrapper`加累加器、`save_metrics()`
+- `promptrtl/utils/llm.py`: 新增`TokenUsageCallback`类 + `LLMWrapper`加累加器、`save_metrics()` + `_TokenTrackingChatModel`包装器 + Claude模型自动检测
 - `promptrtl/main.py`: `generate_memories`模式结束后调`llm.save_metrics()`
+- `deco-meta-agent/Dockerfile-agent`: 新增`langchain-anthropic>=0.3.0`依赖
+- `cvdp_benchmark/src/dataset_processor.py`: docker-compose environment 新增`ANTHROPIC_API_KEY`和`ANTHROPIC_API_BASE`传入
 
 **输出位置**: Agent的rundir目录下，如：
 ```
@@ -420,7 +508,106 @@ python3 scripts/collect_metrics.py work_copilot_full/
 python3 scripts/collect_metrics.py work_single/ --json summary.json
 ```
 
-输出包括: 总token数、成功率、按模式/agent分类统计、平均时间等。
+输出包括: 总token数、成功率、按模式/agent分类统计、LLM调用时间、Harness执行时间等。
+
+### 数据来源说明
+
+`collect_metrics.py` 从**两个来源**收集数据：
+
+1. **metrics.json**（每个问题目录下）：
+   - Token 使用量（input/output/total）
+   - 成功/失败状态
+   - Agent名称和模式
+   - 注意：Copilot 模式不写入 `time.elapsed_time`，所以 LLM 调用时间显示为 0
+
+2. **raw_result.json**（每个 sample 目录下）：
+   - Harness 执行时间（`tests[].execution`，iverilog/vvp 仿真时间）
+   - 脚本自动递归查找所有 `raw_result.json` 并提取时间数据
+
+输出中时间统计分两部分：
+- **LLM调用时间**: 来自 `metrics.json` 的 `time.elapsed_time`（Copilot 模式未记录）
+- **Harness执行时间**: 来自 `raw_result.json` 的 `tests[].execution`（所有模式均可用）
+
+## 多样本采样测试 (samples)
+
+### 输出结构
+
+`copilot-samples` 和 `samples` 命令执行多次独立采样（n 次），每次产生一个子目录：
+
+```
+work_copilot-samples_<model>_<dataset>_n10/
+├── run.log                    # 主运行日志
+├── sample_1/
+│   ├── run.log                # 本次 sample 的运行日志
+│   ├── raw_result.json        # 汇总结果（用于判断是否已完成）
+│   ├── report.json            # 结构化测试报告
+│   ├── report.txt             # 人类可读报告
+│   ├── cvdp_copilot_problem_1/
+│   │   ├── metrics.json       # Token 使用量
+│   │   ├── raw_result.json    # 单问题结果
+│   │   ├── harness/           # Harness 执行目录
+│   │   └── reports/           # 测试报告
+│   ├── cvdp_copilot_problem_2/
+│   │   └── ...
+│   └── ...
+├── sample_2/
+│   └── ...
+└── sample_n/
+    └── ...
+```
+
+### 续跑机制
+
+`run_samples.py` 通过检查 `sample_N/raw_result.json` 是否存在来判断是否已完成：
+- **存在** → 跳过该 sample（即使重新运行也会跳过）
+- **不存在** → 完整运行该 sample
+
+因此中断后重新执行相同命令会从**第一个未完成的 sample** 继续，不会重复已完成的。
+
+### 单独重跑失败问题
+
+如果某个 sample 中个别问题因 API 超时等原因失败，可用 `-i <problem_id>` 单独重跑：
+
+```bash
+# 单独重跑某个问题到已有的 sample 目录
+cd /Users/peiyihan/Codes/cvdp_benchmark
+export OPENAI_BASE_URL="${OPENAI_API_BASE}"
+export MODEL_TIMEOUT=180  # 增加超时时间
+python3 run_benchmark.py \
+  -f /path/to/dataset.jsonl \
+  -i cvdp_copilot_problem_0001 \
+  -l -m deepseek-v3-2-251201 --force-copilot \
+  -p /path/to/work_copilot-samples_xxx_n10/sample_1
+```
+
+重跑后会更新该问题的 `metrics.json`、`raw_result.json` 和 `report.txt`。
+
+### 数据收集流程
+
+1. **每次 LLM 调用**：token 数据累加到模型实例的 `_token_usage`
+2. **每个问题完成**：`dataset_processor.py` 将 token 数据写入 `{issue_dir}/metrics.json`，然后重置计数器
+3. **每个 sample 完成**：`run_benchmark.py` 生成 `report.json` / `report.txt` 和 `raw_result.json`
+4. **批量汇总**：使用 `collect_metrics.py` 递归扫描所有 `metrics.json` 并生成汇总报告
+
+```bash
+# 收集单个 sample 的数据
+python3 scripts/collect_metrics.py work_copilot-samples_xxx_n10/sample_1/
+
+# 收集所有 samples 的数据
+python3 scripts/collect_metrics.py work_copilot-samples_xxx_n10/
+
+# 导出为 JSON
+python3 scripts/collect_metrics.py work_copilot-samples_xxx_n10/ --json summary.json
+```
+
+`collect_metrics.py` 输出：
+- 总问题数、成功/失败数、成功率
+- Input/Output/Total tokens 汇总
+- 按 mode（copilot/agentic）分类统计
+- 按 agent_name 分类统计
+- 失败问题列表（如果有）
+
+> **注意**: `report.txt` 中的 pass rate 基于 testbench 执行结果（Docker 退出码），与 token 无关。`metrics.json` 中的 `success` 字段表示 LLM 调用是否成功（非超时、非解析错误）。两者独立：LLM 调用成功 ≠ testbench 通过。
 
 ## 更新日志
 
@@ -492,3 +679,76 @@ python3 scripts/collect_metrics.py work_single/ --json summary.json
 - Copilot (`deepseek-v3-2-251201`): 1,269 tokens (1249 input / 20 output)
 - Agentic (`gpt-4o-mini`, 4 LLM calls): 4,952 tokens (4733 input / 219 output)
 - `collect_metrics.py`正确按mode/agent分类汇总
+
+### 2026-04-01: 配置文档 + 多样本测试流程 + 数据收集说明
+
+**新增**: 配置与环境变量章节，记录 `MODEL_TIMEOUT` 等关键变量。DeepSeek 等模型在 prompt 较长时需调大超时（建议 180s）。
+
+**新增**: 多样本采样测试章节，记录：
+- `samples` 命令的输出目录结构（`sample_1/`, `sample_2/`, ...）
+- 续跑机制（通过 `raw_result.json` 判断是否跳过）
+- 单独重跑失败问题的方法（`-i <problem_id>` + `-p <sample_dir>`）
+- 数据收集流程：LLM 调用 → `metrics.json` → `collect_metrics.py` 汇总
+- `report.txt`（testbench 结果）与 `metrics.json`（LLM 调用状态）的区别
+
+**新增**: `collect_metrics.py` 数据来源说明：
+- Token/状态来自 `metrics.json`（每个问题目录）
+- Harness 执行时间来自 `raw_result.json`（每个 sample 目录）
+- 输出分 LLM 调用时间和 Harness 执行时间两部分
+
+### 2026-04-02: 脚本参数化 + 多模型支持
+
+**重构**: `cvdp_benchmark.sh` 改用 `--model`/`--api-base` 全局标志替代硬编码和 `LLM_MODEL` 环境变量覆盖：
+- `--model <name>` 覆盖模型名（可出现在命令任意位置）
+- `--api-base <url>` 覆盖 API endpoint（默认回退到 `$OPENAI_API_BASE`）
+- 输出目录前缀自动包含模型名，不同模型不会冲突
+- 删除旧的 `LLM_MODEL=xxx ./cvdp_benchmark.sh ...` 用法，改为 `./cvdp_benchmark.sh --model xxx ...`
+
+**更新**: 文档中所有 copilot 命令示例改为新语法
+
+### 2026-04-02: Agentic 模式支持 `--model` 指定 LLM
+
+**问题**: Agentic 模式下 Agent 容器内的 LLM 模型名硬编码在 `promptrtl/config/settings.py`（默认 `gpt-4o-mini`），无法通过命令行切换。
+
+**改动**:
+- `promptrtl/config/settings.py`: `LLM_MODEL` 改为从环境变量 `os.environ.get("LLM_MODEL", "gpt-4o-mini")` 读取
+- `cvdp_benchmark/src/dataset_processor.py`: agentic docker-compose environment 中加入 `LLM_MODEL` 传入容器
+- `cvdp_benchmark.sh`: agentic 命令（`single`/`full`/`samples`）加入 `export LLM_MODEL="$LLM_MODEL"` 确保 `--model` 标志生效
+
+**变量传递链路**:
+```
+--model claude-sonnet-4-6
+  → cvdp_benchmark.sh 设置 LLM_MODEL shell 变量并 export
+    → dataset_processor.py 将 LLM_MODEL 写入 docker-compose-agent.yml environment
+      → Docker 容器内 promptrtl/config/settings.py 从 os.environ.get("LLM_MODEL") 读取
+        → LLMWrapper 使用 Settings.LLM_MODEL 创建 ChatOpenAI 实例
+```
+
+**用法**:
+```bash
+# Agentic 单题测试用 claude-sonnet-4-6
+./cvdp_benchmark.sh --model claude-sonnet-4-6 single dataset.jsonl problem_id
+
+# Agentic 全量运行
+./cvdp_benchmark.sh --model claude-sonnet-4-6 full dataset.jsonl
+```
+
+**验证**: `--model claude-sonnet-4-6` 单题测试通过，docker-compose-agent.yml 中 `LLM_MODEL: claude-sonnet-4-6`，metrics.json 中 `model: "claude-sonnet-4-6"`，token 统计正常
+
+### 2026-04-02: Claude 模型原生支持 (ChatAnthropic)
+
+**问题**: 通过 OpenAI-compatible proxy (`api.openai-proxy.org/v1`) 调用 Claude 模型时，tool_use/tool_result 消息格式转换不正确，导致 `Error code: 400 - tool_use ids were found without tool_result blocks`。
+
+**方案**: 对 Claude 模型使用 `langchain_anthropic.ChatAnthropic` 直接连接 Anthropic 原生 API (`api.openai-proxy.org/anthropic`)，绕过 OpenAI 格式转换。
+
+**改动**:
+- `promptrtl/utils/llm.py`:
+  - 新增 `_is_claude_model()` 检测函数（模型名以 `claude` 开头）
+  - Claude 模型使用 `ChatAnthropic`，`anthropic_api_url` 默认 `https://api.openai-proxy.org/anthropic`
+  - API Key 优先读 `ANTHROPIC_API_KEY`，fallback 到 `OPENAI_USER_KEY`
+  - 新增 `_TokenTrackingChatModel` 包装器，在 `invoke()`/`ainvoke()`/`bind_tools()` 层面拦截 token 使用量，兼容 agent 框架直接调用模型的场景
+  - `TokenUsageCallback.on_llm_end` 新增检查 `generation.message.usage_metadata`（ChatAnthropic 的 token 数据位置）
+- `deco-meta-agent/Dockerfile-agent`: pip install 新增 `langchain-anthropic>=0.3.0`
+- `cvdp_benchmark/src/dataset_processor.py`: docker-compose environment 新增 `ANTHROPIC_API_KEY`（fallback 到 `OPENAI_USER_KEY`）和 `ANTHROPIC_API_BASE`（默认 `https://api.openai-proxy.org/anthropic`）
+
+**验证**: `claude-sonnet-4-6` 单题测试通过——Agent 成功读取规格文档、写入 S1-S7 RTL 文件，无 API 错误。Token 统计: 252,430 total tokens (232,978 input / 19,452 output)，20 次 LLM 调用。

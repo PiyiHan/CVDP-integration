@@ -9,7 +9,7 @@ RUN mkdir -p /code && chmod 777 /code
 COPY pyproject.toml /app/
 
 # Install DeCO dependencies
-RUN pip install --no-cache-dir langgraph>=0.2.0 langchain-core>=0.3.0 langchain>=1.0.0 langchain-openai>=0.2.0 \
+RUN pip install --no-cache-dir langgraph>=0.2.0 langchain-core>=0.3.0 langchain>=1.0.0 langchain-openai>=0.2.0 langchain-anthropic>=0.3.0 \
     pyyaml requests pydantic openai python-dotenv psutil nltk tabulate numpy colorama ruamel.yaml tiktoken
 
 # Copy DeCO source code (maintaining structure)
