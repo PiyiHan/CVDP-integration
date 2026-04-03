@@ -1,0 +1,6487 @@
+{
+  "summary": {
+    "total_problems": 628,
+    "successful": 628,
+    "failed": 0,
+    "total_tokens": {
+      "input": 1212852,
+      "output": 174468,
+      "total": 1387320
+    },
+    "total_cost": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total_time": 0,
+    "avg_time": 0.0,
+    "harness_time": {
+      "total": 268.6824085712433,
+      "avg": 1.7113529208359446,
+      "min": 1.2908480167388916,
+      "max": 6.974709987640381,
+      "count": 157
+    },
+    "by_mode": {
+      "copilot": {
+        "count": 628,
+        "success": 628,
+        "tokens": 1387320,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "by_agent": {
+      "deepseek-v3.2": {
+        "count": 628,
+        "success": 628,
+        "tokens": 1387320,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "success_rate": 100.0
+  },
+  "individual_metrics": [
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 20,
+        "total_tokens": 1269
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1164,
+        "output_tokens": 30,
+        "total_tokens": 1194
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1264,
+        "output_tokens": 26,
+        "total_tokens": 1290
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 94,
+        "total_tokens": 1490
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 29,
+        "total_tokens": 1343
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1533,
+        "output_tokens": 75,
+        "total_tokens": 1608
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 27,
+        "total_tokens": 1348
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 23,
+        "total_tokens": 1225
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1420,
+        "output_tokens": 76,
+        "total_tokens": 1496
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 33,
+        "total_tokens": 1282
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1369,
+        "output_tokens": 29,
+        "total_tokens": 1398
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 35,
+        "total_tokens": 1406
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1261,
+        "output_tokens": 60,
+        "total_tokens": 1321
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 29,
+        "total_tokens": 1396
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1752,
+        "output_tokens": 62,
+        "total_tokens": 1814
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1325,
+        "output_tokens": 193,
+        "total_tokens": 1518
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1554,
+        "output_tokens": 54,
+        "total_tokens": 1608
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1385,
+        "output_tokens": 38,
+        "total_tokens": 1423
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 33,
+        "total_tokens": 1335
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1372,
+        "output_tokens": 40,
+        "total_tokens": 1412
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1458,
+        "output_tokens": 87,
+        "total_tokens": 1545
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1655,
+        "output_tokens": 73,
+        "total_tokens": 1728
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 84,
+        "total_tokens": 1387
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1463,
+        "output_tokens": 82,
+        "total_tokens": 1545
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1313,
+        "output_tokens": 45,
+        "total_tokens": 1358
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1746,
+        "output_tokens": 84,
+        "total_tokens": 1830
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 64,
+        "total_tokens": 1809
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1254,
+        "output_tokens": 51,
+        "total_tokens": 1305
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 58,
+        "total_tokens": 1425
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1684,
+        "output_tokens": 281,
+        "total_tokens": 1965
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1376,
+        "output_tokens": 46,
+        "total_tokens": 1422
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2142,
+        "output_tokens": 75,
+        "total_tokens": 2217
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1865,
+        "output_tokens": 104,
+        "total_tokens": 1969
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1440,
+        "output_tokens": 148,
+        "total_tokens": 1588
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1697,
+        "output_tokens": 134,
+        "total_tokens": 1831
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 50,
+        "total_tokens": 1762
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1770,
+        "output_tokens": 79,
+        "total_tokens": 1849
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 124,
+        "total_tokens": 1813
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2272,
+        "output_tokens": 132,
+        "total_tokens": 2404
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 107,
+        "total_tokens": 1812
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1768,
+        "output_tokens": 91,
+        "total_tokens": 1859
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 89,
+        "total_tokens": 1498
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 682,
+        "total_tokens": 2170
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2195,
+        "output_tokens": 142,
+        "total_tokens": 2337
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1627,
+        "output_tokens": 74,
+        "total_tokens": 1701
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 66,
+        "total_tokens": 1868
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1875,
+        "output_tokens": 163,
+        "total_tokens": 2038
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 67,
+        "total_tokens": 1367
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 70,
+        "total_tokens": 1375
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1454,
+        "output_tokens": 180,
+        "total_tokens": 1634
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 64,
+        "total_tokens": 2028
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2385,
+        "output_tokens": 58,
+        "total_tokens": 2443
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 54,
+        "total_tokens": 1361
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1600,
+        "output_tokens": 81,
+        "total_tokens": 1681
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 169,
+        "total_tokens": 1987
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 144,
+        "total_tokens": 1792
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 434,
+        "total_tokens": 1984
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2215,
+        "output_tokens": 129,
+        "total_tokens": 2344
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2016,
+        "output_tokens": 72,
+        "total_tokens": 2088
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1386,
+        "output_tokens": 92,
+        "total_tokens": 1478
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1423,
+        "output_tokens": 108,
+        "total_tokens": 1531
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 308,
+        "output_tokens": 481,
+        "total_tokens": 789
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1915,
+        "output_tokens": 93,
+        "total_tokens": 2008
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1938,
+        "output_tokens": 95,
+        "total_tokens": 2033
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2750,
+        "output_tokens": 206,
+        "total_tokens": 2956
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2262,
+        "output_tokens": 167,
+        "total_tokens": 2429
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1991,
+        "output_tokens": 90,
+        "total_tokens": 2081
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2048,
+        "output_tokens": 129,
+        "total_tokens": 2177
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2220,
+        "output_tokens": 618,
+        "total_tokens": 2838
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 116,
+        "total_tokens": 1764
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2279,
+        "output_tokens": 3665,
+        "total_tokens": 5944
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1688,
+        "output_tokens": 184,
+        "total_tokens": 1872
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2921,
+        "output_tokens": 148,
+        "total_tokens": 3069
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2131,
+        "output_tokens": 131,
+        "total_tokens": 2262
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1654,
+        "output_tokens": 228,
+        "total_tokens": 1882
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2337,
+        "output_tokens": 217,
+        "total_tokens": 2554
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2090,
+        "output_tokens": 174,
+        "total_tokens": 2264
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1885,
+        "output_tokens": 77,
+        "total_tokens": 1962
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1545,
+        "output_tokens": 104,
+        "total_tokens": 1649
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 409,
+        "total_tokens": 2211
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 165,
+        "total_tokens": 2157
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2534,
+        "output_tokens": 153,
+        "total_tokens": 2687
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1544,
+        "output_tokens": 339,
+        "total_tokens": 1883
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 108,
+        "total_tokens": 1730
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 318,
+        "total_tokens": 2331
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 12,
+        "total_tokens": 2171
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1951,
+        "output_tokens": 284,
+        "total_tokens": 2235
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3205,
+        "output_tokens": 138,
+        "total_tokens": 3343
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2059,
+        "output_tokens": 291,
+        "total_tokens": 2350
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2074,
+        "output_tokens": 2285,
+        "total_tokens": 4359
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 35,
+        "total_tokens": 1637
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 354,
+        "total_tokens": 2406
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 339,
+        "total_tokens": 2586
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1829,
+        "output_tokens": 262,
+        "total_tokens": 2091
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2456,
+        "output_tokens": 367,
+        "total_tokens": 2823
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 319,
+        "total_tokens": 1825
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 378,
+        "total_tokens": 2370
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2283,
+        "output_tokens": 243,
+        "total_tokens": 2526
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 47,
+        "total_tokens": 1643
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1796,
+        "output_tokens": 322,
+        "total_tokens": 2118
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1772,
+        "output_tokens": 195,
+        "total_tokens": 1967
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1757,
+        "output_tokens": 116,
+        "total_tokens": 1873
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 48,
+        "total_tokens": 1812
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 113,
+        "total_tokens": 1875
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 97,
+        "total_tokens": 1685
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1719,
+        "output_tokens": 150,
+        "total_tokens": 1869
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2379,
+        "output_tokens": 198,
+        "total_tokens": 2577
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 280,
+        "total_tokens": 2212
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 227,
+        "total_tokens": 2294
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1933,
+        "output_tokens": 281,
+        "total_tokens": 2214
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1984,
+        "output_tokens": 205,
+        "total_tokens": 2189
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1952,
+        "output_tokens": 319,
+        "total_tokens": 2271
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1751,
+        "output_tokens": 203,
+        "total_tokens": 1954
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 539,
+        "total_tokens": 2027
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 332,
+        "total_tokens": 2590
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2276,
+        "output_tokens": 221,
+        "total_tokens": 2497
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 404,
+        "total_tokens": 1917
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1729,
+        "output_tokens": 85,
+        "total_tokens": 1814
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2720,
+        "output_tokens": 262,
+        "total_tokens": 2982
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2127,
+        "output_tokens": 263,
+        "total_tokens": 2390
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2096,
+        "output_tokens": 246,
+        "total_tokens": 2342
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 430,
+        "total_tokens": 2027
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1702,
+        "output_tokens": 213,
+        "total_tokens": 1915
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 134,
+        "total_tokens": 2435
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 383,
+        "total_tokens": 2576
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1727,
+        "output_tokens": 781,
+        "total_tokens": 2508
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1675,
+        "output_tokens": 170,
+        "total_tokens": 1845
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 294,
+        "total_tokens": 2704
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 375,
+        "total_tokens": 2018
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2183,
+        "output_tokens": 452,
+        "total_tokens": 2635
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2144,
+        "output_tokens": 132,
+        "total_tokens": 2276
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1582,
+        "output_tokens": 1899,
+        "total_tokens": 3481
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2240,
+        "output_tokens": 121,
+        "total_tokens": 2361
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1967,
+        "output_tokens": 1155,
+        "total_tokens": 3122
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1852,
+        "output_tokens": 326,
+        "total_tokens": 2178
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1663,
+        "output_tokens": 600,
+        "total_tokens": 2263
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1561,
+        "output_tokens": 359,
+        "total_tokens": 1920
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 352,
+        "total_tokens": 2284
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1630,
+        "output_tokens": 314,
+        "total_tokens": 1944
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2066,
+        "output_tokens": 343,
+        "total_tokens": 2409
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2217,
+        "output_tokens": 659,
+        "total_tokens": 2876
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3775,
+        "output_tokens": 752,
+        "total_tokens": 4527
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2972,
+        "output_tokens": 434,
+        "total_tokens": 3406
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2797,
+        "output_tokens": 258,
+        "total_tokens": 3055
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2896,
+        "output_tokens": 881,
+        "total_tokens": 3777
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2179,
+        "output_tokens": 68,
+        "total_tokens": 2247
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2325,
+        "output_tokens": 829,
+        "total_tokens": 3154
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2452,
+        "output_tokens": 109,
+        "total_tokens": 2561
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2708,
+        "output_tokens": 435,
+        "total_tokens": 3143
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3413,
+        "output_tokens": 794,
+        "total_tokens": 4207
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3893,
+        "output_tokens": 361,
+        "total_tokens": 4254
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3001,
+        "output_tokens": 717,
+        "total_tokens": 3718
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3527,
+        "output_tokens": 555,
+        "total_tokens": 4082
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4219,
+        "output_tokens": 648,
+        "total_tokens": 4867
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2687,
+        "output_tokens": 452,
+        "total_tokens": 3139
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4789,
+        "output_tokens": 902,
+        "total_tokens": 5691
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3443,
+        "output_tokens": 694,
+        "total_tokens": 4137
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 30,
+        "total_tokens": 1279
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1164,
+        "output_tokens": 26,
+        "total_tokens": 1190
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1264,
+        "output_tokens": 26,
+        "total_tokens": 1290
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 61,
+        "total_tokens": 1457
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 21,
+        "total_tokens": 1335
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1533,
+        "output_tokens": 80,
+        "total_tokens": 1613
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 46,
+        "total_tokens": 1367
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 28,
+        "total_tokens": 1230
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1420,
+        "output_tokens": 140,
+        "total_tokens": 1560
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 37,
+        "total_tokens": 1286
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1369,
+        "output_tokens": 35,
+        "total_tokens": 1404
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 71,
+        "total_tokens": 1442
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1261,
+        "output_tokens": 40,
+        "total_tokens": 1301
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 40,
+        "total_tokens": 1407
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1752,
+        "output_tokens": 83,
+        "total_tokens": 1835
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1325,
+        "output_tokens": 390,
+        "total_tokens": 1715
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1554,
+        "output_tokens": 82,
+        "total_tokens": 1636
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1385,
+        "output_tokens": 55,
+        "total_tokens": 1440
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 33,
+        "total_tokens": 1335
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1372,
+        "output_tokens": 44,
+        "total_tokens": 1416
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1458,
+        "output_tokens": 92,
+        "total_tokens": 1550
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1655,
+        "output_tokens": 39,
+        "total_tokens": 1694
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 78,
+        "total_tokens": 1381
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1463,
+        "output_tokens": 58,
+        "total_tokens": 1521
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1313,
+        "output_tokens": 39,
+        "total_tokens": 1352
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1746,
+        "output_tokens": 76,
+        "total_tokens": 1822
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 58,
+        "total_tokens": 1803
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1254,
+        "output_tokens": 51,
+        "total_tokens": 1305
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 91,
+        "total_tokens": 1458
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1684,
+        "output_tokens": 82,
+        "total_tokens": 1766
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1376,
+        "output_tokens": 35,
+        "total_tokens": 1411
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2142,
+        "output_tokens": 106,
+        "total_tokens": 2248
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1865,
+        "output_tokens": 175,
+        "total_tokens": 2040
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1440,
+        "output_tokens": 75,
+        "total_tokens": 1515
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1697,
+        "output_tokens": 134,
+        "total_tokens": 1831
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 90,
+        "total_tokens": 1802
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1770,
+        "output_tokens": 68,
+        "total_tokens": 1838
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 79,
+        "total_tokens": 1768
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2272,
+        "output_tokens": 126,
+        "total_tokens": 2398
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 116,
+        "total_tokens": 1821
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1768,
+        "output_tokens": 65,
+        "total_tokens": 1833
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 88,
+        "total_tokens": 1497
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 578,
+        "total_tokens": 2066
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2195,
+        "output_tokens": 170,
+        "total_tokens": 2365
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1627,
+        "output_tokens": 79,
+        "total_tokens": 1706
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 77,
+        "total_tokens": 1879
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1875,
+        "output_tokens": 78,
+        "total_tokens": 1953
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 109,
+        "total_tokens": 1409
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 117,
+        "total_tokens": 1422
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1454,
+        "output_tokens": 285,
+        "total_tokens": 1739
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 58,
+        "total_tokens": 2022
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2385,
+        "output_tokens": 65,
+        "total_tokens": 2450
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 42,
+        "total_tokens": 1349
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1600,
+        "output_tokens": 78,
+        "total_tokens": 1678
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 107,
+        "total_tokens": 1925
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 116,
+        "total_tokens": 1764
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 201,
+        "total_tokens": 1751
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2215,
+        "output_tokens": 138,
+        "total_tokens": 2353
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2016,
+        "output_tokens": 59,
+        "total_tokens": 2075
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1386,
+        "output_tokens": 98,
+        "total_tokens": 1484
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1423,
+        "output_tokens": 106,
+        "total_tokens": 1529
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 308,
+        "output_tokens": 1009,
+        "total_tokens": 1317
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1915,
+        "output_tokens": 79,
+        "total_tokens": 1994
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1938,
+        "output_tokens": 119,
+        "total_tokens": 2057
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2750,
+        "output_tokens": 197,
+        "total_tokens": 2947
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2262,
+        "output_tokens": 142,
+        "total_tokens": 2404
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1991,
+        "output_tokens": 96,
+        "total_tokens": 2087
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2048,
+        "output_tokens": 117,
+        "total_tokens": 2165
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2220,
+        "output_tokens": 477,
+        "total_tokens": 2697
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 45,
+        "total_tokens": 1693
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2279,
+        "output_tokens": 3788,
+        "total_tokens": 6067
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1688,
+        "output_tokens": 170,
+        "total_tokens": 1858
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2921,
+        "output_tokens": 80,
+        "total_tokens": 3001
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2131,
+        "output_tokens": 195,
+        "total_tokens": 2326
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1654,
+        "output_tokens": 1920,
+        "total_tokens": 3574
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2337,
+        "output_tokens": 257,
+        "total_tokens": 2594
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2090,
+        "output_tokens": 180,
+        "total_tokens": 2270
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1885,
+        "output_tokens": 108,
+        "total_tokens": 1993
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1545,
+        "output_tokens": 168,
+        "total_tokens": 1713
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 205,
+        "total_tokens": 2007
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 175,
+        "total_tokens": 2167
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2534,
+        "output_tokens": 297,
+        "total_tokens": 2831
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1544,
+        "output_tokens": 644,
+        "total_tokens": 2188
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 35,
+        "total_tokens": 1657
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 279,
+        "total_tokens": 2292
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 127,
+        "total_tokens": 2286
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1951,
+        "output_tokens": 290,
+        "total_tokens": 2241
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3205,
+        "output_tokens": 240,
+        "total_tokens": 3445
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2059,
+        "output_tokens": 341,
+        "total_tokens": 2400
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2074,
+        "output_tokens": 356,
+        "total_tokens": 2430
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 141,
+        "total_tokens": 1743
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 410,
+        "total_tokens": 2462
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 346,
+        "total_tokens": 2593
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1829,
+        "output_tokens": 624,
+        "total_tokens": 2453
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2456,
+        "output_tokens": 450,
+        "total_tokens": 2906
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 336,
+        "total_tokens": 1842
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 489,
+        "total_tokens": 2481
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2283,
+        "output_tokens": 239,
+        "total_tokens": 2522
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 263,
+        "total_tokens": 1859
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1796,
+        "output_tokens": 520,
+        "total_tokens": 2316
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1772,
+        "output_tokens": 201,
+        "total_tokens": 1973
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1757,
+        "output_tokens": 592,
+        "total_tokens": 2349
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 592,
+        "total_tokens": 2356
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 567,
+        "total_tokens": 2329
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 137,
+        "total_tokens": 1725
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1719,
+        "output_tokens": 145,
+        "total_tokens": 1864
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2379,
+        "output_tokens": 212,
+        "total_tokens": 2591
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 190,
+        "total_tokens": 2122
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 313,
+        "total_tokens": 2380
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1933,
+        "output_tokens": 242,
+        "total_tokens": 2175
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1984,
+        "output_tokens": 176,
+        "total_tokens": 2160
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1952,
+        "output_tokens": 201,
+        "total_tokens": 2153
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1751,
+        "output_tokens": 162,
+        "total_tokens": 1913
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 661,
+        "total_tokens": 2149
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 265,
+        "total_tokens": 2523
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2276,
+        "output_tokens": 236,
+        "total_tokens": 2512
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 187,
+        "total_tokens": 1700
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1729,
+        "output_tokens": 79,
+        "total_tokens": 1808
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2720,
+        "output_tokens": 229,
+        "total_tokens": 2949
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2127,
+        "output_tokens": 261,
+        "total_tokens": 2388
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2096,
+        "output_tokens": 250,
+        "total_tokens": 2346
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 243,
+        "total_tokens": 1840
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1702,
+        "output_tokens": 495,
+        "total_tokens": 2197
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 97,
+        "total_tokens": 2398
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 1122,
+        "total_tokens": 3315
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1727,
+        "output_tokens": 101,
+        "total_tokens": 1828
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1675,
+        "output_tokens": 169,
+        "total_tokens": 1844
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 203,
+        "total_tokens": 2613
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 323,
+        "total_tokens": 1966
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2183,
+        "output_tokens": 399,
+        "total_tokens": 2582
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2144,
+        "output_tokens": 262,
+        "total_tokens": 2406
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1582,
+        "output_tokens": 298,
+        "total_tokens": 1880
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2240,
+        "output_tokens": 121,
+        "total_tokens": 2361
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1967,
+        "output_tokens": 539,
+        "total_tokens": 2506
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1852,
+        "output_tokens": 409,
+        "total_tokens": 2261
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1663,
+        "output_tokens": 163,
+        "total_tokens": 1826
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1561,
+        "output_tokens": 294,
+        "total_tokens": 1855
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 580,
+        "total_tokens": 2512
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1630,
+        "output_tokens": 385,
+        "total_tokens": 2015
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2066,
+        "output_tokens": 439,
+        "total_tokens": 2505
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2217,
+        "output_tokens": 713,
+        "total_tokens": 2930
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3775,
+        "output_tokens": 1213,
+        "total_tokens": 4988
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2972,
+        "output_tokens": 531,
+        "total_tokens": 3503
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2797,
+        "output_tokens": 1119,
+        "total_tokens": 3916
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2896,
+        "output_tokens": 866,
+        "total_tokens": 3762
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2179,
+        "output_tokens": 77,
+        "total_tokens": 2256
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2325,
+        "output_tokens": 546,
+        "total_tokens": 2871
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2452,
+        "output_tokens": 629,
+        "total_tokens": 3081
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2708,
+        "output_tokens": 422,
+        "total_tokens": 3130
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3413,
+        "output_tokens": 693,
+        "total_tokens": 4106
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3893,
+        "output_tokens": 659,
+        "total_tokens": 4552
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3001,
+        "output_tokens": 560,
+        "total_tokens": 3561
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3527,
+        "output_tokens": 626,
+        "total_tokens": 4153
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4219,
+        "output_tokens": 791,
+        "total_tokens": 5010
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2687,
+        "output_tokens": 546,
+        "total_tokens": 3233
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4789,
+        "output_tokens": 705,
+        "total_tokens": 5494
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3443,
+        "output_tokens": 1277,
+        "total_tokens": 4720
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 19,
+        "total_tokens": 1268
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1164,
+        "output_tokens": 46,
+        "total_tokens": 1210
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1264,
+        "output_tokens": 47,
+        "total_tokens": 1311
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 55,
+        "total_tokens": 1451
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 38,
+        "total_tokens": 1352
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1533,
+        "output_tokens": 69,
+        "total_tokens": 1602
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 27,
+        "total_tokens": 1348
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 24,
+        "total_tokens": 1226
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1420,
+        "output_tokens": 59,
+        "total_tokens": 1479
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 37,
+        "total_tokens": 1286
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1369,
+        "output_tokens": 29,
+        "total_tokens": 1398
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 29,
+        "total_tokens": 1400
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1261,
+        "output_tokens": 40,
+        "total_tokens": 1301
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 27,
+        "total_tokens": 1394
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1752,
+        "output_tokens": 96,
+        "total_tokens": 1848
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1325,
+        "output_tokens": 398,
+        "total_tokens": 1723
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1554,
+        "output_tokens": 54,
+        "total_tokens": 1608
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1385,
+        "output_tokens": 44,
+        "total_tokens": 1429
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 39,
+        "total_tokens": 1341
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1372,
+        "output_tokens": 56,
+        "total_tokens": 1428
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1458,
+        "output_tokens": 165,
+        "total_tokens": 1623
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1655,
+        "output_tokens": 39,
+        "total_tokens": 1694
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 72,
+        "total_tokens": 1375
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1463,
+        "output_tokens": 64,
+        "total_tokens": 1527
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1313,
+        "output_tokens": 27,
+        "total_tokens": 1340
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1746,
+        "output_tokens": 52,
+        "total_tokens": 1798
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 101,
+        "total_tokens": 1846
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1254,
+        "output_tokens": 63,
+        "total_tokens": 1317
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 64,
+        "total_tokens": 1431
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1684,
+        "output_tokens": 83,
+        "total_tokens": 1767
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1376,
+        "output_tokens": 49,
+        "total_tokens": 1425
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2142,
+        "output_tokens": 63,
+        "total_tokens": 2205
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1865,
+        "output_tokens": 121,
+        "total_tokens": 1986
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1440,
+        "output_tokens": 73,
+        "total_tokens": 1513
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1697,
+        "output_tokens": 108,
+        "total_tokens": 1805
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 118,
+        "total_tokens": 1830
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1770,
+        "output_tokens": 116,
+        "total_tokens": 1886
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 102,
+        "total_tokens": 1791
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2272,
+        "output_tokens": 139,
+        "total_tokens": 2411
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 102,
+        "total_tokens": 1807
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1768,
+        "output_tokens": 80,
+        "total_tokens": 1848
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 47,
+        "total_tokens": 1456
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 823,
+        "total_tokens": 2311
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2195,
+        "output_tokens": 101,
+        "total_tokens": 2296
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1627,
+        "output_tokens": 77,
+        "total_tokens": 1704
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 84,
+        "total_tokens": 1886
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1875,
+        "output_tokens": 130,
+        "total_tokens": 2005
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 101,
+        "total_tokens": 1401
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 70,
+        "total_tokens": 1375
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1454,
+        "output_tokens": 215,
+        "total_tokens": 1669
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 76,
+        "total_tokens": 2040
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2385,
+        "output_tokens": 60,
+        "total_tokens": 2445
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 58,
+        "total_tokens": 1365
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1600,
+        "output_tokens": 81,
+        "total_tokens": 1681
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 158,
+        "total_tokens": 1976
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 121,
+        "total_tokens": 1769
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 115,
+        "total_tokens": 1665
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2215,
+        "output_tokens": 146,
+        "total_tokens": 2361
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2016,
+        "output_tokens": 109,
+        "total_tokens": 2125
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1386,
+        "output_tokens": 95,
+        "total_tokens": 1481
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1423,
+        "output_tokens": 94,
+        "total_tokens": 1517
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 308,
+        "output_tokens": 376,
+        "total_tokens": 684
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1915,
+        "output_tokens": 85,
+        "total_tokens": 2000
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1938,
+        "output_tokens": 95,
+        "total_tokens": 2033
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2750,
+        "output_tokens": 199,
+        "total_tokens": 2949
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2262,
+        "output_tokens": 142,
+        "total_tokens": 2404
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1991,
+        "output_tokens": 136,
+        "total_tokens": 2127
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2048,
+        "output_tokens": 171,
+        "total_tokens": 2219
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2220,
+        "output_tokens": 611,
+        "total_tokens": 2831
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 195,
+        "total_tokens": 1843
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2279,
+        "output_tokens": 898,
+        "total_tokens": 3177
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1688,
+        "output_tokens": 176,
+        "total_tokens": 1864
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2921,
+        "output_tokens": 164,
+        "total_tokens": 3085
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2131,
+        "output_tokens": 144,
+        "total_tokens": 2275
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1654,
+        "output_tokens": 502,
+        "total_tokens": 2156
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2337,
+        "output_tokens": 155,
+        "total_tokens": 2492
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2090,
+        "output_tokens": 181,
+        "total_tokens": 2271
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1885,
+        "output_tokens": 76,
+        "total_tokens": 1961
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1545,
+        "output_tokens": 158,
+        "total_tokens": 1703
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 275,
+        "total_tokens": 2077
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 161,
+        "total_tokens": 2153
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2534,
+        "output_tokens": 321,
+        "total_tokens": 2855
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1544,
+        "output_tokens": 374,
+        "total_tokens": 1918
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 29,
+        "total_tokens": 1651
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 239,
+        "total_tokens": 2252
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 182,
+        "total_tokens": 2341
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1951,
+        "output_tokens": 286,
+        "total_tokens": 2237
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3205,
+        "output_tokens": 145,
+        "total_tokens": 3350
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2059,
+        "output_tokens": 372,
+        "total_tokens": 2431
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2074,
+        "output_tokens": 274,
+        "total_tokens": 2348
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 108,
+        "total_tokens": 1710
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 611,
+        "total_tokens": 2663
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 643,
+        "total_tokens": 2890
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1829,
+        "output_tokens": 689,
+        "total_tokens": 2518
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2456,
+        "output_tokens": 530,
+        "total_tokens": 2986
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 275,
+        "total_tokens": 1781
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 439,
+        "total_tokens": 2431
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2283,
+        "output_tokens": 258,
+        "total_tokens": 2541
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 42,
+        "total_tokens": 1638
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1796,
+        "output_tokens": 378,
+        "total_tokens": 2174
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1772,
+        "output_tokens": 209,
+        "total_tokens": 1981
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1757,
+        "output_tokens": 187,
+        "total_tokens": 1944
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 50,
+        "total_tokens": 1814
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 214,
+        "total_tokens": 1976
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 62,
+        "total_tokens": 1650
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1719,
+        "output_tokens": 148,
+        "total_tokens": 1867
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2379,
+        "output_tokens": 189,
+        "total_tokens": 2568
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 266,
+        "total_tokens": 2198
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 231,
+        "total_tokens": 2298
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1933,
+        "output_tokens": 176,
+        "total_tokens": 2109
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1984,
+        "output_tokens": 213,
+        "total_tokens": 2197
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1952,
+        "output_tokens": 188,
+        "total_tokens": 2140
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1751,
+        "output_tokens": 163,
+        "total_tokens": 1914
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 599,
+        "total_tokens": 2087
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 316,
+        "total_tokens": 2574
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2276,
+        "output_tokens": 221,
+        "total_tokens": 2497
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 581,
+        "total_tokens": 2094
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1729,
+        "output_tokens": 86,
+        "total_tokens": 1815
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2720,
+        "output_tokens": 257,
+        "total_tokens": 2977
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2127,
+        "output_tokens": 250,
+        "total_tokens": 2377
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2096,
+        "output_tokens": 318,
+        "total_tokens": 2414
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 508,
+        "total_tokens": 2105
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1702,
+        "output_tokens": 395,
+        "total_tokens": 2097
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 223,
+        "total_tokens": 2524
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 480,
+        "total_tokens": 2673
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1727,
+        "output_tokens": 1949,
+        "total_tokens": 3676
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1675,
+        "output_tokens": 170,
+        "total_tokens": 1845
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 283,
+        "total_tokens": 2693
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 387,
+        "total_tokens": 2030
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2183,
+        "output_tokens": 341,
+        "total_tokens": 2524
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2144,
+        "output_tokens": 268,
+        "total_tokens": 2412
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1582,
+        "output_tokens": 431,
+        "total_tokens": 2013
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2240,
+        "output_tokens": 127,
+        "total_tokens": 2367
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1967,
+        "output_tokens": 409,
+        "total_tokens": 2376
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1852,
+        "output_tokens": 921,
+        "total_tokens": 2773
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1663,
+        "output_tokens": 482,
+        "total_tokens": 2145
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1561,
+        "output_tokens": 238,
+        "total_tokens": 1799
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 647,
+        "total_tokens": 2579
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1630,
+        "output_tokens": 286,
+        "total_tokens": 1916
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2066,
+        "output_tokens": 465,
+        "total_tokens": 2531
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2217,
+        "output_tokens": 442,
+        "total_tokens": 2659
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3775,
+        "output_tokens": 1334,
+        "total_tokens": 5109
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2972,
+        "output_tokens": 560,
+        "total_tokens": 3532
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2797,
+        "output_tokens": 258,
+        "total_tokens": 3055
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2896,
+        "output_tokens": 1045,
+        "total_tokens": 3941
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2179,
+        "output_tokens": 163,
+        "total_tokens": 2342
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2325,
+        "output_tokens": 908,
+        "total_tokens": 3233
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2452,
+        "output_tokens": 813,
+        "total_tokens": 3265
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2708,
+        "output_tokens": 347,
+        "total_tokens": 3055
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3413,
+        "output_tokens": 816,
+        "total_tokens": 4229
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3893,
+        "output_tokens": 707,
+        "total_tokens": 4600
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3001,
+        "output_tokens": 476,
+        "total_tokens": 3477
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3527,
+        "output_tokens": 571,
+        "total_tokens": 4098
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4219,
+        "output_tokens": 729,
+        "total_tokens": 4948
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2687,
+        "output_tokens": 465,
+        "total_tokens": 3152
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4789,
+        "output_tokens": 846,
+        "total_tokens": 5635
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3443,
+        "output_tokens": 1094,
+        "total_tokens": 4537
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 20,
+        "total_tokens": 1269
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1164,
+        "output_tokens": 20,
+        "total_tokens": 1184
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1264,
+        "output_tokens": 20,
+        "total_tokens": 1284
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 55,
+        "total_tokens": 1451
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 24,
+        "total_tokens": 1338
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1533,
+        "output_tokens": 69,
+        "total_tokens": 1602
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 21,
+        "total_tokens": 1342
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 21,
+        "total_tokens": 1223
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1420,
+        "output_tokens": 72,
+        "total_tokens": 1492
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1249,
+        "output_tokens": 31,
+        "total_tokens": 1280
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1369,
+        "output_tokens": 49,
+        "total_tokens": 1418
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 29,
+        "total_tokens": 1400
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1261,
+        "output_tokens": 50,
+        "total_tokens": 1311
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 27,
+        "total_tokens": 1394
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1752,
+        "output_tokens": 108,
+        "total_tokens": 1860
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1325,
+        "output_tokens": 320,
+        "total_tokens": 1645
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1554,
+        "output_tokens": 50,
+        "total_tokens": 1604
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1385,
+        "output_tokens": 37,
+        "total_tokens": 1422
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 39,
+        "total_tokens": 1341
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1372,
+        "output_tokens": 38,
+        "total_tokens": 1410
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1458,
+        "output_tokens": 87,
+        "total_tokens": 1545
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1655,
+        "output_tokens": 33,
+        "total_tokens": 1688
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 64,
+        "total_tokens": 1367
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1463,
+        "output_tokens": 67,
+        "total_tokens": 1530
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1313,
+        "output_tokens": 45,
+        "total_tokens": 1358
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1746,
+        "output_tokens": 52,
+        "total_tokens": 1798
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 152,
+        "total_tokens": 1897
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1254,
+        "output_tokens": 46,
+        "total_tokens": 1300
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1367,
+        "output_tokens": 105,
+        "total_tokens": 1472
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1684,
+        "output_tokens": 586,
+        "total_tokens": 2270
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1376,
+        "output_tokens": 66,
+        "total_tokens": 1442
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2142,
+        "output_tokens": 81,
+        "total_tokens": 2223
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1865,
+        "output_tokens": 197,
+        "total_tokens": 2062
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1440,
+        "output_tokens": 51,
+        "total_tokens": 1491
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1697,
+        "output_tokens": 133,
+        "total_tokens": 1830
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 113,
+        "total_tokens": 1825
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1770,
+        "output_tokens": 144,
+        "total_tokens": 1914
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 66,
+        "total_tokens": 1755
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2272,
+        "output_tokens": 104,
+        "total_tokens": 2376
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 107,
+        "total_tokens": 1812
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1768,
+        "output_tokens": 139,
+        "total_tokens": 1907
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 42,
+        "total_tokens": 1451
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 705,
+        "total_tokens": 2193
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2195,
+        "output_tokens": 144,
+        "total_tokens": 2339
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1627,
+        "output_tokens": 77,
+        "total_tokens": 1704
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 72,
+        "total_tokens": 1874
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1875,
+        "output_tokens": 78,
+        "total_tokens": 1953
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 69,
+        "total_tokens": 1369
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 87,
+        "total_tokens": 1392
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1454,
+        "output_tokens": 218,
+        "total_tokens": 1672
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 96,
+        "total_tokens": 2060
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2385,
+        "output_tokens": 87,
+        "total_tokens": 2472
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 82,
+        "total_tokens": 1389
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1600,
+        "output_tokens": 111,
+        "total_tokens": 1711
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 158,
+        "total_tokens": 1976
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 117,
+        "total_tokens": 1765
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 290,
+        "total_tokens": 1840
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2215,
+        "output_tokens": 87,
+        "total_tokens": 2302
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2016,
+        "output_tokens": 59,
+        "total_tokens": 2075
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1386,
+        "output_tokens": 91,
+        "total_tokens": 1477
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1423,
+        "output_tokens": 90,
+        "total_tokens": 1513
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 308,
+        "output_tokens": 280,
+        "total_tokens": 588
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1915,
+        "output_tokens": 322,
+        "total_tokens": 2237
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1938,
+        "output_tokens": 133,
+        "total_tokens": 2071
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2750,
+        "output_tokens": 222,
+        "total_tokens": 2972
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2262,
+        "output_tokens": 115,
+        "total_tokens": 2377
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1991,
+        "output_tokens": 97,
+        "total_tokens": 2088
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2048,
+        "output_tokens": 155,
+        "total_tokens": 2203
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2220,
+        "output_tokens": 759,
+        "total_tokens": 2979
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1648,
+        "output_tokens": 614,
+        "total_tokens": 2262
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2279,
+        "output_tokens": 320,
+        "total_tokens": 2599
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1688,
+        "output_tokens": 174,
+        "total_tokens": 1862
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2921,
+        "output_tokens": 138,
+        "total_tokens": 3059
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2131,
+        "output_tokens": 140,
+        "total_tokens": 2271
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1654,
+        "output_tokens": 274,
+        "total_tokens": 1928
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2337,
+        "output_tokens": 226,
+        "total_tokens": 2563
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2090,
+        "output_tokens": 174,
+        "total_tokens": 2264
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1885,
+        "output_tokens": 85,
+        "total_tokens": 1970
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1545,
+        "output_tokens": 133,
+        "total_tokens": 1678
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 270,
+        "total_tokens": 2072
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 109,
+        "total_tokens": 2101
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2534,
+        "output_tokens": 271,
+        "total_tokens": 2805
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1544,
+        "output_tokens": 399,
+        "total_tokens": 1943
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 59,
+        "total_tokens": 1681
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 241,
+        "total_tokens": 2254
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 153,
+        "total_tokens": 2312
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1951,
+        "output_tokens": 174,
+        "total_tokens": 2125
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3205,
+        "output_tokens": 190,
+        "total_tokens": 3395
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2059,
+        "output_tokens": 207,
+        "total_tokens": 2266
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2074,
+        "output_tokens": 295,
+        "total_tokens": 2369
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 530,
+        "total_tokens": 2132
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 406,
+        "total_tokens": 2458
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 416,
+        "total_tokens": 2663
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1829,
+        "output_tokens": 2620,
+        "total_tokens": 4449
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2456,
+        "output_tokens": 344,
+        "total_tokens": 2800
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 267,
+        "total_tokens": 1773
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1992,
+        "output_tokens": 310,
+        "total_tokens": 2302
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2283,
+        "output_tokens": 227,
+        "total_tokens": 2510
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 56,
+        "total_tokens": 1652
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1796,
+        "output_tokens": 400,
+        "total_tokens": 2196
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1772,
+        "output_tokens": 141,
+        "total_tokens": 1913
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1757,
+        "output_tokens": 55,
+        "total_tokens": 1812
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 55,
+        "total_tokens": 1819
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 712,
+        "total_tokens": 2474
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 72,
+        "total_tokens": 1660
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1719,
+        "output_tokens": 179,
+        "total_tokens": 1898
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2379,
+        "output_tokens": 213,
+        "total_tokens": 2592
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 217,
+        "total_tokens": 2149
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 226,
+        "total_tokens": 2293
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1933,
+        "output_tokens": 266,
+        "total_tokens": 2199
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1984,
+        "output_tokens": 231,
+        "total_tokens": 2215
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1952,
+        "output_tokens": 242,
+        "total_tokens": 2194
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1751,
+        "output_tokens": 243,
+        "total_tokens": 1994
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1488,
+        "output_tokens": 1888,
+        "total_tokens": 3376
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 316,
+        "total_tokens": 2574
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2276,
+        "output_tokens": 222,
+        "total_tokens": 2498
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 204,
+        "total_tokens": 1717
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1729,
+        "output_tokens": 107,
+        "total_tokens": 1836
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2720,
+        "output_tokens": 203,
+        "total_tokens": 2923
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2127,
+        "output_tokens": 264,
+        "total_tokens": 2391
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2096,
+        "output_tokens": 210,
+        "total_tokens": 2306
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 660,
+        "total_tokens": 2257
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1702,
+        "output_tokens": 125,
+        "total_tokens": 1827
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 107,
+        "total_tokens": 2408
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 657,
+        "total_tokens": 2850
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1727,
+        "output_tokens": 587,
+        "total_tokens": 2314
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1675,
+        "output_tokens": 225,
+        "total_tokens": 1900
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 215,
+        "total_tokens": 2625
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 271,
+        "total_tokens": 1914
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2183,
+        "output_tokens": 309,
+        "total_tokens": 2492
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2144,
+        "output_tokens": 132,
+        "total_tokens": 2276
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1582,
+        "output_tokens": 377,
+        "total_tokens": 1959
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2240,
+        "output_tokens": 127,
+        "total_tokens": 2367
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1967,
+        "output_tokens": 748,
+        "total_tokens": 2715
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1852,
+        "output_tokens": 468,
+        "total_tokens": 2320
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1663,
+        "output_tokens": 654,
+        "total_tokens": 2317
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1561,
+        "output_tokens": 272,
+        "total_tokens": 1833
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 499,
+        "total_tokens": 2431
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1630,
+        "output_tokens": 315,
+        "total_tokens": 1945
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2066,
+        "output_tokens": 323,
+        "total_tokens": 2389
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2217,
+        "output_tokens": 626,
+        "total_tokens": 2843
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3775,
+        "output_tokens": 1241,
+        "total_tokens": 5016
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2972,
+        "output_tokens": 747,
+        "total_tokens": 3719
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2797,
+        "output_tokens": 761,
+        "total_tokens": 3558
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2896,
+        "output_tokens": 817,
+        "total_tokens": 3713
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2179,
+        "output_tokens": 84,
+        "total_tokens": 2263
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2325,
+        "output_tokens": 531,
+        "total_tokens": 2856
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2452,
+        "output_tokens": 179,
+        "total_tokens": 2631
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2708,
+        "output_tokens": 440,
+        "total_tokens": 3148
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3413,
+        "output_tokens": 655,
+        "total_tokens": 4068
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3893,
+        "output_tokens": 349,
+        "total_tokens": 4242
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3001,
+        "output_tokens": 913,
+        "total_tokens": 3914
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3527,
+        "output_tokens": 564,
+        "total_tokens": 4091
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4219,
+        "output_tokens": 641,
+        "total_tokens": 4860
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2687,
+        "output_tokens": 628,
+        "total_tokens": 3315
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4789,
+        "output_tokens": 726,
+        "total_tokens": 5515
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3443,
+        "output_tokens": 812,
+        "total_tokens": 4255
+      },
+      "agent_name": "deepseek-v3.2",
+      "mode": "copilot"
+    }
+  ],
+  "harness_times": {
+    "verilogeval_Prob001_zero_0001": 3.3784899711608887,
+    "verilogeval_Prob002_m2014_q4i_0001": 1.6102869510650635,
+    "verilogeval_Prob003_step_one_0001": 1.5761699676513672,
+    "verilogeval_Prob004_vector2_0001": 1.7409160137176514,
+    "verilogeval_Prob005_notgate_0001": 1.7190709114074707,
+    "verilogeval_Prob006_vectorr_0001": 1.6728761196136475,
+    "verilogeval_Prob007_wire_0001": 1.5457537174224854,
+    "verilogeval_Prob008_m2014_q4h_0001": 1.725696086883545,
+    "verilogeval_Prob009_popcount3_0001": 1.557440996170044,
+    "verilogeval_Prob010_mt2015_q4a_0001": 1.718308925628662,
+    "verilogeval_Prob011_norgate_0001": 1.6226460933685303,
+    "verilogeval_Prob012_xnorgate_0001": 1.5627760887145996,
+    "verilogeval_Prob013_m2014_q4e_0001": 1.6252810955047607,
+    "verilogeval_Prob014_andgate_0001": 1.5658843517303467,
+    "verilogeval_Prob015_vector1_0001": 1.5666120052337646,
+    "verilogeval_Prob016_m2014_q4j_0001": 1.5292079448699951,
+    "verilogeval_Prob017_mux2to1v_0001": 1.5627379417419434,
+    "verilogeval_Prob018_mux256to1_0001": 1.582679033279419,
+    "verilogeval_Prob019_m2014_q4f_0001": 1.5797669887542725,
+    "verilogeval_Prob020_mt2015_eq2_0001": 1.553915023803711,
+    "verilogeval_Prob021_mux256to1v_0001": 1.70875883102417,
+    "verilogeval_Prob022_mux2to1_0001": 1.6757807731628418,
+    "verilogeval_Prob023_vector100r_0001": 1.5652241706848145,
+    "verilogeval_Prob024_hadd_0001": 1.628896951675415,
+    "verilogeval_Prob025_reduction_0001": 1.7802691459655762,
+    "verilogeval_Prob026_alwaysblock1_0001": 1.7184457778930664,
+    "verilogeval_Prob027_fadd_0001": 1.9226837158203125,
+    "verilogeval_Prob028_m2014_q4a_0001": 1.6699609756469727,
+    "verilogeval_Prob029_m2014_q4g_0001": 1.5622689723968506,
+    "verilogeval_Prob030_popcount255_0001": 1.2908480167388916,
+    "verilogeval_Prob031_dff_0001": 1.544037103652954,
+    "verilogeval_Prob032_vector0_0001": 1.818948745727539,
+    "verilogeval_Prob033_ece241_2014_q1c_0001": 1.6756353378295898,
+    "verilogeval_Prob034_dff8_0001": 1.5672471523284912,
+    "verilogeval_Prob035_count1to10_0001": 1.5609841346740723,
+    "verilogeval_Prob036_ringer_0001": 1.6149230003356934,
+    "verilogeval_Prob037_review2015_count1k_0001": 1.7147588729858398,
+    "verilogeval_Prob038_count15_0001": 1.619739055633545,
+    "verilogeval_Prob039_always_if_0001": 1.665360927581787,
+    "verilogeval_Prob040_count10_0001": 1.5643901824951172,
+    "verilogeval_Prob041_dff8r_0001": 1.6718499660491943,
+    "verilogeval_Prob042_vector4_0001": 1.7954456806182861,
+    "verilogeval_Prob043_vector5_0001": 1.7265138626098633,
+    "verilogeval_Prob044_vectorgates_0001": 1.618285894393921,
+    "verilogeval_Prob045_edgedetect2_0001": 1.6191601753234863,
+    "verilogeval_Prob046_dff8p_0001": 1.7230618000030518,
+    "verilogeval_Prob047_dff8ar_0001": 1.5703339576721191,
+    "verilogeval_Prob048_m2014_q4c_0001": 1.6243419647216797,
+    "verilogeval_Prob049_m2014_q4b_0001": 1.5980889797210693,
+    "verilogeval_Prob050_kmap1_0001": 1.5576000213623047,
+    "verilogeval_Prob051_gates4_0001": 1.6086993217468262,
+    "verilogeval_Prob052_gates100_0001": 1.7294669151306152,
+    "verilogeval_Prob053_m2014_q4d_0001": 2.027560234069824,
+    "verilogeval_Prob054_edgedetect_0001": 1.6763896942138672,
+    "verilogeval_Prob055_conditional_0001": 1.6126987934112549,
+    "verilogeval_Prob056_ece241_2013_q7_0001": 1.5646007061004639,
+    "verilogeval_Prob057_kmap2_0001": 1.6115570068359375,
+    "verilogeval_Prob058_alwaysblock2_0001": 1.866499900817871,
+    "verilogeval_Prob059_wire4_0001": 1.6297359466552734,
+    "verilogeval_Prob060_m2014_q4k_0001": 1.6641337871551514,
+    "verilogeval_Prob061_2014_q4a_0001": 1.6480841636657715,
+    "verilogeval_Prob062_bugs_0001": 1.547126054763794,
+    "verilogeval_Prob062_bugs_mux2_0001": 1.6149749755859375,
+    "verilogeval_Prob063_review2015_shiftcount_0001": 1.6675660610198975,
+    "verilogeval_Prob064_vector3_0001": 1.6648330688476562,
+    "verilogeval_Prob065_7420_0001": 1.8259599208831787,
+    "verilogeval_Prob066_edgecapture_0001": 1.6652781963348389,
+    "verilogeval_Prob067_countslow_0001": 1.6383140087127686,
+    "verilogeval_Prob068_countbcd_0001": 1.7818279266357422,
+    "verilogeval_Prob069_truthtable1_0001": 1.5501399040222168,
+    "verilogeval_Prob070_ece241_2013_q2_0001": 1.9351060390472412,
+    "verilogeval_Prob071_always_casez_0001": 1.6647250652313232,
+    "verilogeval_Prob072_thermostat_0001": 1.6130387783050537,
+    "verilogeval_Prob073_dff16e_0001": 1.613281011581421,
+    "verilogeval_Prob074_ece241_2014_q4_0001": 1.72141695022583,
+    "verilogeval_Prob075_counter_2bc_0001": 1.6584851741790771,
+    "verilogeval_Prob076_always_case_0001": 1.6140470504760742,
+    "verilogeval_Prob077_wire_decl_0001": 2.224858283996582,
+    "verilogeval_Prob078_dualedge_0001": 2.3024110794067383,
+    "verilogeval_Prob079_fsm3onehot_0001": 1.6112172603607178,
+    "verilogeval_Prob080_timer_0001": 1.702430009841919,
+    "verilogeval_Prob081_7458_0001": 1.5735681056976318,
+    "verilogeval_Prob082_lfsr32_0001": 2.6103358268737793,
+    "verilogeval_Prob083_mt2015_q4b_0001": 1.5198960304260254,
+    "verilogeval_Prob084_ece241_2013_q12_0001": 1.6870298385620117,
+    "verilogeval_Prob085_shift4_0001": 1.6174070835113525,
+    "verilogeval_Prob086_lfsr5_0001": 1.5611231327056885,
+    "verilogeval_Prob087_gates_0001": 1.771190881729126,
+    "verilogeval_Prob088_ece241_2014_q5b_0001": 1.7568719387054443,
+    "verilogeval_Prob089_ece241_2014_q5a_0001": 1.6745309829711914,
+    "verilogeval_Prob090_circuit1_0001": 1.605299949645996,
+    "verilogeval_Prob091_2012_q2b_0001": 1.7214558124542236,
+    "verilogeval_Prob092_gatesv100_0001": 1.6197781562805176,
+    "verilogeval_Prob093_ece241_2014_q3_0001": 1.5711469650268555,
+    "verilogeval_Prob094_gatesv_0001": 1.6014878749847412,
+    "verilogeval_Prob095_review2015_fsmshift_0001": 1.560068130493164,
+    "verilogeval_Prob096_review2015_fsmseq_0001": 2.1603548526763916,
+    "verilogeval_Prob097_mux9to1v_0001": 1.5554802417755127,
+    "verilogeval_Prob098_circuit7_0001": 1.6201591491699219,
+    "verilogeval_Prob099_m2014_q6c_0001": 1.6410458087921143,
+    "verilogeval_Prob100_fsm3comb_0001": 1.600475788116455,
+    "verilogeval_Prob101_circuit4_0001": 1.6842718124389648,
+    "verilogeval_Prob102_circuit3_0001": 1.56162691116333,
+    "verilogeval_Prob103_circuit2_0001": 1.5629348754882812,
+    "verilogeval_Prob104_mt2015_muxdff_0001": 1.5652270317077637,
+    "verilogeval_Prob105_rotate100_0001": 1.5636332035064697,
+    "verilogeval_Prob106_always_nolatches_0001": 1.6718878746032715,
+    "verilogeval_Prob107_fsm1s_0001": 1.7687721252441406,
+    "verilogeval_Prob108_rule90_0001": 1.7511041164398193,
+    "verilogeval_Prob109_fsm1_0001": 1.5708978176116943,
+    "verilogeval_Prob110_fsm2_0001": 1.7727391719818115,
+    "verilogeval_Prob111_fsm2s_0001": 1.5991747379302979,
+    "verilogeval_Prob112_always_case2_0001": 1.6061930656433105,
+    "verilogeval_Prob113_2012_q1g_0001": 1.6765859127044678,
+    "verilogeval_Prob114_bugs_case_0001": 1.7279300689697266,
+    "verilogeval_Prob115_shift18_0001": 1.6679611206054688,
+    "verilogeval_Prob116_m2014_q3_0001": 1.5703880786895752,
+    "verilogeval_Prob117_circuit9_0001": 1.6111242771148682,
+    "verilogeval_Prob118_history_shift_0001": 1.6135108470916748,
+    "verilogeval_Prob119_fsm3_0001": 1.6850941181182861,
+    "verilogeval_Prob120_fsm3s_0001": 1.5123710632324219,
+    "verilogeval_Prob121_2014_q3bfsm_0001": 1.559516191482544,
+    "verilogeval_Prob122_kmap4_0001": 1.629162073135376,
+    "verilogeval_Prob123_bugs_addsubz_0001": 1.734374761581421,
+    "verilogeval_Prob124_rule110_0001": 6.974709987640381,
+    "verilogeval_Prob125_kmap3_0001": 1.6380069255828857,
+    "verilogeval_Prob126_circuit6_0001": 1.5551807880401611,
+    "verilogeval_Prob127_lemmings1_0001": 1.6691269874572754,
+    "verilogeval_Prob128_fsm_ps2_0001": 1.614832878112793,
+    "verilogeval_Prob129_ece241_2013_q8_0001": 1.5612809658050537,
+    "verilogeval_Prob130_circuit5_0001": 1.6176607608795166,
+    "verilogeval_Prob131_mt2015_q4_0001": 1.7164161205291748,
+    "verilogeval_Prob132_always_if2_0001": 1.6038949489593506,
+    "verilogeval_Prob133_2014_q3fsm_0001": 1.5687642097473145,
+    "verilogeval_Prob134_2014_q3c_0001": 1.713484764099121,
+    "verilogeval_Prob135_m2014_q6b_0001": 1.7043378353118896,
+    "verilogeval_Prob136_m2014_q6_0001": 1.603855848312378,
+    "verilogeval_Prob137_fsm_serial_0001": 1.7304713726043701,
+    "verilogeval_Prob138_2012_q2fsm_0001": 1.6333341598510742,
+    "verilogeval_Prob139_2013_q2bfsm_0001": 1.684952974319458,
+    "verilogeval_Prob140_fsm_hdlc_0001": 1.344789981842041,
+    "verilogeval_Prob141_count_clock_0001": 2.624588966369629,
+    "verilogeval_Prob142_lemmings2_0001": 1.7194652557373047,
+    "verilogeval_Prob143_fsm_onehot_0001": 1.8262248039245605,
+    "verilogeval_Prob144_conwaylife_0001": 1.3879129886627197,
+    "verilogeval_Prob145_circuit8_0001": 1.5701580047607422,
+    "verilogeval_Prob146_fsm_serialdata_0001": 1.5601551532745361,
+    "verilogeval_Prob147_circuit10_0001": 1.6211581230163574,
+    "verilogeval_Prob148_2013_q2afsm_0001": 1.6929850578308105,
+    "verilogeval_Prob149_ece241_2013_q4_0001": 1.5993962287902832,
+    "verilogeval_Prob150_review2015_fsmonehot_0001": 1.6818139553070068,
+    "verilogeval_Prob151_review2015_fsm_0001": 1.819411039352417,
+    "verilogeval_Prob152_lemmings3_0001": 1.8331172466278076,
+    "verilogeval_Prob153_gshare_0001": 1.779552936553955,
+    "verilogeval_Prob154_fsm_ps2data_0001": 1.6760058403015137,
+    "verilogeval_Prob155_lemmings4_0001": 1.6263880729675293,
+    "verilogeval_Prob156_review2015_fancytimer_0001": 1.4069619178771973
+  },
+  "generated_at": "2026-04-03T17:44:31.387926"
+}

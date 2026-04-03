@@ -1,0 +1,6487 @@
+{
+  "summary": {
+    "total_problems": 628,
+    "successful": 628,
+    "failed": 0,
+    "total_tokens": {
+      "input": 1155600,
+      "output": 239410,
+      "total": 1395010
+    },
+    "total_cost": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total_time": 0,
+    "avg_time": 0.0,
+    "harness_time": {
+      "total": 257.50209760665894,
+      "avg": 1.6401407490869997,
+      "min": 0.9852919578552246,
+      "max": 11.847028970718384,
+      "count": 157
+    },
+    "by_mode": {
+      "copilot": {
+        "count": 628,
+        "success": 628,
+        "tokens": 1395010,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "by_agent": {
+      "kimi-k2.5": {
+        "count": 628,
+        "success": 628,
+        "tokens": 1395010,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "success_rate": 100.0
+  },
+  "individual_metrics": [
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1187,
+        "output_tokens": 32,
+        "total_tokens": 1219
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 32,
+        "total_tokens": 1144
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 32,
+        "total_tokens": 1234
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1332,
+        "output_tokens": 67,
+        "total_tokens": 1399
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1250,
+        "output_tokens": 22,
+        "total_tokens": 1272
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1442,
+        "output_tokens": 75,
+        "total_tokens": 1517
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1255,
+        "output_tokens": 21,
+        "total_tokens": 1276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1149,
+        "output_tokens": 33,
+        "total_tokens": 1182
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1350,
+        "output_tokens": 49,
+        "total_tokens": 1399
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1194,
+        "output_tokens": 36,
+        "total_tokens": 1230
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 28,
+        "total_tokens": 1333
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 34,
+        "total_tokens": 1341
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1206,
+        "output_tokens": 45,
+        "total_tokens": 1251
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 33,
+        "total_tokens": 1336
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1617,
+        "output_tokens": 70,
+        "total_tokens": 1687
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1274,
+        "output_tokens": 327,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1480,
+        "output_tokens": 54,
+        "total_tokens": 1534
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1328,
+        "output_tokens": 44,
+        "total_tokens": 1372
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1248,
+        "output_tokens": 38,
+        "total_tokens": 1286
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1316,
+        "output_tokens": 38,
+        "total_tokens": 1354
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1400,
+        "output_tokens": 48,
+        "total_tokens": 1448
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1556,
+        "output_tokens": 33,
+        "total_tokens": 1589
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1247,
+        "output_tokens": 71,
+        "total_tokens": 1318
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 39,
+        "total_tokens": 1448
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 33,
+        "total_tokens": 1277
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1614,
+        "output_tokens": 55,
+        "total_tokens": 1669
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 64,
+        "total_tokens": 1726
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1196,
+        "output_tokens": 51,
+        "total_tokens": 1247
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 43,
+        "total_tokens": 1357
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1574,
+        "output_tokens": 76,
+        "total_tokens": 1650
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1299,
+        "output_tokens": 43,
+        "total_tokens": 1342
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2062,
+        "output_tokens": 75,
+        "total_tokens": 2137
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 98,
+        "total_tokens": 1862
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 64,
+        "total_tokens": 1430
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1594,
+        "output_tokens": 154,
+        "total_tokens": 1748
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 53,
+        "total_tokens": 1696
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1658,
+        "output_tokens": 64,
+        "total_tokens": 1722
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1585,
+        "output_tokens": 65,
+        "total_tokens": 1650
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 105,
+        "total_tokens": 2196
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 64,
+        "total_tokens": 1666
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1667,
+        "output_tokens": 71,
+        "total_tokens": 1738
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1356,
+        "output_tokens": 40,
+        "total_tokens": 1396
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1434,
+        "output_tokens": 422,
+        "total_tokens": 1856
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2087,
+        "output_tokens": 92,
+        "total_tokens": 2179
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1522,
+        "output_tokens": 67,
+        "total_tokens": 1589
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1695,
+        "output_tokens": 68,
+        "total_tokens": 1763
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1754,
+        "output_tokens": 72,
+        "total_tokens": 1826
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1239,
+        "output_tokens": 66,
+        "total_tokens": 1305
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 58,
+        "total_tokens": 1302
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 274,
+        "total_tokens": 1670
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1849,
+        "output_tokens": 67,
+        "total_tokens": 1916
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2209,
+        "output_tokens": 67,
+        "total_tokens": 2276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 276,
+        "total_tokens": 1520
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 73,
+        "total_tokens": 1586
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1736,
+        "output_tokens": 112,
+        "total_tokens": 1848
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 122,
+        "total_tokens": 1672
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1491,
+        "output_tokens": 1288,
+        "total_tokens": 2779
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2003,
+        "output_tokens": 88,
+        "total_tokens": 2091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1940,
+        "output_tokens": 65,
+        "total_tokens": 2005
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1317,
+        "output_tokens": 91,
+        "total_tokens": 1408
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1362,
+        "output_tokens": 64,
+        "total_tokens": 1426
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 301,
+        "output_tokens": 91,
+        "total_tokens": 392
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 1782,
+        "total_tokens": 3583
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1819,
+        "output_tokens": 183,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2642,
+        "output_tokens": 139,
+        "total_tokens": 2781
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2191,
+        "output_tokens": 131,
+        "total_tokens": 2322
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 267,
+        "total_tokens": 2105
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1913,
+        "output_tokens": 96,
+        "total_tokens": 2009
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2069,
+        "output_tokens": 177,
+        "total_tokens": 2246
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 92,
+        "total_tokens": 1680
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2158,
+        "output_tokens": 1973,
+        "total_tokens": 4131
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 197,
+        "total_tokens": 1807
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2704,
+        "output_tokens": 85,
+        "total_tokens": 2789
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2005,
+        "output_tokens": 125,
+        "total_tokens": 2130
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1555,
+        "output_tokens": 97,
+        "total_tokens": 1652
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2171,
+        "output_tokens": 124,
+        "total_tokens": 2295
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 192,
+        "total_tokens": 2205
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 88,
+        "total_tokens": 1900
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1450,
+        "output_tokens": 68,
+        "total_tokens": 1518
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1744,
+        "output_tokens": 667,
+        "total_tokens": 2411
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1862,
+        "output_tokens": 87,
+        "total_tokens": 1949
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2467,
+        "output_tokens": 153,
+        "total_tokens": 2620
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1468,
+        "output_tokens": 146,
+        "total_tokens": 1614
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1619,
+        "output_tokens": 215,
+        "total_tokens": 1834
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1887,
+        "output_tokens": 729,
+        "total_tokens": 2616
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2017,
+        "output_tokens": 103,
+        "total_tokens": 2120
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1831,
+        "output_tokens": 925,
+        "total_tokens": 2756
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2999,
+        "output_tokens": 137,
+        "total_tokens": 3136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1918,
+        "output_tokens": 246,
+        "total_tokens": 2164
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 1643,
+        "total_tokens": 3575
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1608,
+        "output_tokens": 150,
+        "total_tokens": 1758
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1989,
+        "output_tokens": 388,
+        "total_tokens": 2377
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2147,
+        "output_tokens": 255,
+        "total_tokens": 2402
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1725,
+        "output_tokens": 552,
+        "total_tokens": 2277
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2327,
+        "output_tokens": 325,
+        "total_tokens": 2652
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1436,
+        "output_tokens": 179,
+        "total_tokens": 1615
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1877,
+        "output_tokens": 174,
+        "total_tokens": 2051
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2197,
+        "output_tokens": 233,
+        "total_tokens": 2430
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1589,
+        "output_tokens": 561,
+        "total_tokens": 2150
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1738,
+        "output_tokens": 539,
+        "total_tokens": 2277
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1715,
+        "output_tokens": 142,
+        "total_tokens": 1857
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1803,
+        "output_tokens": 533,
+        "total_tokens": 2336
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 503,
+        "total_tokens": 2313
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1808,
+        "output_tokens": 709,
+        "total_tokens": 2517
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1515,
+        "output_tokens": 299,
+        "total_tokens": 1814
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1631,
+        "output_tokens": 395,
+        "total_tokens": 2026
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 131,
+        "total_tokens": 2389
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1805,
+        "output_tokens": 161,
+        "total_tokens": 1966
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 3447,
+        "total_tokens": 5396
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 130,
+        "total_tokens": 1932
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 133,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1842,
+        "output_tokens": 173,
+        "total_tokens": 2015
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1691,
+        "output_tokens": 109,
+        "total_tokens": 1800
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1460,
+        "output_tokens": 1381,
+        "total_tokens": 2841
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2134,
+        "output_tokens": 319,
+        "total_tokens": 2453
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2124,
+        "output_tokens": 175,
+        "total_tokens": 2299
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1484,
+        "output_tokens": 1408,
+        "total_tokens": 2892
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 230,
+        "total_tokens": 1942
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2571,
+        "output_tokens": 155,
+        "total_tokens": 2726
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1971,
+        "output_tokens": 169,
+        "total_tokens": 2140
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1945,
+        "output_tokens": 191,
+        "total_tokens": 2136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1527,
+        "output_tokens": 385,
+        "total_tokens": 1912
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1659,
+        "output_tokens": 462,
+        "total_tokens": 2121
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 103,
+        "total_tokens": 2273
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2071,
+        "output_tokens": 707,
+        "total_tokens": 2778
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1682,
+        "output_tokens": 2296,
+        "total_tokens": 3978
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 318,
+        "total_tokens": 1978
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2268,
+        "output_tokens": 217,
+        "total_tokens": 2485
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1552,
+        "output_tokens": 182,
+        "total_tokens": 1734
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2023,
+        "output_tokens": 377,
+        "total_tokens": 2400
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 268,
+        "total_tokens": 2359
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1601,
+        "output_tokens": 1383,
+        "total_tokens": 2984
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 127,
+        "total_tokens": 2185
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1859,
+        "output_tokens": 756,
+        "total_tokens": 2615
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 882,
+        "total_tokens": 2694
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 966,
+        "total_tokens": 2588
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1499,
+        "output_tokens": 193,
+        "total_tokens": 1692
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1817,
+        "output_tokens": 303,
+        "total_tokens": 2120
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1568,
+        "output_tokens": 279,
+        "total_tokens": 1847
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1993,
+        "output_tokens": 386,
+        "total_tokens": 2379
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2128,
+        "output_tokens": 1004,
+        "total_tokens": 3132
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3515,
+        "output_tokens": 892,
+        "total_tokens": 4407
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2802,
+        "output_tokens": 780,
+        "total_tokens": 3582
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2697,
+        "output_tokens": 606,
+        "total_tokens": 3303
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2745,
+        "output_tokens": 639,
+        "total_tokens": 3384
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2267,
+        "output_tokens": 413,
+        "total_tokens": 2680
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2169,
+        "output_tokens": 630,
+        "total_tokens": 2799
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2563,
+        "output_tokens": 385,
+        "total_tokens": 2948
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2538,
+        "output_tokens": 242,
+        "total_tokens": 2780
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3228,
+        "output_tokens": 868,
+        "total_tokens": 4096
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3765,
+        "output_tokens": 802,
+        "total_tokens": 4567
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2825,
+        "output_tokens": 565,
+        "total_tokens": 3390
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3372,
+        "output_tokens": 706,
+        "total_tokens": 4078
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3970,
+        "output_tokens": 678,
+        "total_tokens": 4648
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2759,
+        "output_tokens": 598,
+        "total_tokens": 3357
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4512,
+        "output_tokens": 852,
+        "total_tokens": 5364
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3252,
+        "output_tokens": 813,
+        "total_tokens": 4065
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1187,
+        "output_tokens": 32,
+        "total_tokens": 1219
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 32,
+        "total_tokens": 1144
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 20,
+        "total_tokens": 1222
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1332,
+        "output_tokens": 67,
+        "total_tokens": 1399
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1250,
+        "output_tokens": 34,
+        "total_tokens": 1284
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1442,
+        "output_tokens": 75,
+        "total_tokens": 1517
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1255,
+        "output_tokens": 21,
+        "total_tokens": 1276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1149,
+        "output_tokens": 21,
+        "total_tokens": 1170
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1350,
+        "output_tokens": 49,
+        "total_tokens": 1399
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1194,
+        "output_tokens": 37,
+        "total_tokens": 1231
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 28,
+        "total_tokens": 1333
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 34,
+        "total_tokens": 1341
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1206,
+        "output_tokens": 45,
+        "total_tokens": 1251
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 33,
+        "total_tokens": 1336
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1617,
+        "output_tokens": 70,
+        "total_tokens": 1687
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1274,
+        "output_tokens": 327,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1480,
+        "output_tokens": 54,
+        "total_tokens": 1534
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1328,
+        "output_tokens": 44,
+        "total_tokens": 1372
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1248,
+        "output_tokens": 38,
+        "total_tokens": 1286
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1316,
+        "output_tokens": 38,
+        "total_tokens": 1354
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1400,
+        "output_tokens": 54,
+        "total_tokens": 1454
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1556,
+        "output_tokens": 45,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1247,
+        "output_tokens": 71,
+        "total_tokens": 1318
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 39,
+        "total_tokens": 1448
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 33,
+        "total_tokens": 1277
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1614,
+        "output_tokens": 55,
+        "total_tokens": 1669
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 53,
+        "total_tokens": 1715
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1196,
+        "output_tokens": 51,
+        "total_tokens": 1247
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 62,
+        "total_tokens": 1376
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1574,
+        "output_tokens": 82,
+        "total_tokens": 1656
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1299,
+        "output_tokens": 43,
+        "total_tokens": 1342
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2062,
+        "output_tokens": 87,
+        "total_tokens": 2149
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 121,
+        "total_tokens": 1885
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 47,
+        "total_tokens": 1413
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1594,
+        "output_tokens": 58,
+        "total_tokens": 1652
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 54,
+        "total_tokens": 1697
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1658,
+        "output_tokens": 64,
+        "total_tokens": 1722
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1585,
+        "output_tokens": 53,
+        "total_tokens": 1638
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 105,
+        "total_tokens": 2196
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 64,
+        "total_tokens": 1666
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1667,
+        "output_tokens": 71,
+        "total_tokens": 1738
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1356,
+        "output_tokens": 40,
+        "total_tokens": 1396
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1434,
+        "output_tokens": 476,
+        "total_tokens": 1910
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2087,
+        "output_tokens": 98,
+        "total_tokens": 2185
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1522,
+        "output_tokens": 79,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1695,
+        "output_tokens": 74,
+        "total_tokens": 1769
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1754,
+        "output_tokens": 72,
+        "total_tokens": 1826
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1239,
+        "output_tokens": 55,
+        "total_tokens": 1294
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 58,
+        "total_tokens": 1302
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 274,
+        "total_tokens": 1670
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1849,
+        "output_tokens": 67,
+        "total_tokens": 1916
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2209,
+        "output_tokens": 67,
+        "total_tokens": 2276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 276,
+        "total_tokens": 1520
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 73,
+        "total_tokens": 1586
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1736,
+        "output_tokens": 112,
+        "total_tokens": 1848
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 370,
+        "total_tokens": 1920
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1491,
+        "output_tokens": 941,
+        "total_tokens": 2432
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2003,
+        "output_tokens": 88,
+        "total_tokens": 2091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1940,
+        "output_tokens": 71,
+        "total_tokens": 2011
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1317,
+        "output_tokens": 85,
+        "total_tokens": 1402
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1362,
+        "output_tokens": 64,
+        "total_tokens": 1426
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 301,
+        "output_tokens": 506,
+        "total_tokens": 807
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 2567,
+        "total_tokens": 4368
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1819,
+        "output_tokens": 183,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2642,
+        "output_tokens": 139,
+        "total_tokens": 2781
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2191,
+        "output_tokens": 125,
+        "total_tokens": 2316
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 265,
+        "total_tokens": 2103
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1913,
+        "output_tokens": 96,
+        "total_tokens": 2009
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2069,
+        "output_tokens": 177,
+        "total_tokens": 2246
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 1135,
+        "total_tokens": 2723
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2158,
+        "output_tokens": 3048,
+        "total_tokens": 5206
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 169,
+        "total_tokens": 1779
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2704,
+        "output_tokens": 85,
+        "total_tokens": 2789
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2005,
+        "output_tokens": 125,
+        "total_tokens": 2130
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1555,
+        "output_tokens": 82,
+        "total_tokens": 1637
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2171,
+        "output_tokens": 126,
+        "total_tokens": 2297
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 180,
+        "total_tokens": 2193
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 88,
+        "total_tokens": 1900
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1450,
+        "output_tokens": 72,
+        "total_tokens": 1522
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1744,
+        "output_tokens": 535,
+        "total_tokens": 2279
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1862,
+        "output_tokens": 95,
+        "total_tokens": 1957
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2467,
+        "output_tokens": 153,
+        "total_tokens": 2620
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1468,
+        "output_tokens": 146,
+        "total_tokens": 1614
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1619,
+        "output_tokens": 147,
+        "total_tokens": 1766
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1887,
+        "output_tokens": 729,
+        "total_tokens": 2616
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2017,
+        "output_tokens": 109,
+        "total_tokens": 2126
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1831,
+        "output_tokens": 5750,
+        "total_tokens": 7581
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2999,
+        "output_tokens": 131,
+        "total_tokens": 3130
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1918,
+        "output_tokens": 229,
+        "total_tokens": 2147
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 1065,
+        "total_tokens": 2997
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1608,
+        "output_tokens": 219,
+        "total_tokens": 1827
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1989,
+        "output_tokens": 388,
+        "total_tokens": 2377
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2147,
+        "output_tokens": 110,
+        "total_tokens": 2257
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1725,
+        "output_tokens": 1816,
+        "total_tokens": 3541
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2327,
+        "output_tokens": 401,
+        "total_tokens": 2728
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1436,
+        "output_tokens": 173,
+        "total_tokens": 1609
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1877,
+        "output_tokens": 511,
+        "total_tokens": 2388
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2197,
+        "output_tokens": 233,
+        "total_tokens": 2430
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1589,
+        "output_tokens": 421,
+        "total_tokens": 2010
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1738,
+        "output_tokens": 425,
+        "total_tokens": 2163
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1715,
+        "output_tokens": 425,
+        "total_tokens": 2140
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1803,
+        "output_tokens": 516,
+        "total_tokens": 2319
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 518,
+        "total_tokens": 2328
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1808,
+        "output_tokens": 551,
+        "total_tokens": 2359
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1515,
+        "output_tokens": 354,
+        "total_tokens": 1869
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1631,
+        "output_tokens": 122,
+        "total_tokens": 1753
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 131,
+        "total_tokens": 2389
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1805,
+        "output_tokens": 161,
+        "total_tokens": 1966
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 1550,
+        "total_tokens": 3499
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 167,
+        "total_tokens": 1969
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 133,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1842,
+        "output_tokens": 133,
+        "total_tokens": 1975
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1691,
+        "output_tokens": 338,
+        "total_tokens": 2029
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1460,
+        "output_tokens": 1313,
+        "total_tokens": 2773
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2134,
+        "output_tokens": 331,
+        "total_tokens": 2465
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2124,
+        "output_tokens": 175,
+        "total_tokens": 2299
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1484,
+        "output_tokens": 2540,
+        "total_tokens": 4024
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 340,
+        "total_tokens": 2052
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2571,
+        "output_tokens": 155,
+        "total_tokens": 2726
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1971,
+        "output_tokens": 212,
+        "total_tokens": 2183
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1945,
+        "output_tokens": 191,
+        "total_tokens": 2136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1527,
+        "output_tokens": 475,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1659,
+        "output_tokens": 1143,
+        "total_tokens": 2802
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 235,
+        "total_tokens": 2405
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2071,
+        "output_tokens": 2194,
+        "total_tokens": 4265
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1682,
+        "output_tokens": 3039,
+        "total_tokens": 4721
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 408,
+        "total_tokens": 2068
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2268,
+        "output_tokens": 217,
+        "total_tokens": 2485
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1552,
+        "output_tokens": 182,
+        "total_tokens": 1734
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2023,
+        "output_tokens": 207,
+        "total_tokens": 2230
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 268,
+        "total_tokens": 2359
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1601,
+        "output_tokens": 961,
+        "total_tokens": 2562
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 121,
+        "total_tokens": 2179
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1859,
+        "output_tokens": 2305,
+        "total_tokens": 4164
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 628,
+        "total_tokens": 2440
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 868,
+        "total_tokens": 2490
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1499,
+        "output_tokens": 200,
+        "total_tokens": 1699
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1817,
+        "output_tokens": 678,
+        "total_tokens": 2495
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1568,
+        "output_tokens": 188,
+        "total_tokens": 1756
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1993,
+        "output_tokens": 386,
+        "total_tokens": 2379
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2128,
+        "output_tokens": 886,
+        "total_tokens": 3014
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3515,
+        "output_tokens": 825,
+        "total_tokens": 4340
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2802,
+        "output_tokens": 289,
+        "total_tokens": 3091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2697,
+        "output_tokens": 792,
+        "total_tokens": 3489
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2745,
+        "output_tokens": 591,
+        "total_tokens": 3336
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2267,
+        "output_tokens": 413,
+        "total_tokens": 2680
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2169,
+        "output_tokens": 778,
+        "total_tokens": 2947
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2563,
+        "output_tokens": 351,
+        "total_tokens": 2914
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2538,
+        "output_tokens": 345,
+        "total_tokens": 2883
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3228,
+        "output_tokens": 869,
+        "total_tokens": 4097
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3765,
+        "output_tokens": 1018,
+        "total_tokens": 4783
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2825,
+        "output_tokens": 487,
+        "total_tokens": 3312
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3372,
+        "output_tokens": 702,
+        "total_tokens": 4074
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3970,
+        "output_tokens": 429,
+        "total_tokens": 4399
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2759,
+        "output_tokens": 415,
+        "total_tokens": 3174
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4512,
+        "output_tokens": 612,
+        "total_tokens": 5124
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3252,
+        "output_tokens": 650,
+        "total_tokens": 3902
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1187,
+        "output_tokens": 32,
+        "total_tokens": 1219
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 32,
+        "total_tokens": 1144
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 26,
+        "total_tokens": 1228
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1332,
+        "output_tokens": 61,
+        "total_tokens": 1393
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1250,
+        "output_tokens": 34,
+        "total_tokens": 1284
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1442,
+        "output_tokens": 75,
+        "total_tokens": 1517
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1255,
+        "output_tokens": 33,
+        "total_tokens": 1288
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1149,
+        "output_tokens": 21,
+        "total_tokens": 1170
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1350,
+        "output_tokens": 49,
+        "total_tokens": 1399
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1194,
+        "output_tokens": 37,
+        "total_tokens": 1231
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 28,
+        "total_tokens": 1333
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 28,
+        "total_tokens": 1335
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1206,
+        "output_tokens": 39,
+        "total_tokens": 1245
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 27,
+        "total_tokens": 1330
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1617,
+        "output_tokens": 70,
+        "total_tokens": 1687
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1274,
+        "output_tokens": 327,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1480,
+        "output_tokens": 60,
+        "total_tokens": 1540
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1328,
+        "output_tokens": 38,
+        "total_tokens": 1366
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1248,
+        "output_tokens": 144,
+        "total_tokens": 1392
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1316,
+        "output_tokens": 50,
+        "total_tokens": 1366
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1400,
+        "output_tokens": 60,
+        "total_tokens": 1460
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1556,
+        "output_tokens": 39,
+        "total_tokens": 1595
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1247,
+        "output_tokens": 71,
+        "total_tokens": 1318
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 39,
+        "total_tokens": 1448
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 33,
+        "total_tokens": 1277
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1614,
+        "output_tokens": 55,
+        "total_tokens": 1669
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 53,
+        "total_tokens": 1715
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1196,
+        "output_tokens": 51,
+        "total_tokens": 1247
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 62,
+        "total_tokens": 1376
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1574,
+        "output_tokens": 76,
+        "total_tokens": 1650
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1299,
+        "output_tokens": 43,
+        "total_tokens": 1342
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2062,
+        "output_tokens": 75,
+        "total_tokens": 2137
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 98,
+        "total_tokens": 1862
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 64,
+        "total_tokens": 1430
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1594,
+        "output_tokens": 70,
+        "total_tokens": 1664
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 60,
+        "total_tokens": 1703
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1658,
+        "output_tokens": 64,
+        "total_tokens": 1722
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1585,
+        "output_tokens": 53,
+        "total_tokens": 1638
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 90,
+        "total_tokens": 2181
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 64,
+        "total_tokens": 1666
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1667,
+        "output_tokens": 71,
+        "total_tokens": 1738
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1356,
+        "output_tokens": 40,
+        "total_tokens": 1396
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1434,
+        "output_tokens": 786,
+        "total_tokens": 2220
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2087,
+        "output_tokens": 86,
+        "total_tokens": 2173
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1522,
+        "output_tokens": 73,
+        "total_tokens": 1595
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1695,
+        "output_tokens": 68,
+        "total_tokens": 1763
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1754,
+        "output_tokens": 72,
+        "total_tokens": 1826
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1239,
+        "output_tokens": 66,
+        "total_tokens": 1305
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 58,
+        "total_tokens": 1302
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 548,
+        "total_tokens": 1944
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1849,
+        "output_tokens": 67,
+        "total_tokens": 1916
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2209,
+        "output_tokens": 67,
+        "total_tokens": 2276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 276,
+        "total_tokens": 1520
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 73,
+        "total_tokens": 1586
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1736,
+        "output_tokens": 112,
+        "total_tokens": 1848
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 122,
+        "total_tokens": 1672
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1491,
+        "output_tokens": 941,
+        "total_tokens": 2432
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2003,
+        "output_tokens": 88,
+        "total_tokens": 2091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1940,
+        "output_tokens": 65,
+        "total_tokens": 2005
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1317,
+        "output_tokens": 91,
+        "total_tokens": 1408
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1362,
+        "output_tokens": 64,
+        "total_tokens": 1426
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 301,
+        "output_tokens": 516,
+        "total_tokens": 817
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 272,
+        "total_tokens": 2073
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1819,
+        "output_tokens": 183,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2642,
+        "output_tokens": 139,
+        "total_tokens": 2781
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2191,
+        "output_tokens": 125,
+        "total_tokens": 2316
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 98,
+        "total_tokens": 1936
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1913,
+        "output_tokens": 90,
+        "total_tokens": 2003
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2069,
+        "output_tokens": 177,
+        "total_tokens": 2246
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 87,
+        "total_tokens": 1675
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2158,
+        "output_tokens": 1791,
+        "total_tokens": 3949
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 169,
+        "total_tokens": 1779
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2704,
+        "output_tokens": 85,
+        "total_tokens": 2789
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2005,
+        "output_tokens": 125,
+        "total_tokens": 2130
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1555,
+        "output_tokens": 82,
+        "total_tokens": 1637
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2171,
+        "output_tokens": 133,
+        "total_tokens": 2304
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 180,
+        "total_tokens": 2193
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 88,
+        "total_tokens": 1900
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1450,
+        "output_tokens": 72,
+        "total_tokens": 1522
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1744,
+        "output_tokens": 553,
+        "total_tokens": 2297
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1862,
+        "output_tokens": 87,
+        "total_tokens": 1949
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2467,
+        "output_tokens": 153,
+        "total_tokens": 2620
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1468,
+        "output_tokens": 138,
+        "total_tokens": 1606
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1619,
+        "output_tokens": 188,
+        "total_tokens": 1807
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1887,
+        "output_tokens": 208,
+        "total_tokens": 2095
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2017,
+        "output_tokens": 103,
+        "total_tokens": 2120
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1831,
+        "output_tokens": 1706,
+        "total_tokens": 3537
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2999,
+        "output_tokens": 137,
+        "total_tokens": 3136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1918,
+        "output_tokens": 246,
+        "total_tokens": 2164
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 2093,
+        "total_tokens": 4025
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1608,
+        "output_tokens": 153,
+        "total_tokens": 1761
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1989,
+        "output_tokens": 382,
+        "total_tokens": 2371
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2147,
+        "output_tokens": 255,
+        "total_tokens": 2402
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1725,
+        "output_tokens": 1505,
+        "total_tokens": 3230
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2327,
+        "output_tokens": 392,
+        "total_tokens": 2719
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1436,
+        "output_tokens": 167,
+        "total_tokens": 1603
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1877,
+        "output_tokens": 174,
+        "total_tokens": 2051
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2197,
+        "output_tokens": 233,
+        "total_tokens": 2430
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1589,
+        "output_tokens": 2491,
+        "total_tokens": 4080
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1738,
+        "output_tokens": 398,
+        "total_tokens": 2136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1715,
+        "output_tokens": 142,
+        "total_tokens": 1857
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1803,
+        "output_tokens": 531,
+        "total_tokens": 2334
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 884,
+        "total_tokens": 2694
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1808,
+        "output_tokens": 482,
+        "total_tokens": 2290
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1515,
+        "output_tokens": 258,
+        "total_tokens": 1773
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1631,
+        "output_tokens": 128,
+        "total_tokens": 1759
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 131,
+        "total_tokens": 2389
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1805,
+        "output_tokens": 121,
+        "total_tokens": 1926
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 2764,
+        "total_tokens": 4713
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 167,
+        "total_tokens": 1969
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 133,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1842,
+        "output_tokens": 174,
+        "total_tokens": 2016
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1691,
+        "output_tokens": 122,
+        "total_tokens": 1813
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1460,
+        "output_tokens": 1313,
+        "total_tokens": 2773
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2134,
+        "output_tokens": 620,
+        "total_tokens": 2754
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2124,
+        "output_tokens": 175,
+        "total_tokens": 2299
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1484,
+        "output_tokens": 2558,
+        "total_tokens": 4042
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 397,
+        "total_tokens": 2109
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2571,
+        "output_tokens": 155,
+        "total_tokens": 2726
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1971,
+        "output_tokens": 169,
+        "total_tokens": 2140
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1945,
+        "output_tokens": 162,
+        "total_tokens": 2107
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1527,
+        "output_tokens": 475,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1659,
+        "output_tokens": 776,
+        "total_tokens": 2435
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 103,
+        "total_tokens": 2273
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2071,
+        "output_tokens": 2955,
+        "total_tokens": 5026
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1682,
+        "output_tokens": 1363,
+        "total_tokens": 3045
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 297,
+        "total_tokens": 1957
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2268,
+        "output_tokens": 285,
+        "total_tokens": 2553
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1552,
+        "output_tokens": 182,
+        "total_tokens": 1734
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2023,
+        "output_tokens": 213,
+        "total_tokens": 2236
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 299,
+        "total_tokens": 2390
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1601,
+        "output_tokens": 961,
+        "total_tokens": 2562
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 121,
+        "total_tokens": 2179
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1859,
+        "output_tokens": 756,
+        "total_tokens": 2615
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 628,
+        "total_tokens": 2440
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 762,
+        "total_tokens": 2384
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1499,
+        "output_tokens": 188,
+        "total_tokens": 1687
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1817,
+        "output_tokens": 691,
+        "total_tokens": 2508
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1568,
+        "output_tokens": 279,
+        "total_tokens": 1847
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1993,
+        "output_tokens": 554,
+        "total_tokens": 2547
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2128,
+        "output_tokens": 1052,
+        "total_tokens": 3180
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3515,
+        "output_tokens": 1358,
+        "total_tokens": 4873
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2802,
+        "output_tokens": 289,
+        "total_tokens": 3091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2697,
+        "output_tokens": 795,
+        "total_tokens": 3492
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2745,
+        "output_tokens": 718,
+        "total_tokens": 3463
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2267,
+        "output_tokens": 413,
+        "total_tokens": 2680
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2169,
+        "output_tokens": 363,
+        "total_tokens": 2532
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2563,
+        "output_tokens": 350,
+        "total_tokens": 2913
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2538,
+        "output_tokens": 361,
+        "total_tokens": 2899
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3228,
+        "output_tokens": 1022,
+        "total_tokens": 4250
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3765,
+        "output_tokens": 901,
+        "total_tokens": 4666
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2825,
+        "output_tokens": 659,
+        "total_tokens": 3484
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3372,
+        "output_tokens": 715,
+        "total_tokens": 4087
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3970,
+        "output_tokens": 435,
+        "total_tokens": 4405
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2759,
+        "output_tokens": 425,
+        "total_tokens": 3184
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4512,
+        "output_tokens": 848,
+        "total_tokens": 5360
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3252,
+        "output_tokens": 656,
+        "total_tokens": 3908
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1187,
+        "output_tokens": 32,
+        "total_tokens": 1219
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 32,
+        "total_tokens": 1144
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1202,
+        "output_tokens": 32,
+        "total_tokens": 1234
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1332,
+        "output_tokens": 61,
+        "total_tokens": 1393
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1250,
+        "output_tokens": 34,
+        "total_tokens": 1284
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1442,
+        "output_tokens": 63,
+        "total_tokens": 1505
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1255,
+        "output_tokens": 21,
+        "total_tokens": 1276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1149,
+        "output_tokens": 21,
+        "total_tokens": 1170
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1350,
+        "output_tokens": 43,
+        "total_tokens": 1393
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1194,
+        "output_tokens": 36,
+        "total_tokens": 1230
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1305,
+        "output_tokens": 28,
+        "total_tokens": 1333
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1307,
+        "output_tokens": 28,
+        "total_tokens": 1335
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1206,
+        "output_tokens": 45,
+        "total_tokens": 1251
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1303,
+        "output_tokens": 39,
+        "total_tokens": 1342
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1617,
+        "output_tokens": 70,
+        "total_tokens": 1687
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1274,
+        "output_tokens": 327,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1480,
+        "output_tokens": 54,
+        "total_tokens": 1534
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1328,
+        "output_tokens": 44,
+        "total_tokens": 1372
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1248,
+        "output_tokens": 38,
+        "total_tokens": 1286
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1316,
+        "output_tokens": 50,
+        "total_tokens": 1366
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1400,
+        "output_tokens": 48,
+        "total_tokens": 1448
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1556,
+        "output_tokens": 45,
+        "total_tokens": 1601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1247,
+        "output_tokens": 73,
+        "total_tokens": 1320
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1409,
+        "output_tokens": 51,
+        "total_tokens": 1460
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 39,
+        "total_tokens": 1283
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1614,
+        "output_tokens": 55,
+        "total_tokens": 1669
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 64,
+        "total_tokens": 1726
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1196,
+        "output_tokens": 51,
+        "total_tokens": 1247
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 62,
+        "total_tokens": 1376
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1574,
+        "output_tokens": 76,
+        "total_tokens": 1650
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1299,
+        "output_tokens": 43,
+        "total_tokens": 1342
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2062,
+        "output_tokens": 75,
+        "total_tokens": 2137
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 98,
+        "total_tokens": 1862
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 47,
+        "total_tokens": 1413
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1594,
+        "output_tokens": 69,
+        "total_tokens": 1663
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1643,
+        "output_tokens": 54,
+        "total_tokens": 1697
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1658,
+        "output_tokens": 64,
+        "total_tokens": 1722
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1585,
+        "output_tokens": 59,
+        "total_tokens": 1644
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 105,
+        "total_tokens": 2196
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1602,
+        "output_tokens": 64,
+        "total_tokens": 1666
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1667,
+        "output_tokens": 65,
+        "total_tokens": 1732
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1356,
+        "output_tokens": 52,
+        "total_tokens": 1408
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1434,
+        "output_tokens": 476,
+        "total_tokens": 1910
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2087,
+        "output_tokens": 92,
+        "total_tokens": 2179
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1522,
+        "output_tokens": 202,
+        "total_tokens": 1724
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1695,
+        "output_tokens": 74,
+        "total_tokens": 1769
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1754,
+        "output_tokens": 72,
+        "total_tokens": 1826
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1239,
+        "output_tokens": 54,
+        "total_tokens": 1293
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 58,
+        "total_tokens": 1302
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1396,
+        "output_tokens": 274,
+        "total_tokens": 1670
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1849,
+        "output_tokens": 67,
+        "total_tokens": 1916
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2209,
+        "output_tokens": 67,
+        "total_tokens": 2276
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1244,
+        "output_tokens": 276,
+        "total_tokens": 1520
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1513,
+        "output_tokens": 73,
+        "total_tokens": 1586
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1736,
+        "output_tokens": 112,
+        "total_tokens": 1848
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1550,
+        "output_tokens": 122,
+        "total_tokens": 1672
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1491,
+        "output_tokens": 72,
+        "total_tokens": 1563
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2003,
+        "output_tokens": 88,
+        "total_tokens": 2091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1940,
+        "output_tokens": 65,
+        "total_tokens": 2005
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1317,
+        "output_tokens": 85,
+        "total_tokens": 1402
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1362,
+        "output_tokens": 64,
+        "total_tokens": 1426
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 301,
+        "output_tokens": 167,
+        "total_tokens": 468
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 924,
+        "total_tokens": 2725
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1819,
+        "output_tokens": 97,
+        "total_tokens": 1916
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2642,
+        "output_tokens": 139,
+        "total_tokens": 2781
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2191,
+        "output_tokens": 125,
+        "total_tokens": 2316
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 265,
+        "total_tokens": 2103
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1913,
+        "output_tokens": 96,
+        "total_tokens": 2009
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2069,
+        "output_tokens": 412,
+        "total_tokens": 2481
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1588,
+        "output_tokens": 87,
+        "total_tokens": 1675
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2158,
+        "output_tokens": 5564,
+        "total_tokens": 7722
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 191,
+        "total_tokens": 1801
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2704,
+        "output_tokens": 85,
+        "total_tokens": 2789
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2005,
+        "output_tokens": 125,
+        "total_tokens": 2130
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1555,
+        "output_tokens": 429,
+        "total_tokens": 1984
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2171,
+        "output_tokens": 124,
+        "total_tokens": 2295
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2013,
+        "output_tokens": 180,
+        "total_tokens": 2193
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 82,
+        "total_tokens": 1894
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1450,
+        "output_tokens": 78,
+        "total_tokens": 1528
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1744,
+        "output_tokens": 601,
+        "total_tokens": 2345
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1862,
+        "output_tokens": 87,
+        "total_tokens": 1949
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2467,
+        "output_tokens": 153,
+        "total_tokens": 2620
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1468,
+        "output_tokens": 152,
+        "total_tokens": 1620
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1619,
+        "output_tokens": 192,
+        "total_tokens": 1811
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1887,
+        "output_tokens": 729,
+        "total_tokens": 2616
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2017,
+        "output_tokens": 103,
+        "total_tokens": 2120
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1831,
+        "output_tokens": 1959,
+        "total_tokens": 3790
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2999,
+        "output_tokens": 137,
+        "total_tokens": 3136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1918,
+        "output_tokens": 246,
+        "total_tokens": 2164
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1932,
+        "output_tokens": 1306,
+        "total_tokens": 3238
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1608,
+        "output_tokens": 150,
+        "total_tokens": 1758
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1989,
+        "output_tokens": 388,
+        "total_tokens": 2377
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2147,
+        "output_tokens": 111,
+        "total_tokens": 2258
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1725,
+        "output_tokens": 7798,
+        "total_tokens": 9523
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2327,
+        "output_tokens": 390,
+        "total_tokens": 2717
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1436,
+        "output_tokens": 181,
+        "total_tokens": 1617
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1877,
+        "output_tokens": 531,
+        "total_tokens": 2408
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2197,
+        "output_tokens": 233,
+        "total_tokens": 2430
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1589,
+        "output_tokens": 561,
+        "total_tokens": 2150
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1738,
+        "output_tokens": 398,
+        "total_tokens": 2136
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1715,
+        "output_tokens": 142,
+        "total_tokens": 1857
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1803,
+        "output_tokens": 528,
+        "total_tokens": 2331
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 831,
+        "total_tokens": 2641
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1808,
+        "output_tokens": 613,
+        "total_tokens": 2421
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1515,
+        "output_tokens": 321,
+        "total_tokens": 1836
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1631,
+        "output_tokens": 122,
+        "total_tokens": 1753
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2258,
+        "output_tokens": 131,
+        "total_tokens": 2389
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1805,
+        "output_tokens": 182,
+        "total_tokens": 1987
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 2408,
+        "total_tokens": 4357
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1802,
+        "output_tokens": 170,
+        "total_tokens": 1972
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 133,
+        "total_tokens": 2002
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1842,
+        "output_tokens": 133,
+        "total_tokens": 1975
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1691,
+        "output_tokens": 109,
+        "total_tokens": 1800
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1460,
+        "output_tokens": 1313,
+        "total_tokens": 2773
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2134,
+        "output_tokens": 620,
+        "total_tokens": 2754
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2124,
+        "output_tokens": 187,
+        "total_tokens": 2311
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1484,
+        "output_tokens": 1173,
+        "total_tokens": 2657
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1712,
+        "output_tokens": 223,
+        "total_tokens": 1935
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2571,
+        "output_tokens": 155,
+        "total_tokens": 2726
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1971,
+        "output_tokens": 169,
+        "total_tokens": 2140
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1945,
+        "output_tokens": 168,
+        "total_tokens": 2113
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1527,
+        "output_tokens": 646,
+        "total_tokens": 2173
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1659,
+        "output_tokens": 776,
+        "total_tokens": 2435
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 243,
+        "total_tokens": 2413
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2071,
+        "output_tokens": 595,
+        "total_tokens": 2666
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1682,
+        "output_tokens": 2845,
+        "total_tokens": 4527
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 545,
+        "total_tokens": 2205
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2268,
+        "output_tokens": 217,
+        "total_tokens": 2485
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1552,
+        "output_tokens": 182,
+        "total_tokens": 1734
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2023,
+        "output_tokens": 207,
+        "total_tokens": 2230
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2091,
+        "output_tokens": 268,
+        "total_tokens": 2359
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1601,
+        "output_tokens": 772,
+        "total_tokens": 2373
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 127,
+        "total_tokens": 2185
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1859,
+        "output_tokens": 756,
+        "total_tokens": 2615
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1812,
+        "output_tokens": 628,
+        "total_tokens": 2440
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1622,
+        "output_tokens": 966,
+        "total_tokens": 2588
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1499,
+        "output_tokens": 188,
+        "total_tokens": 1687
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1817,
+        "output_tokens": 750,
+        "total_tokens": 2567
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1568,
+        "output_tokens": 267,
+        "total_tokens": 1835
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1993,
+        "output_tokens": 386,
+        "total_tokens": 2379
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2128,
+        "output_tokens": 1941,
+        "total_tokens": 4069
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3515,
+        "output_tokens": 948,
+        "total_tokens": 4463
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2802,
+        "output_tokens": 289,
+        "total_tokens": 3091
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2697,
+        "output_tokens": 904,
+        "total_tokens": 3601
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2745,
+        "output_tokens": 714,
+        "total_tokens": 3459
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2267,
+        "output_tokens": 413,
+        "total_tokens": 2680
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2169,
+        "output_tokens": 758,
+        "total_tokens": 2927
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2563,
+        "output_tokens": 473,
+        "total_tokens": 3036
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2538,
+        "output_tokens": 242,
+        "total_tokens": 2780
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3228,
+        "output_tokens": 847,
+        "total_tokens": 4075
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3765,
+        "output_tokens": 926,
+        "total_tokens": 4691
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2825,
+        "output_tokens": 604,
+        "total_tokens": 3429
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3372,
+        "output_tokens": 852,
+        "total_tokens": 4224
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3970,
+        "output_tokens": 664,
+        "total_tokens": 4634
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2759,
+        "output_tokens": 584,
+        "total_tokens": 3343
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4512,
+        "output_tokens": 1174,
+        "total_tokens": 5686
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3252,
+        "output_tokens": 646,
+        "total_tokens": 3898
+      },
+      "agent_name": "kimi-k2.5",
+      "mode": "copilot"
+    }
+  ],
+  "harness_times": {
+    "verilogeval_Prob001_zero_0001": 1.7639522552490234,
+    "verilogeval_Prob002_m2014_q4i_0001": 1.4835450649261475,
+    "verilogeval_Prob003_step_one_0001": 1.3940322399139404,
+    "verilogeval_Prob004_vector2_0001": 1.3410639762878418,
+    "verilogeval_Prob005_notgate_0001": 1.3392581939697266,
+    "verilogeval_Prob006_vectorr_0001": 1.5013821125030518,
+    "verilogeval_Prob007_wire_0001": 1.3402581214904785,
+    "verilogeval_Prob008_m2014_q4h_0001": 1.3898398876190186,
+    "verilogeval_Prob009_popcount3_0001": 1.5055432319641113,
+    "verilogeval_Prob010_mt2015_q4a_0001": 1.512091875076294,
+    "verilogeval_Prob011_norgate_0001": 1.3696160316467285,
+    "verilogeval_Prob012_xnorgate_0001": 1.3911919593811035,
+    "verilogeval_Prob013_m2014_q4e_0001": 1.4549670219421387,
+    "verilogeval_Prob014_andgate_0001": 1.7669739723205566,
+    "verilogeval_Prob015_vector1_0001": 1.6664528846740723,
+    "verilogeval_Prob016_m2014_q4j_0001": 1.3856089115142822,
+    "verilogeval_Prob017_mux2to1v_0001": 1.3356602191925049,
+    "verilogeval_Prob018_mux256to1_0001": 1.6083977222442627,
+    "verilogeval_Prob019_m2014_q4f_0001": 1.376682996749878,
+    "verilogeval_Prob020_mt2015_eq2_0001": 1.343667984008789,
+    "verilogeval_Prob021_mux256to1v_0001": 1.4559359550476074,
+    "verilogeval_Prob022_mux2to1_0001": 1.325713872909546,
+    "verilogeval_Prob023_vector100r_0001": 1.3854858875274658,
+    "verilogeval_Prob024_hadd_0001": 1.4524719715118408,
+    "verilogeval_Prob025_reduction_0001": 1.448014736175537,
+    "verilogeval_Prob026_alwaysblock1_0001": 1.4953548908233643,
+    "verilogeval_Prob027_fadd_0001": 1.8397932052612305,
+    "verilogeval_Prob028_m2014_q4a_0001": 1.626856803894043,
+    "verilogeval_Prob029_m2014_q4g_0001": 1.3856091499328613,
+    "verilogeval_Prob030_popcount255_0001": 1.521615743637085,
+    "verilogeval_Prob031_dff_0001": 1.4436540603637695,
+    "verilogeval_Prob032_vector0_0001": 1.4354941844940186,
+    "verilogeval_Prob033_ece241_2014_q1c_0001": 1.4846200942993164,
+    "verilogeval_Prob034_dff8_0001": 1.4924349784851074,
+    "verilogeval_Prob035_count1to10_0001": 1.4528887271881104,
+    "verilogeval_Prob036_ringer_0001": 1.5415737628936768,
+    "verilogeval_Prob037_review2015_count1k_0001": 1.6663649082183838,
+    "verilogeval_Prob038_count15_0001": 1.535841941833496,
+    "verilogeval_Prob039_always_if_0001": 1.4358370304107666,
+    "verilogeval_Prob040_count10_0001": 1.5495178699493408,
+    "verilogeval_Prob041_dff8r_0001": 1.495981216430664,
+    "verilogeval_Prob042_vector4_0001": 1.3927152156829834,
+    "verilogeval_Prob043_vector5_0001": 1.54231595993042,
+    "verilogeval_Prob044_vectorgates_0001": 1.609133005142212,
+    "verilogeval_Prob045_edgedetect2_0001": 1.807136058807373,
+    "verilogeval_Prob046_dff8p_0001": 1.4601151943206787,
+    "verilogeval_Prob047_dff8ar_0001": 1.6935093402862549,
+    "verilogeval_Prob048_m2014_q4c_0001": 1.6010410785675049,
+    "verilogeval_Prob049_m2014_q4b_0001": 1.7009949684143066,
+    "verilogeval_Prob050_kmap1_0001": 1.2355690002441406,
+    "verilogeval_Prob051_gates4_0001": 1.8348033428192139,
+    "verilogeval_Prob052_gates100_0001": 1.4922277927398682,
+    "verilogeval_Prob053_m2014_q4d_0001": 1.436110258102417,
+    "verilogeval_Prob054_edgedetect_0001": 1.4444310665130615,
+    "verilogeval_Prob055_conditional_0001": 1.4362199306488037,
+    "verilogeval_Prob056_ece241_2013_q7_0001": 1.502312183380127,
+    "verilogeval_Prob057_kmap2_0001": 1.4404339790344238,
+    "verilogeval_Prob058_alwaysblock2_0001": 1.3960988521575928,
+    "verilogeval_Prob059_wire4_0001": 1.4954161643981934,
+    "verilogeval_Prob060_m2014_q4k_0001": 1.5020089149475098,
+    "verilogeval_Prob061_2014_q4a_0001": 1.615328073501587,
+    "verilogeval_Prob062_bugs_0001": 1.4164419174194336,
+    "verilogeval_Prob062_bugs_mux2_0001": 1.55631422996521,
+    "verilogeval_Prob063_review2015_shiftcount_0001": 1.4571828842163086,
+    "verilogeval_Prob064_vector3_0001": 1.5543949604034424,
+    "verilogeval_Prob065_7420_0001": 1.5027899742126465,
+    "verilogeval_Prob066_edgecapture_0001": 1.442072868347168,
+    "verilogeval_Prob067_countslow_0001": 1.4331190586090088,
+    "verilogeval_Prob068_countbcd_0001": 1.7196369171142578,
+    "verilogeval_Prob069_truthtable1_0001": 1.5131909847259521,
+    "verilogeval_Prob070_ece241_2013_q2_0001": 1.1402301788330078,
+    "verilogeval_Prob071_always_casez_0001": 1.4461171627044678,
+    "verilogeval_Prob072_thermostat_0001": 1.5086479187011719,
+    "verilogeval_Prob073_dff16e_0001": 1.451524019241333,
+    "verilogeval_Prob074_ece241_2014_q4_0001": 1.1268601417541504,
+    "verilogeval_Prob075_counter_2bc_0001": 1.3997979164123535,
+    "verilogeval_Prob076_always_case_0001": 1.510430097579956,
+    "verilogeval_Prob077_wire_decl_0001": 1.7032301425933838,
+    "verilogeval_Prob078_dualedge_0001": 1.5032310485839844,
+    "verilogeval_Prob079_fsm3onehot_0001": 1.4554240703582764,
+    "verilogeval_Prob080_timer_0001": 1.8418049812316895,
+    "verilogeval_Prob081_7458_0001": 1.4464352130889893,
+    "verilogeval_Prob082_lfsr32_0001": 3.136275053024292,
+    "verilogeval_Prob083_mt2015_q4b_0001": 2.2374250888824463,
+    "verilogeval_Prob084_ece241_2013_q12_0001": 1.6210789680480957,
+    "verilogeval_Prob085_shift4_0001": 1.5469157695770264,
+    "verilogeval_Prob086_lfsr5_0001": 1.5421569347381592,
+    "verilogeval_Prob087_gates_0001": 1.6636970043182373,
+    "verilogeval_Prob088_ece241_2014_q5b_0001": 1.5431938171386719,
+    "verilogeval_Prob089_ece241_2014_q5a_0001": 1.1086390018463135,
+    "verilogeval_Prob090_circuit1_0001": 1.4572060108184814,
+    "verilogeval_Prob091_2012_q2b_0001": 1.7051713466644287,
+    "verilogeval_Prob092_gatesv100_0001": 1.559636116027832,
+    "verilogeval_Prob093_ece241_2014_q3_0001": 1.1235401630401611,
+    "verilogeval_Prob094_gatesv_0001": 1.6072628498077393,
+    "verilogeval_Prob095_review2015_fsmshift_0001": 2.1519317626953125,
+    "verilogeval_Prob096_review2015_fsmseq_0001": 1.7220606803894043,
+    "verilogeval_Prob097_mux9to1v_0001": 1.5988562107086182,
+    "verilogeval_Prob098_circuit7_0001": 1.1715669631958008,
+    "verilogeval_Prob099_m2014_q6c_0001": 1.5667948722839355,
+    "verilogeval_Prob100_fsm3comb_0001": 1.60823392868042,
+    "verilogeval_Prob101_circuit4_0001": 1.6704182624816895,
+    "verilogeval_Prob102_circuit3_0001": 1.539823055267334,
+    "verilogeval_Prob103_circuit2_0001": 2.295010805130005,
+    "verilogeval_Prob104_mt2015_muxdff_0001": 1.189197063446045,
+    "verilogeval_Prob105_rotate100_0001": 1.6562058925628662,
+    "verilogeval_Prob106_always_nolatches_0001": 1.8110389709472656,
+    "verilogeval_Prob107_fsm1s_0001": 1.5661110877990723,
+    "verilogeval_Prob108_rule90_0001": 1.1340460777282715,
+    "verilogeval_Prob109_fsm1_0001": 1.823202133178711,
+    "verilogeval_Prob110_fsm2_0001": 1.6049959659576416,
+    "verilogeval_Prob111_fsm2s_0001": 1.6406159400939941,
+    "verilogeval_Prob112_always_case2_0001": 1.5391318798065186,
+    "verilogeval_Prob113_2012_q1g_0001": 1.073962926864624,
+    "verilogeval_Prob114_bugs_case_0001": 1.599090814590454,
+    "verilogeval_Prob115_shift18_0001": 1.6565020084381104,
+    "verilogeval_Prob116_m2014_q3_0001": 1.1877498626708984,
+    "verilogeval_Prob117_circuit9_0001": 1.5538461208343506,
+    "verilogeval_Prob118_history_shift_0001": 1.5693941116333008,
+    "verilogeval_Prob119_fsm3_0001": 1.5517170429229736,
+    "verilogeval_Prob120_fsm3s_0001": 1.5652680397033691,
+    "verilogeval_Prob121_2014_q3bfsm_0001": 1.5595121383666992,
+    "verilogeval_Prob122_kmap4_0001": 1.1312158107757568,
+    "verilogeval_Prob123_bugs_addsubz_0001": 1.7186989784240723,
+    "verilogeval_Prob124_rule110_0001": 2.7739858627319336,
+    "verilogeval_Prob125_kmap3_0001": 1.4386670589447021,
+    "verilogeval_Prob126_circuit6_0001": 2.6677098274230957,
+    "verilogeval_Prob127_lemmings1_0001": 1.7159628868103027,
+    "verilogeval_Prob128_fsm_ps2_0001": 1.8159270286560059,
+    "verilogeval_Prob129_ece241_2013_q8_0001": 1.9756121635437012,
+    "verilogeval_Prob130_circuit5_0001": 1.710353136062622,
+    "verilogeval_Prob131_mt2015_q4_0001": 1.6000540256500244,
+    "verilogeval_Prob132_always_if2_0001": 2.159254789352417,
+    "verilogeval_Prob133_2014_q3fsm_0001": 1.872347116470337,
+    "verilogeval_Prob134_2014_q3c_0001": 1.821528673171997,
+    "verilogeval_Prob135_m2014_q6b_0001": 3.479659080505371,
+    "verilogeval_Prob136_m2014_q6_0001": 2.580979108810425,
+    "verilogeval_Prob137_fsm_serial_0001": 2.1139466762542725,
+    "verilogeval_Prob138_2012_q2fsm_0001": 1.888153076171875,
+    "verilogeval_Prob139_2013_q2bfsm_0001": 1.4522120952606201,
+    "verilogeval_Prob140_fsm_hdlc_0001": 1.3610708713531494,
+    "verilogeval_Prob141_count_clock_0001": 2.3772811889648438,
+    "verilogeval_Prob142_lemmings2_0001": 1.5165038108825684,
+    "verilogeval_Prob143_fsm_onehot_0001": 1.4634928703308105,
+    "verilogeval_Prob144_conwaylife_0001": 11.847028970718384,
+    "verilogeval_Prob145_circuit8_0001": 1.4081759452819824,
+    "verilogeval_Prob146_fsm_serialdata_0001": 1.506263256072998,
+    "verilogeval_Prob147_circuit10_0001": 0.9852919578552246,
+    "verilogeval_Prob148_2013_q2afsm_0001": 1.4030580520629883,
+    "verilogeval_Prob149_ece241_2013_q4_0001": 1.4099688529968262,
+    "verilogeval_Prob150_review2015_fsmonehot_0001": 1.5180928707122803,
+    "verilogeval_Prob151_review2015_fsm_0001": 1.024749755859375,
+    "verilogeval_Prob152_lemmings3_0001": 1.457124948501587,
+    "verilogeval_Prob153_gshare_0001": 1.3473560810089111,
+    "verilogeval_Prob154_fsm_ps2data_0001": 1.4642062187194824,
+    "verilogeval_Prob155_lemmings4_0001": 1.4582929611206055,
+    "verilogeval_Prob156_review2015_fancytimer_0001": 1.0713441371917725
+  },
+  "generated_at": "2026-04-03T17:44:30.389752"
+}
