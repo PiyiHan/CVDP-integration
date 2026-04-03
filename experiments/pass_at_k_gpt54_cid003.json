@@ -1,0 +1,21 @@
+{
+  "work_copilot-samples_gpt_nonagentic_cid003_n5": {
+    "model": "gpt-5.4",
+    "dataset": "/Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_nonagentic_cid003.copilot_transformed.jsonl",
+    "n_samples": 5,
+    "total_problems": 78,
+    "pass_at_k": {
+      "pass@1": 53.85,
+      "pass@3": 63.59,
+      "pass@5": 66.67
+    },
+    "pass_count_distribution": {
+      "0/5": 26,
+      "1/5": 5,
+      "2/5": 4,
+      "3/5": 5,
+      "4/5": 8,
+      "5/5": 30
+    }
+  }
+}

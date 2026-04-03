@@ -50,6 +50,7 @@ python3 scripts/compute_pass_at_k.py <dir1> <dir2> <dir3> --json experiments/pas
 | Model | Status | Samples | Output Directory |
 |-------|--------|---------|-----------------|
 | kimi-k2.5 | ✅ Completed | 5/5 | `work_copilot-samples_kimi_nonagentic_cid003_n5/` |
+| gpt-5.4 | ✅ Completed | 5/5 | `work_copilot-samples_gpt_nonagentic_cid003_n5/` |
 | qwen3.5-plus | ⏳ Running | - | `work_copilot-samples_qwen3.5_nonagentic_cid003_n5/` |
 | deepseek-v3.2 | ✅ Completed | 5/5 | `work_copilot-samples_deepseek_nonagentic_cid003_n5/` |
 | glm-5 | ❌ Skipped | - | - (too slow, replaced by qwen3.5-plus) |
@@ -59,6 +60,7 @@ python3 scripts/compute_pass_at_k.py <dir1> <dir2> <dir3> --json experiments/pas
 | Model | cid003 Status | VerilogEval Status | VerilogEval Output Directory |
 |-------|--------------|-------------------|------------------------------|
 | kimi-k2.5 | ✅ Completed | ✅ Completed | `work_copilot-samples_kimi_verilogeval_n5/` |
+| gpt-5.4 | ✅ Completed | 🔲 Not started | - |
 | qwen3.5-plus | ⏳ Running | 🔲 Not started | - |
 | deepseek-v3.2 | ✅ Completed | ✅ Completed | `work_copilot-samples_deepseek_verilogeval_n5/` |
 
@@ -229,10 +231,11 @@ Pricing via openai-proxy.org (exact rates unknown, using DeepSeek reference):
 | Model | Pass@1 | Pass@3 | Pass@5 | Easy | Medium | Total Tokens | Harness Time |
 |-------|--------|--------|--------|------|--------|-------------|-------------|
 | **kimi-k2.5** | **53.59%** | **65.13%** | **69.23%** | 71.71% | 33.51% | 904,699 | 3.93s |
+| gpt-5.4 | 53.85% | 63.59% | 66.67% | - | - | 755,738 | 4.04s |
 | deepseek-v3.2 | 40.00% | 54.23% | 61.54% | 55.12% | 23.24% | 722,976 | 3.33s |
 | qwen3.5-plus | ⏳ | ⏳ | ⏳ | - | - | - | - |
 
-pass@k uses the Codex formula: `pass@k = 1 - C(n-c, k) / C(n, k)` averaged over all problems, where n=5 and c is the number of correct samples per problem. kimi-k2.5 leads by ~13.6pp (pass@1) to ~7.7pp (pass@5).
+pass@k uses the Codex formula: `pass@k = 1 - C(n-c, k) / C(n, k)` averaged over all problems, where n=5 and c is the number of correct samples per problem. gpt-5.4 matches kimi-k2.5 at pass@1 (+0.26pp) but falls behind at pass@3 (-1.54pp) and pass@5 (-2.56pp). See `gpt54_cid003_benchmark_20260403.md` for full details.
 
 ---
 

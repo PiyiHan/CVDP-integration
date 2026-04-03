@@ -1,0 +1,3768 @@
+{
+  "summary": {
+    "total_problems": 364,
+    "successful": 364,
+    "failed": 0,
+    "total_tokens": {
+      "input": 493072,
+      "output": 262666,
+      "total": 755738
+    },
+    "total_cost": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total_time": 0,
+    "avg_time": 0.0,
+    "harness_time": {
+      "total": 314.79013895988464,
+      "avg": 4.035771012306213,
+      "min": 0,
+      "max": 41.290664196014404,
+      "count": 78
+    },
+    "by_mode": {
+      "copilot": {
+        "count": 364,
+        "success": 364,
+        "tokens": 755738,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "by_agent": {
+      "gpt-5.4": {
+        "count": 364,
+        "success": 364,
+        "tokens": 755738,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "success_rate": 100.0
+  },
+  "individual_metrics": [
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 1148,
+        "total_tokens": 2758
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 920,
+        "output_tokens": 186,
+        "total_tokens": 1106
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 416,
+        "output_tokens": 196,
+        "total_tokens": 612
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 709,
+        "output_tokens": 105,
+        "total_tokens": 814
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1098,
+        "output_tokens": 233,
+        "total_tokens": 1331
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 1321,
+        "total_tokens": 2621
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1672,
+        "output_tokens": 1307,
+        "total_tokens": 2979
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 799,
+        "total_tokens": 2609
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2621,
+        "output_tokens": 1357,
+        "total_tokens": 3978
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 867,
+        "output_tokens": 422,
+        "total_tokens": 1289
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3679,
+        "output_tokens": 2159,
+        "total_tokens": 5838
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1473,
+        "output_tokens": 1513,
+        "total_tokens": 2986
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 791,
+        "output_tokens": 119,
+        "total_tokens": 910
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 698,
+        "output_tokens": 502,
+        "total_tokens": 1200
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 653,
+        "output_tokens": 130,
+        "total_tokens": 783
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 805,
+        "output_tokens": 136,
+        "total_tokens": 941
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 819,
+        "output_tokens": 264,
+        "total_tokens": 1083
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1243,
+        "output_tokens": 1101,
+        "total_tokens": 2344
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 864,
+        "output_tokens": 377,
+        "total_tokens": 1241
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 563,
+        "output_tokens": 307,
+        "total_tokens": 870
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1017,
+        "output_tokens": 333,
+        "total_tokens": 1350
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 585,
+        "output_tokens": 385,
+        "total_tokens": 970
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1069,
+        "output_tokens": 1433,
+        "total_tokens": 2502
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1125,
+        "output_tokens": 593,
+        "total_tokens": 1718
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 510,
+        "output_tokens": 219,
+        "total_tokens": 729
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1120,
+        "output_tokens": 516,
+        "total_tokens": 1636
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 788,
+        "output_tokens": 434,
+        "total_tokens": 1222
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1073,
+        "output_tokens": 473,
+        "total_tokens": 1546
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1537,
+        "output_tokens": 1267,
+        "total_tokens": 2804
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 667,
+        "output_tokens": 392,
+        "total_tokens": 1059
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 909,
+        "output_tokens": 381,
+        "total_tokens": 1290
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 536,
+        "output_tokens": 198,
+        "total_tokens": 734
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 588,
+        "total_tokens": 1698
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1910,
+        "output_tokens": 1084,
+        "total_tokens": 2994
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 770,
+        "output_tokens": 548,
+        "total_tokens": 1318
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 355,
+        "total_tokens": 1465
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 636,
+        "output_tokens": 928,
+        "total_tokens": 1564
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1947,
+        "output_tokens": 535,
+        "total_tokens": 2482
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 875,
+        "output_tokens": 728,
+        "total_tokens": 1603
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2172,
+        "output_tokens": 1239,
+        "total_tokens": 3411
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1121,
+        "output_tokens": 207,
+        "total_tokens": 1328
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1520,
+        "output_tokens": 251,
+        "total_tokens": 1771
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 1528,
+        "total_tokens": 3492
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1624,
+        "output_tokens": 1065,
+        "total_tokens": 2689
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2616,
+        "output_tokens": 1283,
+        "total_tokens": 3899
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1015,
+        "output_tokens": 503,
+        "total_tokens": 1518
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 7288,
+        "output_tokens": 430,
+        "total_tokens": 7718
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1518,
+        "output_tokens": 1238,
+        "total_tokens": 2756
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 518,
+        "output_tokens": 260,
+        "total_tokens": 778
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 760,
+        "output_tokens": 524,
+        "total_tokens": 1284
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1077,
+        "output_tokens": 1277,
+        "total_tokens": 2354
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 387,
+        "output_tokens": 172,
+        "total_tokens": 559
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3023,
+        "output_tokens": 2067,
+        "total_tokens": 5090
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 685,
+        "output_tokens": 269,
+        "total_tokens": 954
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 570,
+        "output_tokens": 256,
+        "total_tokens": 826
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 641,
+        "output_tokens": 199,
+        "total_tokens": 840
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 586,
+        "total_tokens": 2064
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 617,
+        "total_tokens": 1729
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 567,
+        "output_tokens": 227,
+        "total_tokens": 794
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 925,
+        "output_tokens": 447,
+        "total_tokens": 1372
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1173,
+        "output_tokens": 688,
+        "total_tokens": 1861
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 944,
+        "output_tokens": 198,
+        "total_tokens": 1142
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1265,
+        "output_tokens": 87,
+        "total_tokens": 1352
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1240,
+        "output_tokens": 325,
+        "total_tokens": 1565
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 923,
+        "output_tokens": 566,
+        "total_tokens": 1489
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4809,
+        "output_tokens": 706,
+        "total_tokens": 5515
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 787,
+        "output_tokens": 340,
+        "total_tokens": 1127
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2057,
+        "output_tokens": 1670,
+        "total_tokens": 3727
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1904,
+        "output_tokens": 1150,
+        "total_tokens": 3054
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1107,
+        "output_tokens": 800,
+        "total_tokens": 1907
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1298,
+        "output_tokens": 596,
+        "total_tokens": 1894
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2015,
+        "output_tokens": 3666,
+        "total_tokens": 5681
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2515,
+        "output_tokens": 1389,
+        "total_tokens": 3904
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1042,
+        "output_tokens": 2113,
+        "total_tokens": 3155
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2972,
+        "output_tokens": 2538,
+        "total_tokens": 5510
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 861,
+        "total_tokens": 2671
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2621,
+        "output_tokens": 1312,
+        "total_tokens": 3933
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 867,
+        "output_tokens": 395,
+        "total_tokens": 1262
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3679,
+        "output_tokens": 2323,
+        "total_tokens": 6002
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1473,
+        "output_tokens": 1621,
+        "total_tokens": 3094
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 791,
+        "output_tokens": 112,
+        "total_tokens": 903
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 698,
+        "output_tokens": 539,
+        "total_tokens": 1237
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 653,
+        "output_tokens": 130,
+        "total_tokens": 783
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 805,
+        "output_tokens": 136,
+        "total_tokens": 941
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 819,
+        "output_tokens": 264,
+        "total_tokens": 1083
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1243,
+        "output_tokens": 1077,
+        "total_tokens": 2320
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 864,
+        "output_tokens": 406,
+        "total_tokens": 1270
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 563,
+        "output_tokens": 321,
+        "total_tokens": 884
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1017,
+        "output_tokens": 297,
+        "total_tokens": 1314
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 585,
+        "output_tokens": 391,
+        "total_tokens": 976
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1069,
+        "output_tokens": 1443,
+        "total_tokens": 2512
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1125,
+        "output_tokens": 661,
+        "total_tokens": 1786
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 510,
+        "output_tokens": 239,
+        "total_tokens": 749
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1120,
+        "output_tokens": 530,
+        "total_tokens": 1650
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 788,
+        "output_tokens": 404,
+        "total_tokens": 1192
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1073,
+        "output_tokens": 479,
+        "total_tokens": 1552
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1537,
+        "output_tokens": 1428,
+        "total_tokens": 2965
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 667,
+        "output_tokens": 454,
+        "total_tokens": 1121
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 909,
+        "output_tokens": 378,
+        "total_tokens": 1287
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 536,
+        "output_tokens": 197,
+        "total_tokens": 733
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 578,
+        "total_tokens": 1688
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1910,
+        "output_tokens": 1071,
+        "total_tokens": 2981
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 770,
+        "output_tokens": 557,
+        "total_tokens": 1327
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 371,
+        "total_tokens": 1481
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 636,
+        "output_tokens": 880,
+        "total_tokens": 1516
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1947,
+        "output_tokens": 575,
+        "total_tokens": 2522
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 875,
+        "output_tokens": 687,
+        "total_tokens": 1562
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2172,
+        "output_tokens": 1249,
+        "total_tokens": 3421
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1121,
+        "output_tokens": 200,
+        "total_tokens": 1321
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1520,
+        "output_tokens": 251,
+        "total_tokens": 1771
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 1572,
+        "total_tokens": 3536
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1624,
+        "output_tokens": 1065,
+        "total_tokens": 2689
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2616,
+        "output_tokens": 1645,
+        "total_tokens": 4261
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1015,
+        "output_tokens": 697,
+        "total_tokens": 1712
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 7288,
+        "output_tokens": 435,
+        "total_tokens": 7723
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1518,
+        "output_tokens": 1371,
+        "total_tokens": 2889
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 518,
+        "output_tokens": 242,
+        "total_tokens": 760
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 760,
+        "output_tokens": 325,
+        "total_tokens": 1085
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1077,
+        "output_tokens": 1401,
+        "total_tokens": 2478
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 387,
+        "output_tokens": 191,
+        "total_tokens": 578
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3023,
+        "output_tokens": 1721,
+        "total_tokens": 4744
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 685,
+        "output_tokens": 280,
+        "total_tokens": 965
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 570,
+        "output_tokens": 332,
+        "total_tokens": 902
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 641,
+        "output_tokens": 192,
+        "total_tokens": 833
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 1231,
+        "total_tokens": 2709
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 690,
+        "total_tokens": 1802
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 567,
+        "output_tokens": 229,
+        "total_tokens": 796
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 925,
+        "output_tokens": 418,
+        "total_tokens": 1343
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1173,
+        "output_tokens": 770,
+        "total_tokens": 1943
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 944,
+        "output_tokens": 201,
+        "total_tokens": 1145
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1265,
+        "output_tokens": 87,
+        "total_tokens": 1352
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1240,
+        "output_tokens": 333,
+        "total_tokens": 1573
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 923,
+        "output_tokens": 585,
+        "total_tokens": 1508
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4809,
+        "output_tokens": 790,
+        "total_tokens": 5599
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 787,
+        "output_tokens": 379,
+        "total_tokens": 1166
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2057,
+        "output_tokens": 1419,
+        "total_tokens": 3476
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1904,
+        "output_tokens": 1102,
+        "total_tokens": 3006
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1107,
+        "output_tokens": 794,
+        "total_tokens": 1901
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1298,
+        "output_tokens": 577,
+        "total_tokens": 1875
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2015,
+        "output_tokens": 1765,
+        "total_tokens": 3780
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2515,
+        "output_tokens": 1330,
+        "total_tokens": 3845
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1042,
+        "output_tokens": 2352,
+        "total_tokens": 3394
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 1072,
+        "total_tokens": 2682
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 920,
+        "output_tokens": 186,
+        "total_tokens": 1106
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 416,
+        "output_tokens": 196,
+        "total_tokens": 612
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 709,
+        "output_tokens": 105,
+        "total_tokens": 814
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1098,
+        "output_tokens": 248,
+        "total_tokens": 1346
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 976,
+        "total_tokens": 2276
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1672,
+        "output_tokens": 1312,
+        "total_tokens": 2984
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 978,
+        "total_tokens": 2788
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2621,
+        "output_tokens": 1456,
+        "total_tokens": 4077
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 867,
+        "output_tokens": 412,
+        "total_tokens": 1279
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3679,
+        "output_tokens": 2109,
+        "total_tokens": 5788
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1473,
+        "output_tokens": 1571,
+        "total_tokens": 3044
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 791,
+        "output_tokens": 117,
+        "total_tokens": 908
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 698,
+        "output_tokens": 516,
+        "total_tokens": 1214
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 653,
+        "output_tokens": 130,
+        "total_tokens": 783
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 805,
+        "output_tokens": 125,
+        "total_tokens": 930
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 819,
+        "output_tokens": 289,
+        "total_tokens": 1108
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1243,
+        "output_tokens": 1199,
+        "total_tokens": 2442
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 864,
+        "output_tokens": 411,
+        "total_tokens": 1275
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 563,
+        "output_tokens": 321,
+        "total_tokens": 884
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1017,
+        "output_tokens": 297,
+        "total_tokens": 1314
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 585,
+        "output_tokens": 289,
+        "total_tokens": 874
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1069,
+        "output_tokens": 1414,
+        "total_tokens": 2483
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1125,
+        "output_tokens": 635,
+        "total_tokens": 1760
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 510,
+        "output_tokens": 191,
+        "total_tokens": 701
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1120,
+        "output_tokens": 447,
+        "total_tokens": 1567
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 788,
+        "output_tokens": 423,
+        "total_tokens": 1211
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1073,
+        "output_tokens": 469,
+        "total_tokens": 1542
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1537,
+        "output_tokens": 1106,
+        "total_tokens": 2643
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 667,
+        "output_tokens": 383,
+        "total_tokens": 1050
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 909,
+        "output_tokens": 383,
+        "total_tokens": 1292
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 536,
+        "output_tokens": 198,
+        "total_tokens": 734
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 584,
+        "total_tokens": 1694
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1910,
+        "output_tokens": 1126,
+        "total_tokens": 3036
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 770,
+        "output_tokens": 557,
+        "total_tokens": 1327
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 355,
+        "total_tokens": 1465
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 636,
+        "output_tokens": 887,
+        "total_tokens": 1523
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1947,
+        "output_tokens": 537,
+        "total_tokens": 2484
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 875,
+        "output_tokens": 637,
+        "total_tokens": 1512
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2172,
+        "output_tokens": 1192,
+        "total_tokens": 3364
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1121,
+        "output_tokens": 194,
+        "total_tokens": 1315
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1520,
+        "output_tokens": 251,
+        "total_tokens": 1771
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 1505,
+        "total_tokens": 3469
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1624,
+        "output_tokens": 1063,
+        "total_tokens": 2687
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2616,
+        "output_tokens": 1097,
+        "total_tokens": 3713
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1015,
+        "output_tokens": 488,
+        "total_tokens": 1503
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 7288,
+        "output_tokens": 421,
+        "total_tokens": 7709
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1518,
+        "output_tokens": 1370,
+        "total_tokens": 2888
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 518,
+        "output_tokens": 265,
+        "total_tokens": 783
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 760,
+        "output_tokens": 438,
+        "total_tokens": 1198
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1077,
+        "output_tokens": 1237,
+        "total_tokens": 2314
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 387,
+        "output_tokens": 163,
+        "total_tokens": 550
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3023,
+        "output_tokens": 1934,
+        "total_tokens": 4957
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 685,
+        "output_tokens": 268,
+        "total_tokens": 953
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 570,
+        "output_tokens": 221,
+        "total_tokens": 791
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 641,
+        "output_tokens": 192,
+        "total_tokens": 833
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 676,
+        "total_tokens": 2154
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 691,
+        "total_tokens": 1803
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 567,
+        "output_tokens": 227,
+        "total_tokens": 794
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 925,
+        "output_tokens": 452,
+        "total_tokens": 1377
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1173,
+        "output_tokens": 685,
+        "total_tokens": 1858
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 944,
+        "output_tokens": 192,
+        "total_tokens": 1136
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1265,
+        "output_tokens": 87,
+        "total_tokens": 1352
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1240,
+        "output_tokens": 348,
+        "total_tokens": 1588
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 923,
+        "output_tokens": 538,
+        "total_tokens": 1461
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4809,
+        "output_tokens": 707,
+        "total_tokens": 5516
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 787,
+        "output_tokens": 346,
+        "total_tokens": 1133
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2057,
+        "output_tokens": 1607,
+        "total_tokens": 3664
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1904,
+        "output_tokens": 1194,
+        "total_tokens": 3098
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1107,
+        "output_tokens": 746,
+        "total_tokens": 1853
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1298,
+        "output_tokens": 624,
+        "total_tokens": 1922
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2015,
+        "output_tokens": 1628,
+        "total_tokens": 3643
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2515,
+        "output_tokens": 1348,
+        "total_tokens": 3863
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1042,
+        "output_tokens": 2055,
+        "total_tokens": 3097
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 1148,
+        "total_tokens": 2758
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 920,
+        "output_tokens": 186,
+        "total_tokens": 1106
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 416,
+        "output_tokens": 196,
+        "total_tokens": 612
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 709,
+        "output_tokens": 105,
+        "total_tokens": 814
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1098,
+        "output_tokens": 233,
+        "total_tokens": 1331
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 984,
+        "total_tokens": 2284
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1672,
+        "output_tokens": 1351,
+        "total_tokens": 3023
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 898,
+        "total_tokens": 2708
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2621,
+        "output_tokens": 1510,
+        "total_tokens": 4131
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 867,
+        "output_tokens": 407,
+        "total_tokens": 1274
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3679,
+        "output_tokens": 2464,
+        "total_tokens": 6143
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1473,
+        "output_tokens": 1445,
+        "total_tokens": 2918
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 791,
+        "output_tokens": 112,
+        "total_tokens": 903
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 698,
+        "output_tokens": 496,
+        "total_tokens": 1194
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 653,
+        "output_tokens": 130,
+        "total_tokens": 783
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 805,
+        "output_tokens": 125,
+        "total_tokens": 930
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 819,
+        "output_tokens": 257,
+        "total_tokens": 1076
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1243,
+        "output_tokens": 1305,
+        "total_tokens": 2548
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 864,
+        "output_tokens": 408,
+        "total_tokens": 1272
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 563,
+        "output_tokens": 307,
+        "total_tokens": 870
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1017,
+        "output_tokens": 297,
+        "total_tokens": 1314
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 585,
+        "output_tokens": 375,
+        "total_tokens": 960
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1069,
+        "output_tokens": 1187,
+        "total_tokens": 2256
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1125,
+        "output_tokens": 594,
+        "total_tokens": 1719
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 510,
+        "output_tokens": 176,
+        "total_tokens": 686
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1120,
+        "output_tokens": 533,
+        "total_tokens": 1653
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 788,
+        "output_tokens": 430,
+        "total_tokens": 1218
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1073,
+        "output_tokens": 498,
+        "total_tokens": 1571
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1537,
+        "output_tokens": 1262,
+        "total_tokens": 2799
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 667,
+        "output_tokens": 376,
+        "total_tokens": 1043
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 909,
+        "output_tokens": 407,
+        "total_tokens": 1316
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 536,
+        "output_tokens": 198,
+        "total_tokens": 734
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 608,
+        "total_tokens": 1718
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1910,
+        "output_tokens": 1138,
+        "total_tokens": 3048
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 770,
+        "output_tokens": 556,
+        "total_tokens": 1326
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 355,
+        "total_tokens": 1465
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 636,
+        "output_tokens": 828,
+        "total_tokens": 1464
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1947,
+        "output_tokens": 541,
+        "total_tokens": 2488
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 875,
+        "output_tokens": 628,
+        "total_tokens": 1503
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2172,
+        "output_tokens": 1207,
+        "total_tokens": 3379
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1121,
+        "output_tokens": 204,
+        "total_tokens": 1325
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1520,
+        "output_tokens": 251,
+        "total_tokens": 1771
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 1329,
+        "total_tokens": 3293
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1624,
+        "output_tokens": 1097,
+        "total_tokens": 2721
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2616,
+        "output_tokens": 1335,
+        "total_tokens": 3951
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1015,
+        "output_tokens": 483,
+        "total_tokens": 1498
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 7288,
+        "output_tokens": 426,
+        "total_tokens": 7714
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1518,
+        "output_tokens": 1370,
+        "total_tokens": 2888
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 518,
+        "output_tokens": 346,
+        "total_tokens": 864
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 760,
+        "output_tokens": 385,
+        "total_tokens": 1145
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1077,
+        "output_tokens": 1485,
+        "total_tokens": 2562
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 387,
+        "output_tokens": 191,
+        "total_tokens": 578
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3023,
+        "output_tokens": 1832,
+        "total_tokens": 4855
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 685,
+        "output_tokens": 268,
+        "total_tokens": 953
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 570,
+        "output_tokens": 272,
+        "total_tokens": 842
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 641,
+        "output_tokens": 192,
+        "total_tokens": 833
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 548,
+        "total_tokens": 2026
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 667,
+        "total_tokens": 1779
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 567,
+        "output_tokens": 227,
+        "total_tokens": 794
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 925,
+        "output_tokens": 444,
+        "total_tokens": 1369
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1173,
+        "output_tokens": 1157,
+        "total_tokens": 2330
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 944,
+        "output_tokens": 201,
+        "total_tokens": 1145
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1265,
+        "output_tokens": 87,
+        "total_tokens": 1352
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1240,
+        "output_tokens": 332,
+        "total_tokens": 1572
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 923,
+        "output_tokens": 602,
+        "total_tokens": 1525
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4809,
+        "output_tokens": 634,
+        "total_tokens": 5443
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 787,
+        "output_tokens": 346,
+        "total_tokens": 1133
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2057,
+        "output_tokens": 1511,
+        "total_tokens": 3568
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1904,
+        "output_tokens": 1597,
+        "total_tokens": 3501
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1107,
+        "output_tokens": 754,
+        "total_tokens": 1861
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1298,
+        "output_tokens": 596,
+        "total_tokens": 1894
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2015,
+        "output_tokens": 1813,
+        "total_tokens": 3828
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2515,
+        "output_tokens": 1333,
+        "total_tokens": 3848
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1042,
+        "output_tokens": 2027,
+        "total_tokens": 3069
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1610,
+        "output_tokens": 1062,
+        "total_tokens": 2672
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 920,
+        "output_tokens": 184,
+        "total_tokens": 1104
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 416,
+        "output_tokens": 196,
+        "total_tokens": 612
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 709,
+        "output_tokens": 105,
+        "total_tokens": 814
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1098,
+        "output_tokens": 195,
+        "total_tokens": 1293
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1300,
+        "output_tokens": 1181,
+        "total_tokens": 2481
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1672,
+        "output_tokens": 1323,
+        "total_tokens": 2995
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1810,
+        "output_tokens": 939,
+        "total_tokens": 2749
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2621,
+        "output_tokens": 1543,
+        "total_tokens": 4164
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 867,
+        "output_tokens": 411,
+        "total_tokens": 1278
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3679,
+        "output_tokens": 2553,
+        "total_tokens": 6232
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1473,
+        "output_tokens": 1423,
+        "total_tokens": 2896
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 791,
+        "output_tokens": 112,
+        "total_tokens": 903
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 698,
+        "output_tokens": 510,
+        "total_tokens": 1208
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 653,
+        "output_tokens": 130,
+        "total_tokens": 783
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 805,
+        "output_tokens": 136,
+        "total_tokens": 941
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 819,
+        "output_tokens": 242,
+        "total_tokens": 1061
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1243,
+        "output_tokens": 1202,
+        "total_tokens": 2445
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 864,
+        "output_tokens": 417,
+        "total_tokens": 1281
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 563,
+        "output_tokens": 321,
+        "total_tokens": 884
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1017,
+        "output_tokens": 307,
+        "total_tokens": 1324
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 585,
+        "output_tokens": 289,
+        "total_tokens": 874
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1069,
+        "output_tokens": 1436,
+        "total_tokens": 2505
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1125,
+        "output_tokens": 623,
+        "total_tokens": 1748
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 510,
+        "output_tokens": 176,
+        "total_tokens": 686
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1120,
+        "output_tokens": 572,
+        "total_tokens": 1692
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 788,
+        "output_tokens": 295,
+        "total_tokens": 1083
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1073,
+        "output_tokens": 473,
+        "total_tokens": 1546
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1537,
+        "output_tokens": 1299,
+        "total_tokens": 2836
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 667,
+        "output_tokens": 388,
+        "total_tokens": 1055
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 909,
+        "output_tokens": 383,
+        "total_tokens": 1292
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 536,
+        "output_tokens": 198,
+        "total_tokens": 734
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 584,
+        "total_tokens": 1694
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1910,
+        "output_tokens": 1190,
+        "total_tokens": 3100
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 770,
+        "output_tokens": 550,
+        "total_tokens": 1320
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1110,
+        "output_tokens": 355,
+        "total_tokens": 1465
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 636,
+        "output_tokens": 861,
+        "total_tokens": 1497
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1947,
+        "output_tokens": 549,
+        "total_tokens": 2496
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 875,
+        "output_tokens": 605,
+        "total_tokens": 1480
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2172,
+        "output_tokens": 1260,
+        "total_tokens": 3432
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1121,
+        "output_tokens": 242,
+        "total_tokens": 1363
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1520,
+        "output_tokens": 251,
+        "total_tokens": 1771
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1964,
+        "output_tokens": 1558,
+        "total_tokens": 3522
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1624,
+        "output_tokens": 1063,
+        "total_tokens": 2687
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2616,
+        "output_tokens": 1142,
+        "total_tokens": 3758
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1015,
+        "output_tokens": 493,
+        "total_tokens": 1508
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 7288,
+        "output_tokens": 1099,
+        "total_tokens": 8387
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1518,
+        "output_tokens": 1368,
+        "total_tokens": 2886
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 518,
+        "output_tokens": 242,
+        "total_tokens": 760
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 760,
+        "output_tokens": 345,
+        "total_tokens": 1105
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1077,
+        "output_tokens": 1508,
+        "total_tokens": 2585
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 387,
+        "output_tokens": 191,
+        "total_tokens": 578
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3023,
+        "output_tokens": 2008,
+        "total_tokens": 5031
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 685,
+        "output_tokens": 296,
+        "total_tokens": 981
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 570,
+        "output_tokens": 304,
+        "total_tokens": 874
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 641,
+        "output_tokens": 192,
+        "total_tokens": 833
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 592,
+        "total_tokens": 2070
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1112,
+        "output_tokens": 669,
+        "total_tokens": 1781
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 567,
+        "output_tokens": 227,
+        "total_tokens": 794
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 925,
+        "output_tokens": 447,
+        "total_tokens": 1372
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1173,
+        "output_tokens": 700,
+        "total_tokens": 1873
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 944,
+        "output_tokens": 194,
+        "total_tokens": 1138
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1265,
+        "output_tokens": 87,
+        "total_tokens": 1352
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1240,
+        "output_tokens": 333,
+        "total_tokens": 1573
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 923,
+        "output_tokens": 580,
+        "total_tokens": 1503
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4809,
+        "output_tokens": 498,
+        "total_tokens": 5307
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 787,
+        "output_tokens": 512,
+        "total_tokens": 1299
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2057,
+        "output_tokens": 1485,
+        "total_tokens": 3542
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1904,
+        "output_tokens": 1262,
+        "total_tokens": 3166
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1107,
+        "output_tokens": 791,
+        "total_tokens": 1898
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1298,
+        "output_tokens": 573,
+        "total_tokens": 1871
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2015,
+        "output_tokens": 1934,
+        "total_tokens": 3949
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2515,
+        "output_tokens": 1271,
+        "total_tokens": 3786
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1042,
+        "output_tokens": 2044,
+        "total_tokens": 3086
+      },
+      "agent_name": "gpt-5.4",
+      "mode": "copilot"
+    }
+  ],
+  "harness_times": {
+    "cvdp_copilot_16qam_mapper_0001": 8.490345001220703,
+    "cvdp_copilot_16qam_mapper_0006": 19.661244869232178,
+    "cvdp_copilot_64b66b_encoder_0001": 1.2491810321807861,
+    "cvdp_copilot_8x3_priority_encoder_0001": 3.977138042449951,
+    "cvdp_copilot_Carry_Lookahead_Adder_0001": 1.2074449062347412,
+    "cvdp_copilot_GFCM_0001": 1.613265037536621,
+    "cvdp_copilot_apb_dsp_unit_0001": 1.4590561389923096,
+    "cvdp_copilot_apb_gpio_0001": 2.530668020248413,
+    "cvdp_copilot_apb_history_shift_register_0001": 1.4107248783111572,
+    "cvdp_copilot_axi_register_0001": 3.490360736846924,
+    "cvdp_copilot_axi_stream_upscale_0001": 1.2499079704284668,
+    "cvdp_copilot_axil_precision_counter_0001": 1.6145448684692383,
+    "cvdp_copilot_axis_joiner_0001": 1.6684730052947998,
+    "cvdp_copilot_barrel_shifter_0001": 1.301569938659668,
+    "cvdp_copilot_bcd_counter_0001": 7.20327091217041,
+    "cvdp_copilot_bcd_to_excess_3_0001": 1.5831341743469238,
+    "cvdp_copilot_binary_to_one_hot_decoder_0001": 1.7690041065216064,
+    "cvdp_copilot_caesar_cipher_0001": 1.3436410427093506,
+    "cvdp_copilot_car_parking_management_0001": 2.2978429794311523,
+    "cvdp_copilot_cascaded_adder_0001": 29.748725175857544,
+    "cvdp_copilot_clock_divider_0003": 1.4256229400634766,
+    "cvdp_copilot_comparator_0001": 1.285876989364624,
+    "cvdp_copilot_complex_multiplier_0001": 1.4156270027160645,
+    "cvdp_copilot_concatenate_0001": 1.4200801849365234,
+    "cvdp_copilot_configurable_digital_low_pass_filter_0001": 41.290664196014404,
+    "cvdp_copilot_configurable_digital_low_pass_filter_0004": 11.184701919555664,
+    "cvdp_copilot_configurable_digital_low_pass_filter_0014": 3.480350971221924,
+    "cvdp_copilot_convolutional_encoder_0001": 1.358001947402954,
+    "cvdp_copilot_data_bus_controller_0001": 1.2580571174621582,
+    "cvdp_copilot_data_width_converter_0003": 1.3001272678375244,
+    "cvdp_copilot_dbi_0001": 1.2970850467681885,
+    "cvdp_copilot_decode_firstbit_0001": 2.027156114578247,
+    "cvdp_copilot_digital_dice_roller_0001": 1.304102897644043,
+    "cvdp_copilot_digital_stopwatch_0001": 2.384114980697632,
+    "cvdp_copilot_edge_detector_0001": 1.4592070579528809,
+    "cvdp_copilot_ethernet_packet_parser_0001": 1.1948869228363037,
+    "cvdp_copilot_events_to_apb_0001": 1.4479081630706787,
+    "cvdp_copilot_factorial_0001": 1.5318143367767334,
+    "cvdp_copilot_fibonacci_series_0001": 2.5681581497192383,
+    "cvdp_copilot_fifo_async_0001": 8.751088857650757,
+    "cvdp_copilot_filo_0005": 2.891993284225464,
+    "cvdp_copilot_fsm_seq_detector_0001": 2.6934990882873535,
+    "cvdp_copilot_gcd_0001": 1.2921278476715088,
+    "cvdp_copilot_gf_multiplier_0001": 1.3111989498138428,
+    "cvdp_copilot_hamming_code_tx_and_rx_0001": 1.362354040145874,
+    "cvdp_copilot_hamming_code_tx_and_rx_0003": 1.2981359958648682,
+    "cvdp_copilot_hebbian_rule_0017": 1.1550300121307373,
+    "cvdp_copilot_hill_cipher_0001": 2.4571340084075928,
+    "cvdp_copilot_load_store_unit_0001": 2.3124051094055176,
+    "cvdp_copilot_matrix_multiplier_0001": 12.2731032371521,
+    "cvdp_copilot_microcode_sequencer_0001": 1.7390718460083008,
+    "cvdp_copilot_morse_code_0001": 1.3101370334625244,
+    "cvdp_copilot_moving_average_0001": 2.6617159843444824,
+    "cvdp_copilot_nbit_swizzling_0001": 2.51505184173584,
+    "cvdp_copilot_packet_controller_0001": 1.8288040161132812,
+    "cvdp_copilot_palindrome_3b_0002": 1.0736589431762695,
+    "cvdp_copilot_perceptron_0001": 1.0309638977050781,
+    "cvdp_copilot_perf_counters_0001": 0,
+    "cvdp_copilot_perfect_squares_0001": 8.681792974472046,
+    "cvdp_copilot_piso_0001": 1.2975857257843018,
+    "cvdp_copilot_prbs_gen_0003": 18.044278144836426,
+    "cvdp_copilot_restoring_division_0001": 1.673527717590332,
+    "cvdp_copilot_reverse_bits_0001": 1.2389659881591797,
+    "cvdp_copilot_secure_read_write_bus_0001": 1.2885241508483887,
+    "cvdp_copilot_secure_read_write_register_bank_0001": 1.2432119846343994,
+    "cvdp_copilot_sequencial_binary_to_one_hot_decoder_0001": 1.0805799961090088,
+    "cvdp_copilot_serial_in_parallel_out_0004": 1.4170691967010498,
+    "cvdp_copilot_set_bit_calculator_0001": 1.429459810256958,
+    "cvdp_copilot_sorter_0001": 9.834744930267334,
+    "cvdp_copilot_static_branch_predict_0001": 1.3564081192016602,
+    "cvdp_copilot_sync_lifo_0001": 2.794275999069214,
+    "cvdp_copilot_sync_serial_communication_0001": 2.9208738803863525,
+    "cvdp_copilot_thermostat_0001": 1.2872610092163086,
+    "cvdp_copilot_ttc_lite_0001": 1.2987549304962158,
+    "cvdp_copilot_unpacker_one_hot_0001": 1.2399230003356934,
+    "cvdp_copilot_vending_machine_0001": 4.571764945983887,
+    "cvdp_copilot_vga_controller_0001": 25.241443157196045,
+    "cvdp_copilot_wb2ahb_0001": 1.3891322612762451
+  },
+  "generated_at": "2026-04-03T23:33:16.435943"
+}
