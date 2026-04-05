@@ -1,0 +1,82 @@
+{
+  "config": {
+    "model": "kimi-k2.5",
+    "agent": "ace-rtl-agent",
+    "dataset": "cvdp_v1.0.4_agentic_cid003.jsonl",
+    "mode": "agentic (full, single attempt)",
+    "api_base": "https://api.openai-proxy.org/v1",
+    "work_dir": "work_full_ace-rtl_agentic_cid003_kimi"
+  },
+  "overall": {
+    "total_problems": 34,
+    "passed_problems": 10,
+    "failed_problems": 24,
+    "problem_pass_rate": 29.41,
+    "wall_time_minutes": "~12",
+    "total_iterations": 17,
+    "problems_with_zero_iterations": 22
+  },
+  "by_difficulty": {
+    "easy": {
+      "total": 5,
+      "passed": 4,
+      "rate": 80.0
+    },
+    "medium": {
+      "total": 25,
+      "passed": 6,
+      "rate": 24.0
+    },
+    "hard": {
+      "total": 4,
+      "passed": 0,
+      "rate": 0.0
+    }
+  },
+  "passed_problems": [
+    "cvdp_agentic_binary_to_gray_0003",
+    "cvdp_agentic_byte_enable_ram_0002",
+    "cvdp_agentic_cellular_automata_0002",
+    "cvdp_agentic_cont_adder_0001",
+    "cvdp_agentic_direct_map_cache_0001",
+    "cvdp_agentic_event_scheduler_0001",
+    "cvdp_agentic_multiplexer_0001",
+    "cvdp_agentic_nbit_swizzling_0001",
+    "cvdp_agentic_signed_comparator_0001",
+    "cvdp_agentic_swizzler_0001"
+  ],
+  "failed_problems": [
+    "cvdp_agentic_DES_0001",
+    "cvdp_agentic_PCIe_endpoint_0001",
+    "cvdp_agentic_async_fifo_compute_ram_application_0001",
+    "cvdp_agentic_async_filo_0001",
+    "cvdp_agentic_axis_to_uart_0001",
+    "cvdp_agentic_axis_to_uart_0004",
+    "cvdp_agentic_cache_controller_0001",
+    "cvdp_agentic_cic_decimator_0001",
+    "cvdp_agentic_cipher_0001",
+    "cvdp_agentic_csr_using_apb_interface_0001",
+    "cvdp_agentic_dma_xfer_engine_0001",
+    "cvdp_agentic_door_lock_0001",
+    "cvdp_agentic_dynamic_equalizer_0001",
+    "cvdp_agentic_ethernet_mii_0004",
+    "cvdp_agentic_ethernet_mii_0006",
+    "cvdp_agentic_phase_rotation_0038",
+    "cvdp_agentic_queue_0001",
+    "cvdp_agentic_rc5_0001",
+    "cvdp_agentic_rgb_color_space_conversion_0001",
+    "cvdp_agentic_sigma_delta_audio_0001",
+    "cvdp_agentic_spi_complex_mult_0002",
+    "cvdp_agentic_sync_serial_communication_0001",
+    "cvdp_agentic_ttc_lite_0001",
+    "cvdp_agentic_universal_shift_reg_0001"
+  ],
+  "notes": [
+    "Pass rates from report.txt (harness evaluation) - authoritative source",
+    "ACE-RTL agent does not produce metrics.json - no token usage/cost data",
+    "22/34 problems had 0 iterations (agent error/crash before first iteration)",
+    "Wall time ~12 min (16:45-16:58)",
+    "Dataset: 34 problems (subset of 78 nonagentic cid003)",
+    "Not directly comparable with copilot-samples pass@k (different dataset + mode)"
+  ]
+}

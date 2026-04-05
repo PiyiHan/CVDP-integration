@@ -370,6 +370,92 @@ CVDP通过解析这些actions跟踪Agent行为并生成报告。
 2. 检查生成的RTL代码
 3. 验证文件扩展名（`.sv` vs `.v`）
 
+## ACE-RTL Agent
+
+### 概述
+
+`ace-rtl-agent` 是一个独立的 RTL 生成 Agent（Generator + Reflector + Coordinator + iverilog 仿真循环），与 `deco-meta-agent`（基于 promptrtl 框架）架构不同。
+
+**源码**: `/Users/peiyihan/Codes/Temp_code/mage-cvdp-integration-20260317/ace-rtl/`
+**Docker 构建文件**: `/Users/peiyihan/Codes/cvdp_integration/ace-rtl_agent/`
+
+### 与 deco-meta-agent 的区别
+
+| 特性 | ace-rtl-agent | deco-meta-agent |
+|------|---------------|-----------------|
+| 架构 | ACE 循环（Generator→Simulate→Reflector） | promptrtl ReAct（Thought→Action→Observation） |
+| LLM SDK | `openai` SDK 直接调用 | `langchain`（ChatOpenAI / ChatAnthropic） |
+| 模型配置 | `GENERATOR_MODEL`/`REFLECTOR_MODEL`/`SIMULATOR_MODEL`（fallback 到 `LLM_MODEL`） | `LLM_MODEL` |
+| API Base | `OPENAI_API_BASE` 环境变量（fallback 到 `api.shubiaobiao.cn/v1`） | `OPENAI_API_BASE` 环境变量 |
+| 测试台文件 | 必须在 `/code/verif/` 目录下 | 从 `context` 字段自动挂载 |
+| 输出格式 | stdout 日志，直接写 `/code/rtl/` 文件 | Memory JSON 文件 |
+
+### 数据集要求
+
+`ace-rtl-agent` **只能用于 agentic 数据集**（ID 格式 `cvdp_agentic_xxx`），且数据集中测试台文件必须在 `context` 字段的 `verif/` 路径下：
+
+```json
+{
+  "id": "cvdp_agentic_multiplexer_0001",
+  "context": {
+    "verif/multiplexer_tb.sv": "...",
+    "docs/specification.md": "..."
+  },
+  "prompt": "Design a multiplexer..."
+}
+```
+
+**不能用于 copilot 数据集**——即使加 `--force-agentic`，转换后的数据集仍将测试台放在 `harness.src/` 下，而 ace-rtl-agent 只在 `/code/verif/` 中查找。
+
+可用的 agentic 数据集：
+- `/Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_agentic_cid003.jsonl`（78 个问题）
+
+### 环境变量配置
+
+ace-rtl-agent 通过 `dataset_processor.py` 传入以下 Docker 容器环境变量：
+
+| 变量 | 默认值 | 说明 |
+|------|--------|------|
+| `OPENAI_USER_KEY` | — | API Key（必须设置，否则容器启动报错） |
+| `OPENAI_API_BASE` | `https://api.shubiaobiao.cn/v1` | OpenAI-compatible API endpoint |
+| `LLM_MODEL` | `gpt-4o-mini` | 默认模型（未单独设置 `GENERATOR_MODEL` 时使用） |
+| `GENERATOR_MODEL` | 同 `LLM_MODEL` | Generator 阶段使用的模型 |
+| `REFLECTOR_MODEL` | 同 `LLM_MODEL` | Reflector 阶段使用的模型 |
+| `SIMULATOR_MODEL` | 同 `LLM_MODEL` | Simulator 阶段使用的模型 |
+| `MAX_ITERATIONS` | `30` | 最大迭代次数 |
+| `GENERATOR_TEMP` | `1.2` | Generator 温度 |
+| `REFLECTOR_TEMP` | `0.7` | Reflector 温度 |
+
+**注意**: `OPENAI_API_BASE` 必须在宿主机上 `export`（不能只在 `.env` 中），因为 `dataset_processor.py` 用 `os.environ.get("OPENAI_API_BASE")` 读取。
+
+### 构建与使用
+
+```bash
+# 构建 Docker 镜像（修改源码后需重新构建）
+docker build --platform linux/arm64 \
+  -f /Users/peiyihan/Codes/cvdp_integration/ace-rtl_agent/Dockerfile-agent \
+  -t ace-rtl-agent \
+  /Users/peiyihan/Codes/Temp_code/mage-cvdp-integration-20260317/ace-rtl/
+
+# 单题测试
+export MODEL_TIMEOUT=180
+export OPENAI_API_BASE=https://api.openai-proxy.org/v1
+export LLM_MODEL=kimi-k2.5
+./cvdp_benchmark.sh --model kimi-k2.5 --api-base https://api.openai-proxy.org/v1 \
+  single /path/to/cvdp_v1.0.4_agentic_cid003.jsonl cvdp_agentic_multiplexer_0001
+
+# 注意：需先设置 AGENT_NAME="ace-rtl-agent"，或修改 cvdp_benchmark.sh 中的默认值
+```
+
+> **注意**: 当前 `cvdp_benchmark.sh` 中 `AGENT_NAME` 默认为 `deco-meta-agent`，使用 ace-rtl-agent 前需将其改为 `ace-rtl-agent`，或直接调用 `python3 run_benchmark.py`。
+
+### 已知限制
+
+1. **不支持 copilot 数据集**: `--force-agentic` 转换后测试台在 `harness.src/` 下，不在 agent 期望的 `/code/verif/` 路径
+2. **不支持 Claude 模型**: ACE-RTL 只使用 OpenAI SDK，不支持 Anthropic API
+3. **arch 不匹配警告**: Docker 仿真容器镜像是 linux/amd64，在 ARM Mac 上会打印平台警告，但通过 Rosetta 可正常运行
+4. **无 token 追踪**: ACE-RTL 的 OpenAI SDK 调用不输出 `metrics.json`（与 promptrtl 的 TokenUsageCallback 不同）
+
 ## 配置与环境变量
 
 ### 关键环境变量
@@ -752,3 +838,19 @@ python3 scripts/collect_metrics.py work_copilot-samples_xxx_n10/ --json summary.
 - `cvdp_benchmark/src/dataset_processor.py`: docker-compose environment 新增 `ANTHROPIC_API_KEY`（fallback 到 `OPENAI_USER_KEY`）和 `ANTHROPIC_API_BASE`（默认 `https://api.openai-proxy.org/anthropic`）
 
 **验证**: `claude-sonnet-4-6` 单题测试通过——Agent 成功读取规格文档、写入 S1-S7 RTL 文件，无 API 错误。Token 统计: 252,430 total tokens (232,978 input / 19,452 output)，20 次 LLM 调用。
+
+### 2026-04-05: ACE-RTL Agent 集成与配置修复
+
+**问题**: `ace-rtl-agent` 的 `config.py` 硬编码 `api_base = "https://api.shubiaobiao.cn/v1"`，忽略 `OPENAI_API_BASE` 环境变量；模型名使用 `GENERATOR_MODEL`/`REFLECTOR_MODEL`/`SIMULATOR_MODEL` 三个独立变量，不读 `LLM_MODEL`。
+
+**改动** (`ace-rtl/src/config.py`):
+- `api_base` 改为 `os.getenv("OPENAI_API_BASE", "https://api.shubiaobiao.cn/v1")`，优先使用环境变量
+- 新增 `default_model = os.getenv("LLM_MODEL", "gpt-4o-mini")`，三个模型变量的默认值从 `gpt-4o-mini` 改为 `default_model`
+- 保持向后兼容：不设置环境变量时行为不变
+
+**发现**:
+- ACE-RTL 只能在 **agentic 数据集** 上运行（测试台在 `context.verif/` 中），不能用 `--force-agentic` 转 copilot 数据集
+- ACE-RTL 不支持 Claude 模型（只用 OpenAI SDK）
+- ACE-RTL 无 token 追踪（不输出 `metrics.json`）
+
+**验证**: `kimi-k2.5` + `ace-rtl-agent` 在 `cvdp_agentic_multiplexer_0001` 上测试通过（1 次迭代生成成功，testbench 3/3 PASS）

@@ -1,0 +1,708 @@
+INFO:root:Custom model factory set, subjective model cache cleared
+INFO:root:Custom model factory set, subjective model cache cleared
+Queue timeout is disabled by default. Set QUEUE_TIMEOUT environment variable to enable it.
+LLM-based subjective scoring is enabled
+[INFO] Docker image 'patch_image' already exists...
+Transforming Copilot dataset to agentic format for /Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_agentic_cid003.jsonl...
+Created transformed dataset at /Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_agentic_cid003.agentic_transformed.jsonl with 34 entries
+Using transformed dataset: /Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_agentic_cid003.agentic_transformed.jsonl
+Generated Docker network name: cvdp-bridge-cvdp_v1-0-4_agentic_cid003-agentic_transformed-65ad8
+Creating Docker network for all Docker containers in this run...
+Docker network 'cvdp-bridge-cvdp_v1-0-4_agentic_cid003-agentic_transformed-65ad8' already exists
+[INFO] Docker image 'patch_image' already exists...
+
+=== Starting Preparation Phase ===
+Starting cvdp_agentic_DES_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_DES_0001
+Starting cvdp_agentic_PCIe_endpoint_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint_0001
+Starting cvdp_agentic_async_fifo_compute_ram_application_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application_0001
+Starting cvdp_agentic_async_filo_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_async_filo_0001
+Starting cvdp_agentic_axis_to_uart_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart_0001
+Starting cvdp_agentic_axis_to_uart_0004 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart_0004
+Starting cvdp_agentic_binary_to_gray_0003 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray_0003
+Starting cvdp_agentic_byte_enable_ram_0002 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram_0002
+Starting cvdp_agentic_cache_controller_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_cache_controller_0001
+Starting cvdp_agentic_cellular_automata_0002 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata_0002
+Starting cvdp_agentic_cic_decimator_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator_0001
+Starting cvdp_agentic_cipher_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_cipher_0001
+Starting cvdp_agentic_cont_adder_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_cont_adder_0001
+Starting cvdp_agentic_csr_using_apb_interface_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface_0001
+Starting cvdp_agentic_direct_map_cache_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache_0001
+Starting cvdp_agentic_dma_xfer_engine_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine_0001
+Starting cvdp_agentic_door_lock_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_door_lock_0001
+Starting cvdp_agentic_dynamic_equalizer_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer_0001
+Starting cvdp_agentic_ethernet_mii_0004 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii_0004
+Starting cvdp_agentic_ethernet_mii_0006 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii_0006
+Starting cvdp_agentic_event_scheduler_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler_0001
+Starting cvdp_agentic_multiplexer_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_multiplexer_0001
+Starting cvdp_agentic_nbit_swizzling_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling_0001
+Starting cvdp_agentic_phase_rotation_0038 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation_0038
+Starting cvdp_agentic_queue_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_queue_0001
+Starting cvdp_agentic_rc5_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_rc5_0001
+Starting cvdp_agentic_rgb_color_space_conversion_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion_0001
+Starting cvdp_agentic_sigma_delta_audio_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio_0001
+Starting cvdp_agentic_signed_comparator_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator_0001
+Starting cvdp_agentic_spi_complex_mult_0002 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult_0002
+Starting cvdp_agentic_swizzler_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_swizzler_0001
+Starting cvdp_agentic_sync_serial_communication_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication_0001
+Starting cvdp_agentic_ttc_lite_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite_0001
+Starting cvdp_agentic_universal_shift_reg_0001 repository execution...
+Creating harness environment for datapoint: work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg_0001
+All preparation tasks completed successfully
+=== Preparation Phase Complete ===
+
+Writing preparation results...
+
+=== Starting Agent Processing Phase ===
+Starting agent processing for cvdp_agentic_DES_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_DES/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1/run_docker_agent.sh
+Timeout for work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1/run_docker_agent.sh (600s) expired
+No container to kill
+ERROR:root:Agent process exited with non-zero status: 1
+Starting agent processing for cvdp_agentic_PCIe_endpoint_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_async_fifo_compute_ram_application_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_async_filo_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_async_filo/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_async_filo/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_filo/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_filo/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_async_filo/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_axis_to_uart_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_axis_to_uart_0004...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/4...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/reports/4_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/4/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/4/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/4/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_binary_to_gray_0003...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/harness/3...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/reports/3_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/harness/3/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/harness/3/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/harness/3/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_byte_enable_ram_0002...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/harness/2...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/reports/2_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/harness/2/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/harness/2/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/harness/2/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_cache_controller_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_cellular_automata_0002...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/harness/2...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/reports/2_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/harness/2/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/harness/2/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/harness/2/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_cic_decimator_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_cipher_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_cipher/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_cipher/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cipher/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cipher/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_cipher/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_cont_adder_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_csr_using_apb_interface_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_direct_map_cache_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_dma_xfer_engine_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_door_lock_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_door_lock/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_door_lock/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_door_lock/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_door_lock/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_door_lock/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_dynamic_equalizer_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_ethernet_mii_0004...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/4...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/reports/4_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/4/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/4/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/4/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_ethernet_mii_0006...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/6...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/reports/6_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/6/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/6/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/6/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_event_scheduler_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_multiplexer_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_nbit_swizzling_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_phase_rotation_0038...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/harness/38...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/reports/38_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/harness/38/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/harness/38/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/harness/38/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_queue_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_queue/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_queue/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_queue/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_queue/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_queue/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_rc5_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_rc5/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_rc5/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rc5/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rc5/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_rc5/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_rgb_color_space_conversion_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_sigma_delta_audio_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_signed_comparator_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_spi_complex_mult_0002...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/harness/2...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/reports/2_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/harness/2/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/harness/2/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/harness/2/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_swizzler_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_swizzler/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_swizzler/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_swizzler/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_swizzler/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_swizzler/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_sync_serial_communication_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_ttc_lite_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/harness/1/run_docker_agent.sh
+Starting agent processing for cvdp_agentic_universal_shift_reg_0001...
+[INFO] Using traditional directory-based mounting
+Running agent inside work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/harness/1...
+Agent output will be saved to: work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/reports/1_agent.txt
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/harness/1/docker-compose-agent.yml, not modifying
+Created agent script: /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/harness/1/run_docker_agent.sh
+Executing agent script: work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/harness/1/run_docker_agent.sh
+All agent processing tasks completed successfully
+=== Agent Processing Phase Complete ===
+
+
+=== Starting Execution Phase ===
+Starting cvdp_agentic_DES_0001 harness execution...
+WARNING:root:Found agent error for cvdp_agentic_DES_0001: Agent process exited with non-zero status: 1
+Running service: sanity:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_DES/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_des_1_1775378099-sanity-run-52e462c25255 Creating 
+ sanity The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_des_1_1775378099-sanity-run-52e462c25255 Created 
+
+Starting cvdp_agentic_PCIe_endpoint_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_PCIe_endpoint/harness/1/docker-compose.yml, not modifying
+ Image hdlc/sim:osvb Pulling 
+ Image hdlc/sim:osvb Pulled 
+ Container cvdp_agentic_pcie_endpoint_1_1775378101-direct-run-2431c42f79f7 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_pcie_endpoint_1_1775378101-direct-run-2431c42f79f7 Created 
+
+Starting cvdp_agentic_async_fifo_compute_ram_application_0001 harness execution...
+Running service: 01-new-tb:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_fifo_compute_ram_application/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_async_fifo_compute_ram_application_1_1775378104-01-new-tb-run-4515cdee1ed0 Creating 
+ 01-new-tb The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_async_fifo_compute_ram_application_1_1775378104-01-new-tb-run-4515cdee1ed0 Created 
+
+Starting cvdp_agentic_async_filo_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_filo/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_async_filo/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_async_filo_1_1775378105-direct-run-1f50169c9a22 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_async_filo_1_1775378105-direct-run-1f50169c9a22 Created 
+Starting cvdp_agentic_axis_to_uart_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_axis_to_uart_1_1775378108-direct Building 
+ Image cvdp_agentic_axis_to_uart_1_1775378108-direct Built 
+ Container cvdp_agentic_axis_to_uart_1_1775378108-direct-run-8c0ec583dda9 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_axis_to_uart_1_1775378108-direct-run-8c0ec583dda9 Created 
+
+Starting cvdp_agentic_axis_to_uart_0004 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/4/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_axis_to_uart/harness/4/docker-compose.yml, not modifying
+ Image cvdp_agentic_axis_to_uart_4_1775378110-direct Building 
+ Image cvdp_agentic_axis_to_uart_4_1775378110-direct Built 
+ Container cvdp_agentic_axis_to_uart_4_1775378110-direct-run-9ec2f4aa440d Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_axis_to_uart_4_1775378110-direct-run-9ec2f4aa440d Created 
+Starting cvdp_agentic_binary_to_gray_0003 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/harness/3/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_binary_to_gray/harness/3/docker-compose.yml, not modifying
+ Container cvdp_agentic_binary_to_gray_3_1775378124-direct-run-15bf18e0deae Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_binary_to_gray_3_1775378124-direct-run-15bf18e0deae Created 
+Starting cvdp_agentic_byte_enable_ram_0002 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/harness/2/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_byte_enable_ram/harness/2/docker-compose.yml, not modifying
+ Container cvdp_agentic_byte_enable_ram_2_1775378126-direct-run-32afd38229d8 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_byte_enable_ram_2_1775378126-direct-run-32afd38229d8 Created 
+Starting cvdp_agentic_cache_controller_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cache_controller/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_cache_controller_1_1775378128-direct-run-2effed7f3e3b Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_cache_controller_1_1775378128-direct-run-2effed7f3e3b Created 
+
+Starting cvdp_agentic_cellular_automata_0002 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/harness/2/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cellular_automata/harness/2/docker-compose.yml, not modifying
+ Container cvdp_agentic_cellular_automata_2_1775378129-direct-run-d8ca10d40da7 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_cellular_automata_2_1775378129-direct-run-d8ca10d40da7 Created 
+Starting cvdp_agentic_cic_decimator_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cic_decimator/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_cic_decimator_1_1775378143-direct-run-96271818465c Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_cic_decimator_1_1775378143-direct-run-96271818465c Created 
+
+Starting cvdp_agentic_cipher_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cipher/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cipher/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_cipher_1_1775378144-direct Building 
+ Image cvdp_agentic_cipher_1_1775378144-direct Built 
+ Container cvdp_agentic_cipher_1_1775378144-direct-run-3adcd4ca9705 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_cipher_1_1775378144-direct-run-3adcd4ca9705 Created 
+
+Starting cvdp_agentic_cont_adder_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_cont_adder/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_cont_adder_1_1775378146-direct Building 
+ Image cvdp_agentic_cont_adder_1_1775378146-direct Built 
+ Container cvdp_agentic_cont_adder_1_1775378146-direct-run-f08b2302e625 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_cont_adder_1_1775378146-direct-run-f08b2302e625 Created 
+Starting cvdp_agentic_csr_using_apb_interface_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_csr_using_apb_interface/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_csr_using_apb_interface_1_1775378148-direct-run-8c114e2d88e7 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_csr_using_apb_interface_1_1775378148-direct-run-8c114e2d88e7 Created 
+
+Starting cvdp_agentic_direct_map_cache_0001 harness execution...
+Running service: 01-new-tb:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_direct_map_cache/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_direct_map_cache_1_1775378150-01-new-tb-run-9b42b154138f Creating 
+ 01-new-tb The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_direct_map_cache_1_1775378150-01-new-tb-run-9b42b154138f Created 
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+/usr/local/lib/python3.9/dist-packages/cocotb/__init__.py:401: DeprecationWarning: RANDOM_SEED is deprecated in favor of COCOTB_RANDOM_SEED
+  warnings.warn(
+Starting cvdp_agentic_dma_xfer_engine_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dma_xfer_engine/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_dma_xfer_engine_1_1775378165-direct Building 
+ Image cvdp_agentic_dma_xfer_engine_1_1775378165-direct Built 
+ Container cvdp_agentic_dma_xfer_engine_1_1775378165-direct-run-109f48770060 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_dma_xfer_engine_1_1775378165-direct-run-109f48770060 Created 
+
+Starting cvdp_agentic_door_lock_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_door_lock/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_door_lock/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_door_lock_1_1775378167-direct-run-2e2546326bbf Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_door_lock_1_1775378167-direct-run-2e2546326bbf Created 
+
+Starting cvdp_agentic_dynamic_equalizer_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_dynamic_equalizer/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_dynamic_equalizer_1_1775378169-direct Building 
+ Image cvdp_agentic_dynamic_equalizer_1_1775378169-direct Built 
+ Container cvdp_agentic_dynamic_equalizer_1_1775378169-direct-run-292d7dc2cdfd Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_dynamic_equalizer_1_1775378169-direct-run-292d7dc2cdfd Created 
+
+Starting cvdp_agentic_ethernet_mii_0004 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/4/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/4/docker-compose.yml, not modifying
+ Container cvdp_agentic_ethernet_mii_4_1775378170-direct-run-43ce1bfa0247 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_ethernet_mii_4_1775378170-direct-run-43ce1bfa0247 Created 
+
+Starting cvdp_agentic_ethernet_mii_0006 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/6/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ethernet_mii/harness/6/docker-compose.yml, not modifying
+ Container cvdp_agentic_ethernet_mii_6_1775378172-direct-run-f0308dfa8b7c Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_ethernet_mii_6_1775378172-direct-run-f0308dfa8b7c Created 
+
+Starting cvdp_agentic_event_scheduler_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_event_scheduler/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_event_scheduler_1_1775378174-direct-run-2c9fb1ee7da5 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_event_scheduler_1_1775378174-direct-run-2c9fb1ee7da5 Created 
+Starting cvdp_agentic_multiplexer_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_multiplexer/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_multiplexer_1_1775378175-direct Building 
+ Image cvdp_agentic_multiplexer_1_1775378175-direct Built 
+ Container cvdp_agentic_multiplexer_1_1775378175-direct-run-04d9d31cd625 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_multiplexer_1_1775378175-direct-run-04d9d31cd625 Created 
+Starting cvdp_agentic_nbit_swizzling_0001 harness execution...
+Running service: 01-new-tb:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_nbit_swizzling/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_nbit_swizzling_1_1775378177-01-new-tb-run-1d274aa999ae Creating 
+ 01-new-tb The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_nbit_swizzling_1_1775378177-01-new-tb-run-1d274aa999ae Created 
+Starting cvdp_agentic_phase_rotation_0038 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/harness/38/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_phase_rotation/harness/38/docker-compose.yml, not modifying
+ Container cvdp_agentic_phase_rotation_38_1775378181-direct-run-5f152c0d4ad2 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_phase_rotation_38_1775378181-direct-run-5f152c0d4ad2 Created 
+
+Starting cvdp_agentic_queue_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_queue/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_queue/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_queue_1_1775378184-direct Building 
+ Image cvdp_agentic_queue_1_1775378184-direct Built 
+ Container cvdp_agentic_queue_1_1775378184-direct-run-52ab655f5e20 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_queue_1_1775378184-direct-run-52ab655f5e20 Created 
+
+Starting cvdp_agentic_rc5_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rc5/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rc5/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_rc5_1_1775378187-direct-run-88dac0c2345e Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_rc5_1_1775378187-direct-run-88dac0c2345e Created 
+
+Starting cvdp_agentic_rgb_color_space_conversion_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_rgb_color_space_conversion/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_rgb_color_space_conversion_1_1775378188-direct-run-5b94b756d020 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_rgb_color_space_conversion_1_1775378188-direct-run-5b94b756d020 Created 
+
+Starting cvdp_agentic_sigma_delta_audio_0001 harness execution...
+Running service: 01-new-tb:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sigma_delta_audio/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_sigma_delta_audio_1_1775378190-01-new-tb-run-017c6ce48acc Creating 
+ 01-new-tb The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_sigma_delta_audio_1_1775378190-01-new-tb-run-017c6ce48acc Created 
+
+Starting cvdp_agentic_signed_comparator_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_signed_comparator/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_signed_comparator_1_1775378194-direct Building 
+ Image cvdp_agentic_signed_comparator_1_1775378194-direct Built 
+ Container cvdp_agentic_signed_comparator_1_1775378194-direct-run-d17bd19ff214 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_signed_comparator_1_1775378194-direct-run-d17bd19ff214 Created 
+Starting cvdp_agentic_spi_complex_mult_0002 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/harness/2/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_spi_complex_mult/harness/2/docker-compose.yml, not modifying
+ Image cvdp_agentic_spi_complex_mult_2_1775378196-direct Building 
+ Image cvdp_agentic_spi_complex_mult_2_1775378196-direct Built 
+ Container cvdp_agentic_spi_complex_mult_2_1775378196-direct-run-4340fef89136 Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_spi_complex_mult_2_1775378196-direct-run-4340fef89136 Created 
+
+Starting cvdp_agentic_swizzler_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_swizzler/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_swizzler/harness/1/docker-compose.yml, not modifying
+ Image cvdp_agentic_swizzler_1_1775378198-direct Building 
+ Image cvdp_agentic_swizzler_1_1775378198-direct Built 
+ Container cvdp_agentic_swizzler_1_1775378198-direct-run-8e562917770c Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_swizzler_1_1775378198-direct-run-8e562917770c Created 
+Starting cvdp_agentic_sync_serial_communication_0001 harness execution...
+Running service: 1-new-tb:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_sync_serial_communication/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_sync_serial_communication_1_1775378200-1-new-tb-run-db5c34391b78 Creating 
+ 1-new-tb The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_sync_serial_communication_1_1775378200-1-new-tb-run-db5c34391b78 Created 
+
+Starting cvdp_agentic_ttc_lite_0001 harness execution...
+Running service: direct:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_ttc_lite/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_ttc_lite_1_1775378202-direct-run-5fefa1fdb65c Creating 
+ direct The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_ttc_lite_1_1775378202-direct-run-5fefa1fdb65c Created 
+
+Starting cvdp_agentic_universal_shift_reg_0001 harness execution...
+Running service: 01-new-tb:
+
+Ensuring /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/harness/1/docker-compose.yml has correct network configuration
+Default network already exists in /Users/peiyihan/Codes/cvdp_benchmark/work_full_deco_agentic_cid003/cvdp_agentic_universal_shift_reg/harness/1/docker-compose.yml, not modifying
+ Container cvdp_agentic_universal_shift_reg_1_1775378204-01-new-tb-run-8bcab569bbb0 Creating 
+ 01-new-tb The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested 
+ Container cvdp_agentic_universal_shift_reg_1_1775378204-01-new-tb-run-8bcab569bbb0 Created 
+All execution tasks completed successfully
+=== Execution Phase Complete ===
+
+
+=== Benchmark Report ===
+Dataset: /Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_agentic_cid003.agentic_transformed.jsonl
+Generated: 2026-04-05 16:36:47
+
+=== Run Configuration ===
+Golden Mode: No
+Patches Disabled: No
+Force Agentic: Yes
+Force Copilot: No
+Include Golden Patch: No
+Include Harness: No
+Model/Agent: deco-meta-agent
+=======================
+
+Generating text report: work_full_deco_agentic_cid003/report.txt
+Text report generated: work_full_deco_agentic_cid003/report.txt
+Benchmark execution time: Min: 0.0 - Max: 14.722448110580444 - Avg: 2.945748322350638
+Cleaning up Docker network: cvdp-bridge-cvdp_v1-0-4_agentic_cid003-agentic_transformed-65ad8
+Removing Docker network 'cvdp-bridge-cvdp_v1-0-4_agentic_cid003-agentic_transformed-65ad8'
+Successfully removed Docker network 'cvdp-bridge-cvdp_v1-0-4_agentic_cid003-agentic_transformed-65ad8'

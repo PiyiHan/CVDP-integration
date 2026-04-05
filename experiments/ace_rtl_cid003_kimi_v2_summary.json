@@ -1,0 +1,480 @@
+{
+  "summary": {
+    "total_problems": 33,
+    "successful": 32,
+    "failed": 1,
+    "total_tokens": {
+      "input": 415493,
+      "output": 253940,
+      "total": 669433
+    },
+    "total_cost": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total_time": 0,
+    "avg_time": 0.0,
+    "harness_time": {
+      "total": 93.65035653114319,
+      "avg": 2.754422250915976,
+      "min": 0.0,
+      "max": 14.26416802406311,
+      "count": 34
+    },
+    "by_mode": {
+      "agentic": {
+        "count": 33,
+        "success": 32,
+        "tokens": 669433,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "by_agent": {
+      "ace-rtl": {
+        "count": 33,
+        "success": 32,
+        "tokens": 669433,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "success_rate": 96.96969696969697
+  },
+  "individual_metrics": [
+    {
+      "success": false,
+      "tokens": {
+        "input_tokens": 339636,
+        "output_tokens": 164290,
+        "total_tokens": 503926
+      },
+      "llm_call_count": 90,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2216,
+        "output_tokens": 4096,
+        "total_tokens": 6312
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3848,
+        "output_tokens": 4096,
+        "total_tokens": 7944
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2025,
+        "output_tokens": 2153,
+        "total_tokens": 4178
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2317,
+        "output_tokens": 2661,
+        "total_tokens": 4978
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2304,
+        "output_tokens": 2607,
+        "total_tokens": 4911
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1789,
+        "output_tokens": 276,
+        "total_tokens": 2065
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1800,
+        "output_tokens": 2055,
+        "total_tokens": 3855
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1627,
+        "output_tokens": 2834,
+        "total_tokens": 4461
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1876,
+        "output_tokens": 1290,
+        "total_tokens": 3166
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1547,
+        "output_tokens": 2777,
+        "total_tokens": 4324
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1389,
+        "output_tokens": 2033,
+        "total_tokens": 3422
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2602,
+        "output_tokens": 1603,
+        "total_tokens": 4205
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 837,
+        "output_tokens": 2611,
+        "total_tokens": 3448
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2167,
+        "output_tokens": 4096,
+        "total_tokens": 6263
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2201,
+        "output_tokens": 3076,
+        "total_tokens": 5277
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2679,
+        "output_tokens": 3952,
+        "total_tokens": 6631
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 6416,
+        "output_tokens": 4096,
+        "total_tokens": 10512
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 6453,
+        "output_tokens": 4096,
+        "total_tokens": 10549
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2130,
+        "output_tokens": 2446,
+        "total_tokens": 4576
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2114,
+        "output_tokens": 1376,
+        "total_tokens": 3490
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2643,
+        "output_tokens": 2671,
+        "total_tokens": 5314
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1848,
+        "output_tokens": 3152,
+        "total_tokens": 5000
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1664,
+        "output_tokens": 2413,
+        "total_tokens": 4077
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1864,
+        "output_tokens": 3426,
+        "total_tokens": 5290
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3450,
+        "output_tokens": 4096,
+        "total_tokens": 7546
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1395,
+        "output_tokens": 4090,
+        "total_tokens": 5485
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3176,
+        "output_tokens": 1764,
+        "total_tokens": 4940
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1309,
+        "output_tokens": 4096,
+        "total_tokens": 5405
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1893,
+        "output_tokens": 2032,
+        "total_tokens": 3925
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3063,
+        "output_tokens": 4161,
+        "total_tokens": 7224
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1536,
+        "output_tokens": 2478,
+        "total_tokens": 4014
+      },
+      "llm_call_count": 1,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1679,
+        "output_tokens": 1041,
+        "total_tokens": 2720
+      },
+      "llm_call_count": 2,
+      "model": "kimi-k2.5",
+      "agent_name": "ace-rtl",
+      "mode": "agentic"
+    }
+  ],
+  "harness_times": {
+    "cvdp_agentic_DES_0001": 0.0,
+    "cvdp_agentic_PCIe_endpoint_0001": 1.4503097534179688,
+    "cvdp_agentic_async_fifo_compute_ram_application_0001": 1.0488269329071045,
+    "cvdp_agentic_async_filo_0001": 2.7399260997772217,
+    "cvdp_agentic_axis_to_uart_0001": 8.23547887802124,
+    "cvdp_agentic_axis_to_uart_0004": 14.26416802406311,
+    "cvdp_agentic_binary_to_gray_0003": 1.9331469535827637,
+    "cvdp_agentic_byte_enable_ram_0002": 1.3990247249603271,
+    "cvdp_agentic_cache_controller_0001": 1.1876091957092285,
+    "cvdp_agentic_cellular_automata_0002": 11.554682970046997,
+    "cvdp_agentic_cic_decimator_0001": 1.4028799533843994,
+    "cvdp_agentic_cipher_0001": 1.6633520126342773,
+    "cvdp_agentic_cont_adder_0001": 1.9139950275421143,
+    "cvdp_agentic_csr_using_apb_interface_0001": 1.7219140529632568,
+    "cvdp_agentic_direct_map_cache_0001": 0.0,
+    "cvdp_agentic_dma_xfer_engine_0001": 1.7079169750213623,
+    "cvdp_agentic_door_lock_0001": 4.380905866622925,
+    "cvdp_agentic_dynamic_equalizer_0001": 1.3325600624084473,
+    "cvdp_agentic_ethernet_mii_0004": 1.074760913848877,
+    "cvdp_agentic_ethernet_mii_0006": 1.8911898136138916,
+    "cvdp_agentic_event_scheduler_0001": 0,
+    "cvdp_agentic_multiplexer_0001": 2.0767431259155273,
+    "cvdp_agentic_nbit_swizzling_0001": 2.5245540142059326,
+    "cvdp_agentic_phase_rotation_0038": 10.542680740356445,
+    "cvdp_agentic_queue_0001": 1.559183120727539,
+    "cvdp_agentic_rc5_0001": 0.9590089321136475,
+    "cvdp_agentic_rgb_color_space_conversion_0001": 1.042659044265747,
+    "cvdp_agentic_sigma_delta_audio_0001": 1.7614269256591797,
+    "cvdp_agentic_signed_comparator_0001": 2.063918113708496,
+    "cvdp_agentic_spi_complex_mult_0002": 1.3332672119140625,
+    "cvdp_agentic_swizzler_0001": 2.263640880584717,
+    "cvdp_agentic_sync_serial_communication_0001": 2.5466392040252686,
+    "cvdp_agentic_ttc_lite_0001": 1.7099549770355225,
+    "cvdp_agentic_universal_shift_reg_0001": 2.364032030105591
+  },
+  "generated_at": "2026-04-05T23:45:09.344729"
+}
