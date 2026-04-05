@@ -136,7 +136,7 @@ full)
   DATASET="${2:-$DATASET_DIR}"
   PREFIX=$(make_prefix full "$AGENT_NAME" "$DATASET")
   export LLM_MODEL="$LLM_MODEL"
-  python run_benchmark.py -f "$DATASET" -l -g $AGENT_NAME -p "${3:-$PREFIX}"
+  python run_benchmark.py -f "$DATASET" -l -g $AGENT_NAME $FORCE_AGENTIC -p "${3:-$PREFIX}"
   ;;
 samples)
   DATASET="$2"
@@ -145,7 +145,7 @@ samples)
   PREFIX=$(make_prefix samples "$AGENT_NAME" "$DATASET" n=$N)
   cd "$CVDP_DIR"
   export LLM_MODEL="$LLM_MODEL"
-  python run_samples.py -f "$DATASET" -l -g $AGENT_NAME -n "$N" -k "$K" -p "${5:-$PREFIX}"
+  python run_samples.py -f "$DATASET" -l -g $AGENT_NAME $FORCE_AGENTIC -n "$N" -k "$K" -p "${5:-$PREFIX}"
   ;;
 single)
   cd "$CVDP_DIR"

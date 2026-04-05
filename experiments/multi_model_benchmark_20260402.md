@@ -51,7 +51,7 @@ python3 scripts/compute_pass_at_k.py <dir1> <dir2> <dir3> --json experiments/pas
 |-------|--------|---------|-----------------|
 | kimi-k2.5 | ✅ Completed | 5/5 | `work_copilot-samples_kimi_nonagentic_cid003_n5/` |
 | gpt-5.4 | ✅ Completed | 5/5 | `work_copilot-samples_gpt_nonagentic_cid003_n5/` |
-| qwen3.5-plus | ⏳ Running | - | `work_copilot-samples_qwen3.5_nonagentic_cid003_n5/` |
+| qwen3.5-plus | ✅ Completed | 5/5 | `work_copilot-samples_qwen3.5_nonagentic_cid003_n5/` |
 | deepseek-v3.2 | ✅ Completed | 5/5 | `work_copilot-samples_deepseek_nonagentic_cid003_n5/` |
 | glm-5 | ❌ Skipped | - | - (too slow, replaced by qwen3.5-plus) |
 
@@ -61,7 +61,7 @@ python3 scripts/compute_pass_at_k.py <dir1> <dir2> <dir3> --json experiments/pas
 |-------|--------------|-------------------|------------------------------|
 | kimi-k2.5 | ✅ Completed | ✅ Completed | `work_copilot-samples_kimi_verilogeval_n5/` |
 | gpt-5.4 | ✅ Completed | 🔲 Not started | - |
-| qwen3.5-plus | ⏳ Running | 🔲 Not started | - |
+| qwen3.5-plus | ✅ Completed | ✅ Completed | `work_copilot-samples_qwen3.5_verilogeval_n5/` |
 | deepseek-v3.2 | ✅ Completed | ✅ Completed | `work_copilot-samples_deepseek_verilogeval_n5/` |
 
 ---
@@ -226,6 +226,67 @@ Pricing via openai-proxy.org (exact rates unknown, using DeepSeek reference):
 
 ---
 
+## qwen3.5-plus Results
+
+### Benchmark Results (Pass@1, n=5)
+
+| Metric | Value |
+|--------|-------|
+| Total Problems | 78 |
+| **Pass Rate** | **37.44%** |
+| Pass@3 | **57.05%** |
+| Pass@5 | **62.82%** |
+
+**Per-Sample Pass Rates**:
+
+| Sample | Passed | Total | Rate |
+|--------|--------|-------|------|
+| 1 | 23 | 78 | 29.49% |
+| 2 | 31 | 78 | 39.74% |
+| 3 | 33 | 78 | 42.31% |
+| 4 | 31 | 78 | 39.74% |
+| 5 | 28 | 78 | 35.90% |
+
+**Pass@1 Distribution**:
+
+| Pass Count | Problems | % of Dataset |
+|------------|----------|--------------|
+| 0/5 | 29 | 37.18% |
+| 1/5 | 9 | 11.54% |
+| 2/5 | 9 | 11.54% |
+| 3/5 | 12 | 15.38% |
+| 4/5 | 12 | 15.38% |
+| 5/5 | 7 | 8.97% |
+
+### Token Usage (n=5, 295 problems total)
+
+| Metric | Value |
+|--------|-------|
+| Input Tokens | 417,349 |
+| Output Tokens | 2,376,261 |
+| **Total Tokens** | **2,793,610** |
+| Avg Tokens/Problem | 9,472 |
+
+### Harness Execution Time
+
+| Statistic | Value |
+|-----------|-------|
+| **Total Time** | **234.59s (3.91min)** |
+| **Average** | **3.01s/problem** |
+| Min | 0.00s |
+| Max | 40.03s |
+
+### Notes
+
+1. qwen3.5-plus has the lowest pass@1 (37.44%) among all 4 models on cid003
+2. Pass@3 (57.05%) and pass@5 (62.82%) are close to deepseek-v3.2, suggesting it solves different problems per sample but is inconsistent
+3. Notably highest token usage (2.79M) — ~3x more than other models, despite similar problem count (295 vs 296-370)
+4. Output tokens dominate (2.38M vs 417K input), suggesting very verbose code generation
+5. sample_1 significantly underperformed (29.49%), samples 2-4 were more consistent (39-42%)
+6. Proxy timeouts were frequent during the run, especially on sample_4 (sorter_0001 stalled ~20 min)
+
+---
+
 ## Cross-Model Comparison (cid003, n=5)
 
 | Model | Pass@1 | Pass@3 | Pass@5 | Easy | Medium | Total Tokens | Harness Time |
@@ -233,9 +294,9 @@ Pricing via openai-proxy.org (exact rates unknown, using DeepSeek reference):
 | **kimi-k2.5** | **53.59%** | **65.13%** | **69.23%** | 71.71% | 33.51% | 904,699 | 3.93s |
 | gpt-5.4 | 53.85% | 63.59% | 66.67% | - | - | 755,738 | 4.04s |
 | deepseek-v3.2 | 40.00% | 54.23% | 61.54% | 55.12% | 23.24% | 722,976 | 3.33s |
-| qwen3.5-plus | ⏳ | ⏳ | ⏳ | - | - | - | - |
+| qwen3.5-plus | 37.44% | 57.05% | 62.82% | - | - | 2,793,610 | 3.01s |
 
-pass@k uses the Codex formula: `pass@k = 1 - C(n-c, k) / C(n, k)` averaged over all problems, where n=5 and c is the number of correct samples per problem. gpt-5.4 matches kimi-k2.5 at pass@1 (+0.26pp) but falls behind at pass@3 (-1.54pp) and pass@5 (-2.56pp). See `gpt54_cid003_benchmark_20260403.md` for full details.
+pass@k uses the Codex formula: `pass@k = 1 - C(n-c, k) / C(n, k)` averaged over all problems, where n=5 and c is the number of correct samples per problem. gpt-5.4 matches kimi-k2.5 at pass@1 (+0.26pp) but falls behind at pass@3 (-1.54pp) and pass@5 (-2.56pp). qwen3.5-plus has the lowest pass@1 (37.44%) but competitive pass@3/5, with notably the highest token usage (2.79M). See `gpt54_cid003_benchmark_20260403.md` for full details.
 
 ---
 
@@ -339,14 +400,72 @@ pass@k uses the Codex formula: `pass@k = 1 - C(n-c, k) / C(n, k)` averaged over 
 | Min | 1.29s |
 | Max | 6.97s |
 
+### qwen3.5-plus VerilogEval Results (Pass@1, n=5)
+
+| Metric | Value |
+|--------|-------|
+| Total Problems | 157 |
+| **Pass Rate** | **87.26%** |
+| Pass@3 | **97.01%** |
+| Pass@5 | **97.45%** |
+
+**Per-Sample Pass Rates**:
+
+| Sample | Passed | Total | Rate |
+|--------|--------|-------|------|
+| 1 | 139 | 157 | 88.54% |
+| 2 | 139 | 157 | 88.54% |
+| 3 | 136 | 157 | 86.62% |
+| 4 | 135 | 157 | 85.99% |
+| 5 | 136 | 157 | 86.62% |
+
+**Pass@1 Distribution**:
+
+| Pass Count | Problems | % of Dataset |
+|------------|----------|--------------|
+| 0/5 | 4 | 2.55% |
+| 1/5 | 1 | 0.64% |
+| 2/5 | 3 | 1.91% |
+| 3/5 | 10 | 6.37% |
+| 4/5 | 47 | 29.94% |
+| 5/5 | 92 | 58.60% |
+
+**Token Usage** (n=5, 785 problems total):
+
+| Metric | Value |
+|--------|-------|
+| Input Tokens | 1,587,855 |
+| Output Tokens | 3,206,140 |
+| **Total Tokens** | **4,793,995** |
+| Avg Tokens/Problem | 3,054 |
+
+**Harness Execution Time**:
+
+| Statistic | Value |
+|-----------|-------|
+| **Total Time** | **220.98s (3.68min)** |
+| **Average** | **1.41s/problem** |
+| Min | 1.01s |
+| Max | 2.54s |
+
+### Notes
+
+1. qwen3.5-plus has outstanding pass@3 (97.01%) and pass@5 (97.45%) on VerilogEval — best among all models
+2. pass@1 (87.26%) is slightly below kimi-k2.5 (88.15%) but well above deepseek-v3.2 (84.08%)
+3. The large gap between pass@1 (87.26%) and pass@5 (97.45%) means many problems are solved by at least 1 out of 5 samples but not consistently
+4. Only 4 problems (2.55%) are never solved (0/5), compared to 9 for kimi and 8 for deepseek
+5. Token usage is ~3.4x higher than other models (4.79M vs ~1.39M), consistent with cid003 behavior
+6. Output tokens (3.21M) are 2x the input (1.59M), suggesting verbose Verilog generation
+
 ### VerilogEval Cross-Model Comparison
 
 | Model | Pass@1 | Pass@3 | Pass@5 | Total Tokens | Avg Tokens/Problem | Harness Time |
 |-------|--------|--------|--------|-------------|-------------------|-------------|
-| **kimi-k2.5** | **88.15%** | **92.10%** | **94.27%** | 1,395,010 | 2,221 | 1.64s |
+| kimi-k2.5 | **88.15%** | 92.10% | 94.27% | 1,395,010 | 2,221 | 1.64s |
+| qwen3.5-plus | 87.26% | **97.01%** | **97.45%** | 4,793,995 | 3,054 | 1.41s |
 | deepseek-v3.2 | 84.08% | 93.12% | 94.90% | 1,387,320 | 2,210 | 1.71s |
 
-kimi-k2.5 leads by ~4pp on pass@1, but deepseek-v3.2 slightly surpasses on pass@3 (+1pp) and pass@5 (+0.6pp), suggesting deepseek-v3.2 has better consistency for the problems it can solve. VerilogEval is notably easier than cid003 (84-88% vs 40-54% at pass@1).
+qwen3.5-plus dominates VerilogEval at pass@3 (97.01%) and pass@5 (97.45%), far surpassing kimi-k2.5 (92.10%/94.27%) and deepseek-v3.2 (93.12%/94.90%). Its pass@1 (87.26%) is comparable to kimi-k2.5 (88.15%). The high pass@3/5 gap over pass@1 suggests it solves different problems per sample. However, it uses ~3.4x more tokens than other models.
 
 ---
 

@@ -1,0 +1,8057 @@
+{
+  "summary": {
+    "total_problems": 785,
+    "successful": 785,
+    "failed": 0,
+    "total_tokens": {
+      "input": 1587855,
+      "output": 3206140,
+      "total": 4793995
+    },
+    "total_cost": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total_time": 0,
+    "avg_time": 0.0,
+    "harness_time": {
+      "total": 220.9772334098816,
+      "avg": 1.4074983019737681,
+      "min": 1.0112519264221191,
+      "max": 2.537515878677368,
+      "count": 157
+    },
+    "by_mode": {
+      "copilot": {
+        "count": 785,
+        "success": 785,
+        "tokens": 4793995,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "by_agent": {
+      "qwen3.5-plus": {
+        "count": 785,
+        "success": 785,
+        "tokens": 4793995,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "success_rate": 100.0
+  },
+  "individual_metrics": [
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 3392,
+        "total_tokens": 4694
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1210,
+        "output_tokens": 4929,
+        "total_tokens": 6139
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1315,
+        "output_tokens": 5149,
+        "total_tokens": 6464
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1477,
+        "output_tokens": 3457,
+        "total_tokens": 4934
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1378,
+        "output_tokens": 4665,
+        "total_tokens": 6043
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1584,
+        "output_tokens": 5553,
+        "total_tokens": 7137
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1382,
+        "output_tokens": 2617,
+        "total_tokens": 3999
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1257,
+        "output_tokens": 5265,
+        "total_tokens": 6522
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 4195,
+        "total_tokens": 5673
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 4091,
+        "total_tokens": 5405
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1445,
+        "output_tokens": 3119,
+        "total_tokens": 4564
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1448,
+        "output_tokens": 4446,
+        "total_tokens": 5894
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1323,
+        "output_tokens": 4214,
+        "total_tokens": 5537
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 3010,
+        "total_tokens": 4453
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1769,
+        "output_tokens": 5666,
+        "total_tokens": 7435
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1389,
+        "output_tokens": 7699,
+        "total_tokens": 9088
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1646,
+        "output_tokens": 4293,
+        "total_tokens": 5939
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1466,
+        "output_tokens": 4324,
+        "total_tokens": 5790
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1365,
+        "output_tokens": 2763,
+        "total_tokens": 4128
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 4449,
+        "total_tokens": 5892
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1540,
+        "output_tokens": 7303,
+        "total_tokens": 8843
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1739,
+        "output_tokens": 6077,
+        "total_tokens": 7816
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1373,
+        "output_tokens": 6084,
+        "total_tokens": 7457
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1541,
+        "output_tokens": 4448,
+        "total_tokens": 5989
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1355,
+        "output_tokens": 4983,
+        "total_tokens": 6338
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 5446,
+        "total_tokens": 7247
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 4754,
+        "total_tokens": 6597
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 3560,
+        "total_tokens": 4881
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 5620,
+        "total_tokens": 7058
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1767,
+        "output_tokens": 4195,
+        "total_tokens": 5962
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 3647,
+        "total_tokens": 5085
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2231,
+        "output_tokens": 1843,
+        "total_tokens": 4074
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 6024,
+        "total_tokens": 7973
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 6295,
+        "total_tokens": 7801
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1759,
+        "output_tokens": 4745,
+        "total_tokens": 6504
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1784,
+        "output_tokens": 3358,
+        "total_tokens": 5142
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 6227,
+        "total_tokens": 8065
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1750,
+        "output_tokens": 5107,
+        "total_tokens": 6857
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2333,
+        "output_tokens": 5159,
+        "total_tokens": 7492
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1766,
+        "output_tokens": 4291,
+        "total_tokens": 6057
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 3857,
+        "total_tokens": 5695
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1490,
+        "output_tokens": 6012,
+        "total_tokens": 7502
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 5745,
+        "total_tokens": 7341
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2260,
+        "output_tokens": 5602,
+        "total_tokens": 7862
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1669,
+        "output_tokens": 3483,
+        "total_tokens": 5152
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 6719,
+        "total_tokens": 8588
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1935,
+        "output_tokens": 6356,
+        "total_tokens": 8291
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 3033,
+        "total_tokens": 4399
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 7429,
+        "total_tokens": 8800
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1553,
+        "output_tokens": 5079,
+        "total_tokens": 6632
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 3706,
+        "total_tokens": 5716
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2439,
+        "output_tokens": 2249,
+        "total_tokens": 4688
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1361,
+        "output_tokens": 6759,
+        "total_tokens": 8120
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 5939,
+        "total_tokens": 7601
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1905,
+        "output_tokens": 6364,
+        "total_tokens": 8269
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1709,
+        "output_tokens": 5612,
+        "total_tokens": 7321
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 9095,
+        "total_tokens": 10755
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2214,
+        "output_tokens": 5618,
+        "total_tokens": 7832
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2125,
+        "output_tokens": 5518,
+        "total_tokens": 7643
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1452,
+        "output_tokens": 3552,
+        "total_tokens": 5004
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1507,
+        "output_tokens": 3362,
+        "total_tokens": 4869
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 317,
+        "output_tokens": 7421,
+        "total_tokens": 7738
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1974,
+        "output_tokens": 8467,
+        "total_tokens": 10441
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 4397,
+        "total_tokens": 6407
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2889,
+        "output_tokens": 3814,
+        "total_tokens": 6703
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2401,
+        "output_tokens": 3232,
+        "total_tokens": 5633
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 6540,
+        "total_tokens": 8607
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 2686,
+        "total_tokens": 4804
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 5038,
+        "total_tokens": 7339
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1732,
+        "output_tokens": 6067,
+        "total_tokens": 7799
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 2159,
+        "total_tokens": 4537
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1763,
+        "output_tokens": 5716,
+        "total_tokens": 7479
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2986,
+        "output_tokens": 6872,
+        "total_tokens": 9858
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2227,
+        "output_tokens": 5095,
+        "total_tokens": 7322
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1708,
+        "output_tokens": 6028,
+        "total_tokens": 7736
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 4515,
+        "total_tokens": 6893
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2206,
+        "output_tokens": 3631,
+        "total_tokens": 5837
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1988,
+        "output_tokens": 2182,
+        "total_tokens": 4170
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 6317,
+        "total_tokens": 7914
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1889,
+        "output_tokens": 5057,
+        "total_tokens": 6946
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2055,
+        "output_tokens": 5835,
+        "total_tokens": 7890
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2693,
+        "output_tokens": 6349,
+        "total_tokens": 9042
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1621,
+        "output_tokens": 6056,
+        "total_tokens": 7677
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1777,
+        "output_tokens": 4933,
+        "total_tokens": 6710
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2098,
+        "output_tokens": 6137,
+        "total_tokens": 8235
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 5656,
+        "total_tokens": 7903
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2007,
+        "output_tokens": 4848,
+        "total_tokens": 6855
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3266,
+        "output_tokens": 5226,
+        "total_tokens": 8492
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 6252,
+        "total_tokens": 8370
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2135,
+        "output_tokens": 1511,
+        "total_tokens": 3646
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 2252,
+        "total_tokens": 4016
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 642,
+        "total_tokens": 2812
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2266,
+        "output_tokens": 741,
+        "total_tokens": 3007
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1891,
+        "output_tokens": 2290,
+        "total_tokens": 4181
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2433,
+        "output_tokens": 586,
+        "total_tokens": 3019
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1559,
+        "output_tokens": 5302,
+        "total_tokens": 6861
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2086,
+        "output_tokens": 707,
+        "total_tokens": 2793
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 5260,
+        "total_tokens": 7746
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 625,
+        "total_tokens": 2370
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1902,
+        "output_tokens": 603,
+        "total_tokens": 2505
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1854,
+        "output_tokens": 5490,
+        "total_tokens": 7344
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1976,
+        "output_tokens": 877,
+        "total_tokens": 2853
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1983,
+        "output_tokens": 1201,
+        "total_tokens": 3184
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1981,
+        "output_tokens": 757,
+        "total_tokens": 2738
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1665,
+        "output_tokens": 7486,
+        "total_tokens": 9151
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 858,
+        "total_tokens": 2676
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2492,
+        "output_tokens": 4573,
+        "total_tokens": 7065
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1995,
+        "output_tokens": 5670,
+        "total_tokens": 7665
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 5130,
+        "total_tokens": 7323
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 6675,
+        "total_tokens": 8671
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2085,
+        "output_tokens": 4239,
+        "total_tokens": 6324
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 4783,
+        "total_tokens": 6835
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 5020,
+        "total_tokens": 6863
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1598,
+        "output_tokens": 1802,
+        "total_tokens": 3400
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2350,
+        "output_tokens": 7786,
+        "total_tokens": 10136
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 5143,
+        "total_tokens": 7553
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1625,
+        "output_tokens": 4086,
+        "total_tokens": 5711
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1880,
+        "output_tokens": 877,
+        "total_tokens": 2757
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2791,
+        "output_tokens": 1580,
+        "total_tokens": 4371
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2182,
+        "output_tokens": 5962,
+        "total_tokens": 8144
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2150,
+        "output_tokens": 5791,
+        "total_tokens": 7941
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 6162,
+        "total_tokens": 7867
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1844,
+        "output_tokens": 7480,
+        "total_tokens": 9324
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2387,
+        "output_tokens": 378,
+        "total_tokens": 2765
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2315,
+        "output_tokens": 2170,
+        "total_tokens": 4485
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1868,
+        "output_tokens": 4625,
+        "total_tokens": 6493
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1857,
+        "output_tokens": 5917,
+        "total_tokens": 7774
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2490,
+        "output_tokens": 4497,
+        "total_tokens": 6987
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 6011,
+        "total_tokens": 7700
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 4688,
+        "total_tokens": 6935
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2294,
+        "output_tokens": 561,
+        "total_tokens": 2855
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1742,
+        "output_tokens": 8545,
+        "total_tokens": 10287
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2285,
+        "output_tokens": 5733,
+        "total_tokens": 8018
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 1366,
+        "total_tokens": 3424
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1998,
+        "output_tokens": 1076,
+        "total_tokens": 3074
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 1511,
+        "total_tokens": 3273
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1640,
+        "output_tokens": 5772,
+        "total_tokens": 7412
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 992,
+        "total_tokens": 2988
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 5262,
+        "total_tokens": 6967
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 1056,
+        "total_tokens": 3215
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2324,
+        "output_tokens": 1011,
+        "total_tokens": 3335
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3879,
+        "output_tokens": 3471,
+        "total_tokens": 7350
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3060,
+        "output_tokens": 862,
+        "total_tokens": 3922
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2892,
+        "output_tokens": 1506,
+        "total_tokens": 4398
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3104,
+        "output_tokens": 2435,
+        "total_tokens": 5539
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 1034,
+        "total_tokens": 3520
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2368,
+        "output_tokens": 1373,
+        "total_tokens": 3741
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2805,
+        "output_tokens": 589,
+        "total_tokens": 3394
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2769,
+        "output_tokens": 1191,
+        "total_tokens": 3960
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3498,
+        "output_tokens": 1191,
+        "total_tokens": 4689
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4072,
+        "output_tokens": 1081,
+        "total_tokens": 5153
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3115,
+        "output_tokens": 1191,
+        "total_tokens": 4306
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3666,
+        "output_tokens": 1275,
+        "total_tokens": 4941
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4268,
+        "output_tokens": 2913,
+        "total_tokens": 7181
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3024,
+        "output_tokens": 3331,
+        "total_tokens": 6355
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4915,
+        "output_tokens": 5021,
+        "total_tokens": 9936
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3621,
+        "output_tokens": 1700,
+        "total_tokens": 5321
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 2298,
+        "total_tokens": 3600
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1210,
+        "output_tokens": 6122,
+        "total_tokens": 7332
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1315,
+        "output_tokens": 5318,
+        "total_tokens": 6633
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1477,
+        "output_tokens": 4272,
+        "total_tokens": 5749
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1378,
+        "output_tokens": 1110,
+        "total_tokens": 2488
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1584,
+        "output_tokens": 4238,
+        "total_tokens": 5822
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1382,
+        "output_tokens": 1765,
+        "total_tokens": 3147
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1257,
+        "output_tokens": 4085,
+        "total_tokens": 5342
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 3361,
+        "total_tokens": 4839
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 3781,
+        "total_tokens": 5095
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1445,
+        "output_tokens": 4508,
+        "total_tokens": 5953
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1448,
+        "output_tokens": 6522,
+        "total_tokens": 7970
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1323,
+        "output_tokens": 5780,
+        "total_tokens": 7103
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 1239,
+        "total_tokens": 2682
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1769,
+        "output_tokens": 2492,
+        "total_tokens": 4261
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1389,
+        "output_tokens": 3604,
+        "total_tokens": 4993
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1646,
+        "output_tokens": 3431,
+        "total_tokens": 5077
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1466,
+        "output_tokens": 5185,
+        "total_tokens": 6651
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1365,
+        "output_tokens": 3228,
+        "total_tokens": 4593
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 4943,
+        "total_tokens": 6386
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1540,
+        "output_tokens": 4254,
+        "total_tokens": 5794
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1739,
+        "output_tokens": 3976,
+        "total_tokens": 5715
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1373,
+        "output_tokens": 3878,
+        "total_tokens": 5251
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1541,
+        "output_tokens": 4486,
+        "total_tokens": 6027
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1355,
+        "output_tokens": 4834,
+        "total_tokens": 6189
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 5528,
+        "total_tokens": 7329
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 4933,
+        "total_tokens": 6776
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 4086,
+        "total_tokens": 5407
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 3927,
+        "total_tokens": 5365
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1767,
+        "output_tokens": 4456,
+        "total_tokens": 6223
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 3882,
+        "total_tokens": 5320
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2231,
+        "output_tokens": 4806,
+        "total_tokens": 7037
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 5552,
+        "total_tokens": 7501
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 5592,
+        "total_tokens": 7098
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1759,
+        "output_tokens": 5152,
+        "total_tokens": 6911
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1784,
+        "output_tokens": 5090,
+        "total_tokens": 6874
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 2456,
+        "total_tokens": 4294
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1750,
+        "output_tokens": 3352,
+        "total_tokens": 5102
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2333,
+        "output_tokens": 2539,
+        "total_tokens": 4872
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1766,
+        "output_tokens": 3969,
+        "total_tokens": 5735
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 4952,
+        "total_tokens": 6790
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1490,
+        "output_tokens": 5342,
+        "total_tokens": 6832
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 6545,
+        "total_tokens": 8141
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2260,
+        "output_tokens": 2968,
+        "total_tokens": 5228
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1669,
+        "output_tokens": 5060,
+        "total_tokens": 6729
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 4471,
+        "total_tokens": 6340
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1935,
+        "output_tokens": 3273,
+        "total_tokens": 5208
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 3713,
+        "total_tokens": 5079
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 4750,
+        "total_tokens": 6121
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1553,
+        "output_tokens": 5394,
+        "total_tokens": 6947
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 2383,
+        "total_tokens": 4393
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2439,
+        "output_tokens": 5014,
+        "total_tokens": 7453
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1361,
+        "output_tokens": 5734,
+        "total_tokens": 7095
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 4233,
+        "total_tokens": 5895
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1905,
+        "output_tokens": 6248,
+        "total_tokens": 8153
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1709,
+        "output_tokens": 5601,
+        "total_tokens": 7310
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 6611,
+        "total_tokens": 8271
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2214,
+        "output_tokens": 5369,
+        "total_tokens": 7583
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2125,
+        "output_tokens": 4708,
+        "total_tokens": 6833
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1452,
+        "output_tokens": 4388,
+        "total_tokens": 5840
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1507,
+        "output_tokens": 5284,
+        "total_tokens": 6791
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 317,
+        "output_tokens": 7612,
+        "total_tokens": 7929
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1974,
+        "output_tokens": 7185,
+        "total_tokens": 9159
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 5825,
+        "total_tokens": 7835
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2889,
+        "output_tokens": 5138,
+        "total_tokens": 8027
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2401,
+        "output_tokens": 3175,
+        "total_tokens": 5576
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 4012,
+        "total_tokens": 6079
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 3837,
+        "total_tokens": 5955
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 2341,
+        "total_tokens": 4642
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1732,
+        "output_tokens": 6884,
+        "total_tokens": 8616
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 12138,
+        "total_tokens": 14516
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1763,
+        "output_tokens": 6862,
+        "total_tokens": 8625
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2986,
+        "output_tokens": 4449,
+        "total_tokens": 7435
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2227,
+        "output_tokens": 7949,
+        "total_tokens": 10176
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1708,
+        "output_tokens": 5227,
+        "total_tokens": 6935
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 3140,
+        "total_tokens": 5518
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2206,
+        "output_tokens": 4309,
+        "total_tokens": 6515
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1988,
+        "output_tokens": 3785,
+        "total_tokens": 5773
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 5459,
+        "total_tokens": 7056
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1889,
+        "output_tokens": 6284,
+        "total_tokens": 8173
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2055,
+        "output_tokens": 3586,
+        "total_tokens": 5641
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2693,
+        "output_tokens": 1985,
+        "total_tokens": 4678
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1621,
+        "output_tokens": 6993,
+        "total_tokens": 8614
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1777,
+        "output_tokens": 4362,
+        "total_tokens": 6139
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2098,
+        "output_tokens": 1692,
+        "total_tokens": 3790
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 4870,
+        "total_tokens": 7117
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2007,
+        "output_tokens": 7453,
+        "total_tokens": 9460
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3266,
+        "output_tokens": 4675,
+        "total_tokens": 7941
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 5880,
+        "total_tokens": 7998
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2135,
+        "output_tokens": 6175,
+        "total_tokens": 8310
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 3639,
+        "total_tokens": 5403
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 769,
+        "total_tokens": 2939
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2266,
+        "output_tokens": 834,
+        "total_tokens": 3100
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1891,
+        "output_tokens": 735,
+        "total_tokens": 2626
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2433,
+        "output_tokens": 1011,
+        "total_tokens": 3444
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1559,
+        "output_tokens": 4299,
+        "total_tokens": 5858
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2086,
+        "output_tokens": 712,
+        "total_tokens": 2798
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 5535,
+        "total_tokens": 8021
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 9022,
+        "total_tokens": 10767
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1902,
+        "output_tokens": 678,
+        "total_tokens": 2580
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1854,
+        "output_tokens": 4521,
+        "total_tokens": 6375
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1976,
+        "output_tokens": 1000,
+        "total_tokens": 2976
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1983,
+        "output_tokens": 821,
+        "total_tokens": 2804
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1981,
+        "output_tokens": 523,
+        "total_tokens": 2504
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1665,
+        "output_tokens": 5714,
+        "total_tokens": 7379
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 7157,
+        "total_tokens": 8975
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2492,
+        "output_tokens": 5068,
+        "total_tokens": 7560
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1995,
+        "output_tokens": 5957,
+        "total_tokens": 7952
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 765,
+        "total_tokens": 2958
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 6106,
+        "total_tokens": 8102
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2085,
+        "output_tokens": 5317,
+        "total_tokens": 7402
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 5217,
+        "total_tokens": 7269
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 4670,
+        "total_tokens": 6513
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1598,
+        "output_tokens": 8089,
+        "total_tokens": 9687
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2350,
+        "output_tokens": 7783,
+        "total_tokens": 10133
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 6144,
+        "total_tokens": 8554
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1625,
+        "output_tokens": 3830,
+        "total_tokens": 5455
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1880,
+        "output_tokens": 790,
+        "total_tokens": 2670
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2791,
+        "output_tokens": 1523,
+        "total_tokens": 4314
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2182,
+        "output_tokens": 6078,
+        "total_tokens": 8260
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2150,
+        "output_tokens": 5520,
+        "total_tokens": 7670
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 7342,
+        "total_tokens": 9047
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1844,
+        "output_tokens": 1658,
+        "total_tokens": 3502
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2387,
+        "output_tokens": 496,
+        "total_tokens": 2883
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2315,
+        "output_tokens": 1821,
+        "total_tokens": 4136
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1868,
+        "output_tokens": 1957,
+        "total_tokens": 3825
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1857,
+        "output_tokens": 6631,
+        "total_tokens": 8488
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2490,
+        "output_tokens": 620,
+        "total_tokens": 3110
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 6076,
+        "total_tokens": 7765
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 4627,
+        "total_tokens": 6874
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2294,
+        "output_tokens": 591,
+        "total_tokens": 2885
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1742,
+        "output_tokens": 10307,
+        "total_tokens": 12049
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2285,
+        "output_tokens": 3844,
+        "total_tokens": 6129
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 1132,
+        "total_tokens": 3190
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1998,
+        "output_tokens": 1182,
+        "total_tokens": 3180
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 1307,
+        "total_tokens": 3069
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1640,
+        "output_tokens": 6001,
+        "total_tokens": 7641
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 1313,
+        "total_tokens": 3309
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 5815,
+        "total_tokens": 7520
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 1046,
+        "total_tokens": 3205
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2324,
+        "output_tokens": 1012,
+        "total_tokens": 3336
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3879,
+        "output_tokens": 3728,
+        "total_tokens": 7607
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3060,
+        "output_tokens": 865,
+        "total_tokens": 3925
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2892,
+        "output_tokens": 1719,
+        "total_tokens": 4611
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3104,
+        "output_tokens": 1512,
+        "total_tokens": 4616
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 987,
+        "total_tokens": 3473
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2368,
+        "output_tokens": 1344,
+        "total_tokens": 3712
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2805,
+        "output_tokens": 831,
+        "total_tokens": 3636
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2769,
+        "output_tokens": 991,
+        "total_tokens": 3760
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3498,
+        "output_tokens": 1911,
+        "total_tokens": 5409
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4072,
+        "output_tokens": 1479,
+        "total_tokens": 5551
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3115,
+        "output_tokens": 867,
+        "total_tokens": 3982
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3666,
+        "output_tokens": 1145,
+        "total_tokens": 4811
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4268,
+        "output_tokens": 1386,
+        "total_tokens": 5654
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3024,
+        "output_tokens": 2596,
+        "total_tokens": 5620
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4915,
+        "output_tokens": 1830,
+        "total_tokens": 6745
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3621,
+        "output_tokens": 1816,
+        "total_tokens": 5437
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 4987,
+        "total_tokens": 6289
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1210,
+        "output_tokens": 4362,
+        "total_tokens": 5572
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1315,
+        "output_tokens": 5232,
+        "total_tokens": 6547
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1477,
+        "output_tokens": 1464,
+        "total_tokens": 2941
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1378,
+        "output_tokens": 3436,
+        "total_tokens": 4814
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1584,
+        "output_tokens": 4425,
+        "total_tokens": 6009
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1382,
+        "output_tokens": 2793,
+        "total_tokens": 4175
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1257,
+        "output_tokens": 4078,
+        "total_tokens": 5335
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 6476,
+        "total_tokens": 7954
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 6081,
+        "total_tokens": 7395
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1445,
+        "output_tokens": 4530,
+        "total_tokens": 5975
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1448,
+        "output_tokens": 5978,
+        "total_tokens": 7426
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1323,
+        "output_tokens": 4204,
+        "total_tokens": 5527
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 2947,
+        "total_tokens": 4390
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1769,
+        "output_tokens": 6124,
+        "total_tokens": 7893
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1389,
+        "output_tokens": 3171,
+        "total_tokens": 4560
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1646,
+        "output_tokens": 5208,
+        "total_tokens": 6854
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1466,
+        "output_tokens": 5345,
+        "total_tokens": 6811
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1365,
+        "output_tokens": 5779,
+        "total_tokens": 7144
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 3727,
+        "total_tokens": 5170
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1540,
+        "output_tokens": 5124,
+        "total_tokens": 6664
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1739,
+        "output_tokens": 4212,
+        "total_tokens": 5951
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1373,
+        "output_tokens": 4313,
+        "total_tokens": 5686
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1541,
+        "output_tokens": 5471,
+        "total_tokens": 7012
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1355,
+        "output_tokens": 2961,
+        "total_tokens": 4316
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 3129,
+        "total_tokens": 4930
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 6392,
+        "total_tokens": 8235
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 3517,
+        "total_tokens": 4838
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 6539,
+        "total_tokens": 7977
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1767,
+        "output_tokens": 4607,
+        "total_tokens": 6374
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 4101,
+        "total_tokens": 5539
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2231,
+        "output_tokens": 4680,
+        "total_tokens": 6911
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 4823,
+        "total_tokens": 6772
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 4783,
+        "total_tokens": 6289
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1759,
+        "output_tokens": 3718,
+        "total_tokens": 5477
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1784,
+        "output_tokens": 3296,
+        "total_tokens": 5080
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 5511,
+        "total_tokens": 7349
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1750,
+        "output_tokens": 1017,
+        "total_tokens": 2767
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2333,
+        "output_tokens": 3548,
+        "total_tokens": 5881
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1766,
+        "output_tokens": 4145,
+        "total_tokens": 5911
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 3933,
+        "total_tokens": 5771
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1490,
+        "output_tokens": 4116,
+        "total_tokens": 5606
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 6306,
+        "total_tokens": 7902
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2260,
+        "output_tokens": 5807,
+        "total_tokens": 8067
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1669,
+        "output_tokens": 5840,
+        "total_tokens": 7509
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 4560,
+        "total_tokens": 6429
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1935,
+        "output_tokens": 4833,
+        "total_tokens": 6768
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 5088,
+        "total_tokens": 6454
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 4332,
+        "total_tokens": 5703
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1553,
+        "output_tokens": 5572,
+        "total_tokens": 7125
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 2669,
+        "total_tokens": 4679
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2439,
+        "output_tokens": 3957,
+        "total_tokens": 6396
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1361,
+        "output_tokens": 3542,
+        "total_tokens": 4903
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 4281,
+        "total_tokens": 5943
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1905,
+        "output_tokens": 5800,
+        "total_tokens": 7705
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1709,
+        "output_tokens": 5034,
+        "total_tokens": 6743
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 6511,
+        "total_tokens": 8171
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2214,
+        "output_tokens": 4559,
+        "total_tokens": 6773
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2125,
+        "output_tokens": 4433,
+        "total_tokens": 6558
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1452,
+        "output_tokens": 4635,
+        "total_tokens": 6087
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1507,
+        "output_tokens": 5029,
+        "total_tokens": 6536
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 317,
+        "output_tokens": 5692,
+        "total_tokens": 6009
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1974,
+        "output_tokens": 5004,
+        "total_tokens": 6978
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 9178,
+        "total_tokens": 11188
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2889,
+        "output_tokens": 5703,
+        "total_tokens": 8592
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2401,
+        "output_tokens": 3521,
+        "total_tokens": 5922
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 5376,
+        "total_tokens": 7443
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 4702,
+        "total_tokens": 6820
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 6768,
+        "total_tokens": 9069
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1732,
+        "output_tokens": 5665,
+        "total_tokens": 7397
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 8921,
+        "total_tokens": 11299
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1763,
+        "output_tokens": 7760,
+        "total_tokens": 9523
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2986,
+        "output_tokens": 5017,
+        "total_tokens": 8003
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2227,
+        "output_tokens": 6275,
+        "total_tokens": 8502
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1708,
+        "output_tokens": 6790,
+        "total_tokens": 8498
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 5542,
+        "total_tokens": 7920
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2206,
+        "output_tokens": 5514,
+        "total_tokens": 7720
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1988,
+        "output_tokens": 4477,
+        "total_tokens": 6465
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 6045,
+        "total_tokens": 7642
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1889,
+        "output_tokens": 6490,
+        "total_tokens": 8379
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2055,
+        "output_tokens": 3788,
+        "total_tokens": 5843
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2693,
+        "output_tokens": 3040,
+        "total_tokens": 5733
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1621,
+        "output_tokens": 5998,
+        "total_tokens": 7619
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1777,
+        "output_tokens": 4389,
+        "total_tokens": 6166
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2098,
+        "output_tokens": 1296,
+        "total_tokens": 3394
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 3681,
+        "total_tokens": 5928
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2007,
+        "output_tokens": 1100,
+        "total_tokens": 3107
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3266,
+        "output_tokens": 5334,
+        "total_tokens": 8600
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 4306,
+        "total_tokens": 6424
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2135,
+        "output_tokens": 6780,
+        "total_tokens": 8915
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 4565,
+        "total_tokens": 6329
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 982,
+        "total_tokens": 3152
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2266,
+        "output_tokens": 5709,
+        "total_tokens": 7975
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1891,
+        "output_tokens": 2102,
+        "total_tokens": 3993
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2433,
+        "output_tokens": 714,
+        "total_tokens": 3147
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1559,
+        "output_tokens": 5529,
+        "total_tokens": 7088
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2086,
+        "output_tokens": 6330,
+        "total_tokens": 8416
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 4706,
+        "total_tokens": 7192
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 695,
+        "total_tokens": 2440
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1902,
+        "output_tokens": 618,
+        "total_tokens": 2520
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1854,
+        "output_tokens": 5976,
+        "total_tokens": 7830
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1976,
+        "output_tokens": 965,
+        "total_tokens": 2941
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1983,
+        "output_tokens": 880,
+        "total_tokens": 2863
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1981,
+        "output_tokens": 799,
+        "total_tokens": 2780
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1665,
+        "output_tokens": 4850,
+        "total_tokens": 6515
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 639,
+        "total_tokens": 2457
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2492,
+        "output_tokens": 5688,
+        "total_tokens": 8180
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1995,
+        "output_tokens": 5375,
+        "total_tokens": 7370
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 743,
+        "total_tokens": 2936
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 6594,
+        "total_tokens": 8590
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2085,
+        "output_tokens": 4816,
+        "total_tokens": 6901
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 4274,
+        "total_tokens": 6326
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 5719,
+        "total_tokens": 7562
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1598,
+        "output_tokens": 10899,
+        "total_tokens": 12497
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2350,
+        "output_tokens": 1085,
+        "total_tokens": 3435
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 5290,
+        "total_tokens": 7700
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1625,
+        "output_tokens": 8449,
+        "total_tokens": 10074
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1880,
+        "output_tokens": 4521,
+        "total_tokens": 6401
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2791,
+        "output_tokens": 1195,
+        "total_tokens": 3986
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2182,
+        "output_tokens": 3750,
+        "total_tokens": 5932
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2150,
+        "output_tokens": 5754,
+        "total_tokens": 7904
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 6500,
+        "total_tokens": 8205
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1844,
+        "output_tokens": 4795,
+        "total_tokens": 6639
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2387,
+        "output_tokens": 488,
+        "total_tokens": 2875
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2315,
+        "output_tokens": 1386,
+        "total_tokens": 3701
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1868,
+        "output_tokens": 3691,
+        "total_tokens": 5559
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1857,
+        "output_tokens": 783,
+        "total_tokens": 2640
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2490,
+        "output_tokens": 599,
+        "total_tokens": 3089
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 5323,
+        "total_tokens": 7012
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 5715,
+        "total_tokens": 7962
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2294,
+        "output_tokens": 544,
+        "total_tokens": 2838
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1742,
+        "output_tokens": 6045,
+        "total_tokens": 7787
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2285,
+        "output_tokens": 4751,
+        "total_tokens": 7036
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 2041,
+        "total_tokens": 4099
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1998,
+        "output_tokens": 2580,
+        "total_tokens": 4578
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 4637,
+        "total_tokens": 6399
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1640,
+        "output_tokens": 5534,
+        "total_tokens": 7174
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 1088,
+        "total_tokens": 3084
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 6244,
+        "total_tokens": 7949
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 1096,
+        "total_tokens": 3255
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2324,
+        "output_tokens": 1074,
+        "total_tokens": 3398
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3879,
+        "output_tokens": 3765,
+        "total_tokens": 7644
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3060,
+        "output_tokens": 863,
+        "total_tokens": 3923
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2892,
+        "output_tokens": 1712,
+        "total_tokens": 4604
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3104,
+        "output_tokens": 2088,
+        "total_tokens": 5192
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 580,
+        "total_tokens": 3066
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2368,
+        "output_tokens": 1355,
+        "total_tokens": 3723
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2805,
+        "output_tokens": 772,
+        "total_tokens": 3577
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2769,
+        "output_tokens": 1237,
+        "total_tokens": 4006
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3498,
+        "output_tokens": 2070,
+        "total_tokens": 5568
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4072,
+        "output_tokens": 1055,
+        "total_tokens": 5127
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3115,
+        "output_tokens": 1200,
+        "total_tokens": 4315
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3666,
+        "output_tokens": 781,
+        "total_tokens": 4447
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4268,
+        "output_tokens": 1382,
+        "total_tokens": 5650
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3024,
+        "output_tokens": 1278,
+        "total_tokens": 4302
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4915,
+        "output_tokens": 920,
+        "total_tokens": 5835
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3621,
+        "output_tokens": 1646,
+        "total_tokens": 5267
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 4567,
+        "total_tokens": 5869
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1210,
+        "output_tokens": 4609,
+        "total_tokens": 5819
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1315,
+        "output_tokens": 3849,
+        "total_tokens": 5164
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1477,
+        "output_tokens": 4592,
+        "total_tokens": 6069
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1378,
+        "output_tokens": 3736,
+        "total_tokens": 5114
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1584,
+        "output_tokens": 5157,
+        "total_tokens": 6741
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1382,
+        "output_tokens": 4003,
+        "total_tokens": 5385
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1257,
+        "output_tokens": 5271,
+        "total_tokens": 6528
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 5306,
+        "total_tokens": 6784
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 4578,
+        "total_tokens": 5892
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1445,
+        "output_tokens": 5965,
+        "total_tokens": 7410
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1448,
+        "output_tokens": 5786,
+        "total_tokens": 7234
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1323,
+        "output_tokens": 4156,
+        "total_tokens": 5479
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 2168,
+        "total_tokens": 3611
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1769,
+        "output_tokens": 4369,
+        "total_tokens": 6138
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1389,
+        "output_tokens": 6861,
+        "total_tokens": 8250
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1646,
+        "output_tokens": 4568,
+        "total_tokens": 6214
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1466,
+        "output_tokens": 5349,
+        "total_tokens": 6815
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1365,
+        "output_tokens": 2411,
+        "total_tokens": 3776
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 4148,
+        "total_tokens": 5591
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1540,
+        "output_tokens": 6357,
+        "total_tokens": 7897
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1739,
+        "output_tokens": 5221,
+        "total_tokens": 6960
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1373,
+        "output_tokens": 2155,
+        "total_tokens": 3528
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1541,
+        "output_tokens": 4462,
+        "total_tokens": 6003
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1355,
+        "output_tokens": 4077,
+        "total_tokens": 5432
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 4235,
+        "total_tokens": 6036
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 6310,
+        "total_tokens": 8153
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 2581,
+        "total_tokens": 3902
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 4648,
+        "total_tokens": 6086
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1767,
+        "output_tokens": 4205,
+        "total_tokens": 5972
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 4268,
+        "total_tokens": 5706
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2231,
+        "output_tokens": 5194,
+        "total_tokens": 7425
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 5819,
+        "total_tokens": 7768
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 2561,
+        "total_tokens": 4067
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1759,
+        "output_tokens": 5075,
+        "total_tokens": 6834
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1784,
+        "output_tokens": 4717,
+        "total_tokens": 6501
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 4063,
+        "total_tokens": 5901
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1750,
+        "output_tokens": 6327,
+        "total_tokens": 8077
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2333,
+        "output_tokens": 4698,
+        "total_tokens": 7031
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1766,
+        "output_tokens": 6809,
+        "total_tokens": 8575
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 3179,
+        "total_tokens": 5017
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1490,
+        "output_tokens": 4164,
+        "total_tokens": 5654
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 6658,
+        "total_tokens": 8254
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2260,
+        "output_tokens": 4843,
+        "total_tokens": 7103
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1669,
+        "output_tokens": 3226,
+        "total_tokens": 4895
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 3817,
+        "total_tokens": 5686
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1935,
+        "output_tokens": 4690,
+        "total_tokens": 6625
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 2917,
+        "total_tokens": 4283
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 2957,
+        "total_tokens": 4328
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1553,
+        "output_tokens": 5448,
+        "total_tokens": 7001
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 4954,
+        "total_tokens": 6964
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2439,
+        "output_tokens": 2979,
+        "total_tokens": 5418
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1361,
+        "output_tokens": 5874,
+        "total_tokens": 7235
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 3947,
+        "total_tokens": 5609
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1905,
+        "output_tokens": 5864,
+        "total_tokens": 7769
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1709,
+        "output_tokens": 5263,
+        "total_tokens": 6972
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 9286,
+        "total_tokens": 10946
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2214,
+        "output_tokens": 4847,
+        "total_tokens": 7061
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2125,
+        "output_tokens": 4487,
+        "total_tokens": 6612
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1452,
+        "output_tokens": 6273,
+        "total_tokens": 7725
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1507,
+        "output_tokens": 5298,
+        "total_tokens": 6805
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 317,
+        "output_tokens": 6438,
+        "total_tokens": 6755
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1974,
+        "output_tokens": 5316,
+        "total_tokens": 7290
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 5712,
+        "total_tokens": 7722
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2889,
+        "output_tokens": 3214,
+        "total_tokens": 6103
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2401,
+        "output_tokens": 6284,
+        "total_tokens": 8685
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 5383,
+        "total_tokens": 7450
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 6230,
+        "total_tokens": 8348
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 3307,
+        "total_tokens": 5608
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1732,
+        "output_tokens": 6421,
+        "total_tokens": 8153
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 9436,
+        "total_tokens": 11814
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1763,
+        "output_tokens": 6400,
+        "total_tokens": 8163
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2986,
+        "output_tokens": 4748,
+        "total_tokens": 7734
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2227,
+        "output_tokens": 9278,
+        "total_tokens": 11505
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1708,
+        "output_tokens": 4424,
+        "total_tokens": 6132
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 4829,
+        "total_tokens": 7207
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2206,
+        "output_tokens": 4590,
+        "total_tokens": 6796
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1988,
+        "output_tokens": 4694,
+        "total_tokens": 6682
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 4710,
+        "total_tokens": 6307
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1889,
+        "output_tokens": 8048,
+        "total_tokens": 9937
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2055,
+        "output_tokens": 7481,
+        "total_tokens": 9536
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2693,
+        "output_tokens": 3928,
+        "total_tokens": 6621
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1621,
+        "output_tokens": 5583,
+        "total_tokens": 7204
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1777,
+        "output_tokens": 6514,
+        "total_tokens": 8291
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2098,
+        "output_tokens": 777,
+        "total_tokens": 2875
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 6342,
+        "total_tokens": 8589
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2007,
+        "output_tokens": 1346,
+        "total_tokens": 3353
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3266,
+        "output_tokens": 5461,
+        "total_tokens": 8727
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 4993,
+        "total_tokens": 7111
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2135,
+        "output_tokens": 1605,
+        "total_tokens": 3740
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 4479,
+        "total_tokens": 6243
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 721,
+        "total_tokens": 2891
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2266,
+        "output_tokens": 908,
+        "total_tokens": 3174
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1891,
+        "output_tokens": 1098,
+        "total_tokens": 2989
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2433,
+        "output_tokens": 7030,
+        "total_tokens": 9463
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1559,
+        "output_tokens": 7607,
+        "total_tokens": 9166
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2086,
+        "output_tokens": 490,
+        "total_tokens": 2576
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 4499,
+        "total_tokens": 6985
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 727,
+        "total_tokens": 2472
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1902,
+        "output_tokens": 565,
+        "total_tokens": 2467
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1854,
+        "output_tokens": 5801,
+        "total_tokens": 7655
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1976,
+        "output_tokens": 980,
+        "total_tokens": 2956
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1983,
+        "output_tokens": 1096,
+        "total_tokens": 3079
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1981,
+        "output_tokens": 425,
+        "total_tokens": 2406
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1665,
+        "output_tokens": 4230,
+        "total_tokens": 5895
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 4855,
+        "total_tokens": 6673
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2492,
+        "output_tokens": 3662,
+        "total_tokens": 6154
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1995,
+        "output_tokens": 5700,
+        "total_tokens": 7695
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 1065,
+        "total_tokens": 3258
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 5855,
+        "total_tokens": 7851
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2085,
+        "output_tokens": 5132,
+        "total_tokens": 7217
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 5752,
+        "total_tokens": 7804
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 7477,
+        "total_tokens": 9320
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1598,
+        "output_tokens": 8745,
+        "total_tokens": 10343
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2350,
+        "output_tokens": 6844,
+        "total_tokens": 9194
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 4875,
+        "total_tokens": 7285
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1625,
+        "output_tokens": 7891,
+        "total_tokens": 9516
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1880,
+        "output_tokens": 6425,
+        "total_tokens": 8305
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2791,
+        "output_tokens": 1119,
+        "total_tokens": 3910
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2182,
+        "output_tokens": 4526,
+        "total_tokens": 6708
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2150,
+        "output_tokens": 7462,
+        "total_tokens": 9612
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 7545,
+        "total_tokens": 9250
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1844,
+        "output_tokens": 6798,
+        "total_tokens": 8642
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2387,
+        "output_tokens": 518,
+        "total_tokens": 2905
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2315,
+        "output_tokens": 3145,
+        "total_tokens": 5460
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1868,
+        "output_tokens": 2460,
+        "total_tokens": 4328
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1857,
+        "output_tokens": 901,
+        "total_tokens": 2758
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2490,
+        "output_tokens": 620,
+        "total_tokens": 3110
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 6265,
+        "total_tokens": 7954
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 5786,
+        "total_tokens": 8033
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2294,
+        "output_tokens": 532,
+        "total_tokens": 2826
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1742,
+        "output_tokens": 5448,
+        "total_tokens": 7190
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2285,
+        "output_tokens": 727,
+        "total_tokens": 3012
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 967,
+        "total_tokens": 3025
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1998,
+        "output_tokens": 1036,
+        "total_tokens": 3034
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 1626,
+        "total_tokens": 3388
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1640,
+        "output_tokens": 6133,
+        "total_tokens": 7773
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 984,
+        "total_tokens": 2980
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 6788,
+        "total_tokens": 8493
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 734,
+        "total_tokens": 2893
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2324,
+        "output_tokens": 1099,
+        "total_tokens": 3423
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3879,
+        "output_tokens": 6416,
+        "total_tokens": 10295
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3060,
+        "output_tokens": 718,
+        "total_tokens": 3778
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2892,
+        "output_tokens": 1873,
+        "total_tokens": 4765
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3104,
+        "output_tokens": 7704,
+        "total_tokens": 10808
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 1195,
+        "total_tokens": 3681
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2368,
+        "output_tokens": 1152,
+        "total_tokens": 3520
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2805,
+        "output_tokens": 470,
+        "total_tokens": 3275
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2769,
+        "output_tokens": 788,
+        "total_tokens": 3557
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3498,
+        "output_tokens": 1106,
+        "total_tokens": 4604
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4072,
+        "output_tokens": 1449,
+        "total_tokens": 5521
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3115,
+        "output_tokens": 1298,
+        "total_tokens": 4413
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3666,
+        "output_tokens": 1306,
+        "total_tokens": 4972
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4268,
+        "output_tokens": 2499,
+        "total_tokens": 6767
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3024,
+        "output_tokens": 1723,
+        "total_tokens": 4747
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4915,
+        "output_tokens": 2547,
+        "total_tokens": 7462
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3621,
+        "output_tokens": 1802,
+        "total_tokens": 5423
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1302,
+        "output_tokens": 5516,
+        "total_tokens": 6818
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1210,
+        "output_tokens": 4713,
+        "total_tokens": 5923
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1315,
+        "output_tokens": 4835,
+        "total_tokens": 6150
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1477,
+        "output_tokens": 2683,
+        "total_tokens": 4160
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1378,
+        "output_tokens": 6358,
+        "total_tokens": 7736
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1584,
+        "output_tokens": 4030,
+        "total_tokens": 5614
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1382,
+        "output_tokens": 2162,
+        "total_tokens": 3544
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1257,
+        "output_tokens": 4733,
+        "total_tokens": 5990
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1478,
+        "output_tokens": 2866,
+        "total_tokens": 4344
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1314,
+        "output_tokens": 5844,
+        "total_tokens": 7158
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1445,
+        "output_tokens": 4957,
+        "total_tokens": 6402
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1448,
+        "output_tokens": 3008,
+        "total_tokens": 4456
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1323,
+        "output_tokens": 2908,
+        "total_tokens": 4231
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 3684,
+        "total_tokens": 5127
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1769,
+        "output_tokens": 5697,
+        "total_tokens": 7466
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1389,
+        "output_tokens": 5818,
+        "total_tokens": 7207
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1646,
+        "output_tokens": 5439,
+        "total_tokens": 7085
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1466,
+        "output_tokens": 4214,
+        "total_tokens": 5680
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1365,
+        "output_tokens": 5039,
+        "total_tokens": 6404
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1443,
+        "output_tokens": 2325,
+        "total_tokens": 3768
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1540,
+        "output_tokens": 5222,
+        "total_tokens": 6762
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1739,
+        "output_tokens": 4776,
+        "total_tokens": 6515
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1373,
+        "output_tokens": 4089,
+        "total_tokens": 5462
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1541,
+        "output_tokens": 4337,
+        "total_tokens": 5878
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1355,
+        "output_tokens": 1593,
+        "total_tokens": 2948
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1801,
+        "output_tokens": 2307,
+        "total_tokens": 4108
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 5454,
+        "total_tokens": 7297
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1321,
+        "output_tokens": 1289,
+        "total_tokens": 2610
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 2877,
+        "total_tokens": 4315
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1767,
+        "output_tokens": 5002,
+        "total_tokens": 6769
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1438,
+        "output_tokens": 2934,
+        "total_tokens": 4372
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2231,
+        "output_tokens": 5681,
+        "total_tokens": 7912
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1949,
+        "output_tokens": 2765,
+        "total_tokens": 4714
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1506,
+        "output_tokens": 3882,
+        "total_tokens": 5388
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1759,
+        "output_tokens": 6155,
+        "total_tokens": 7914
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1784,
+        "output_tokens": 3854,
+        "total_tokens": 5638
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 5096,
+        "total_tokens": 6934
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1750,
+        "output_tokens": 4884,
+        "total_tokens": 6634
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2333,
+        "output_tokens": 5924,
+        "total_tokens": 8257
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1766,
+        "output_tokens": 4409,
+        "total_tokens": 6175
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1838,
+        "output_tokens": 4214,
+        "total_tokens": 6052
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1490,
+        "output_tokens": 4487,
+        "total_tokens": 5977
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1596,
+        "output_tokens": 7774,
+        "total_tokens": 9370
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2260,
+        "output_tokens": 2986,
+        "total_tokens": 5246
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1669,
+        "output_tokens": 6274,
+        "total_tokens": 7943
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1869,
+        "output_tokens": 5805,
+        "total_tokens": 7674
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1935,
+        "output_tokens": 4568,
+        "total_tokens": 6503
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1366,
+        "output_tokens": 4234,
+        "total_tokens": 5600
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1371,
+        "output_tokens": 3360,
+        "total_tokens": 4731
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1553,
+        "output_tokens": 5890,
+        "total_tokens": 7443
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 4389,
+        "total_tokens": 6399
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2439,
+        "output_tokens": 3455,
+        "total_tokens": 5894
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1361,
+        "output_tokens": 4845,
+        "total_tokens": 6206
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1662,
+        "output_tokens": 4783,
+        "total_tokens": 6445
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1905,
+        "output_tokens": 5186,
+        "total_tokens": 7091
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1709,
+        "output_tokens": 5575,
+        "total_tokens": 7284
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1660,
+        "output_tokens": 6737,
+        "total_tokens": 8397
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2214,
+        "output_tokens": 6634,
+        "total_tokens": 8848
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2125,
+        "output_tokens": 5997,
+        "total_tokens": 8122
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1452,
+        "output_tokens": 5586,
+        "total_tokens": 7038
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1507,
+        "output_tokens": 5028,
+        "total_tokens": 6535
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 317,
+        "output_tokens": 7166,
+        "total_tokens": 7483
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1974,
+        "output_tokens": 5977,
+        "total_tokens": 7951
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2010,
+        "output_tokens": 5048,
+        "total_tokens": 7058
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2889,
+        "output_tokens": 711,
+        "total_tokens": 3600
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2401,
+        "output_tokens": 2842,
+        "total_tokens": 5243
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2067,
+        "output_tokens": 5328,
+        "total_tokens": 7395
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 5490,
+        "total_tokens": 7608
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2301,
+        "output_tokens": 2869,
+        "total_tokens": 5170
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1732,
+        "output_tokens": 6630,
+        "total_tokens": 8362
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 4980,
+        "total_tokens": 7358
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1763,
+        "output_tokens": 8086,
+        "total_tokens": 9849
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2986,
+        "output_tokens": 567,
+        "total_tokens": 3553
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2227,
+        "output_tokens": 6839,
+        "total_tokens": 9066
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1708,
+        "output_tokens": 5790,
+        "total_tokens": 7498
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2378,
+        "output_tokens": 4912,
+        "total_tokens": 7290
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2206,
+        "output_tokens": 4607,
+        "total_tokens": 6813
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1988,
+        "output_tokens": 4190,
+        "total_tokens": 6178
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1597,
+        "output_tokens": 7883,
+        "total_tokens": 9480
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1889,
+        "output_tokens": 5959,
+        "total_tokens": 7848
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2055,
+        "output_tokens": 4139,
+        "total_tokens": 6194
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2693,
+        "output_tokens": 5223,
+        "total_tokens": 7916
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1621,
+        "output_tokens": 8828,
+        "total_tokens": 10449
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1777,
+        "output_tokens": 4130,
+        "total_tokens": 5907
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2098,
+        "output_tokens": 5609,
+        "total_tokens": 7707
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 6079,
+        "total_tokens": 8326
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2007,
+        "output_tokens": 839,
+        "total_tokens": 2846
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3266,
+        "output_tokens": 4186,
+        "total_tokens": 7452
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2118,
+        "output_tokens": 5526,
+        "total_tokens": 7644
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2135,
+        "output_tokens": 1199,
+        "total_tokens": 3334
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1764,
+        "output_tokens": 5514,
+        "total_tokens": 7278
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2170,
+        "output_tokens": 598,
+        "total_tokens": 2768
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2266,
+        "output_tokens": 884,
+        "total_tokens": 3150
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1891,
+        "output_tokens": 2624,
+        "total_tokens": 4515
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2433,
+        "output_tokens": 1065,
+        "total_tokens": 3498
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1559,
+        "output_tokens": 6727,
+        "total_tokens": 8286
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2086,
+        "output_tokens": 707,
+        "total_tokens": 2793
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 7105,
+        "total_tokens": 9591
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1745,
+        "output_tokens": 3353,
+        "total_tokens": 5098
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1902,
+        "output_tokens": 574,
+        "total_tokens": 2476
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1854,
+        "output_tokens": 5910,
+        "total_tokens": 7764
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1976,
+        "output_tokens": 896,
+        "total_tokens": 2872
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1983,
+        "output_tokens": 490,
+        "total_tokens": 2473
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1981,
+        "output_tokens": 875,
+        "total_tokens": 2856
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1665,
+        "output_tokens": 4754,
+        "total_tokens": 6419
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1818,
+        "output_tokens": 720,
+        "total_tokens": 2538
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2492,
+        "output_tokens": 5367,
+        "total_tokens": 7859
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1995,
+        "output_tokens": 7156,
+        "total_tokens": 9151
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2193,
+        "output_tokens": 7495,
+        "total_tokens": 9688
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 4335,
+        "total_tokens": 6331
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2085,
+        "output_tokens": 4735,
+        "total_tokens": 6820
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2052,
+        "output_tokens": 3977,
+        "total_tokens": 6029
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1843,
+        "output_tokens": 5365,
+        "total_tokens": 7208
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1598,
+        "output_tokens": 2274,
+        "total_tokens": 3872
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2350,
+        "output_tokens": 5904,
+        "total_tokens": 8254
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2410,
+        "output_tokens": 5697,
+        "total_tokens": 8107
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1625,
+        "output_tokens": 4467,
+        "total_tokens": 6092
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1880,
+        "output_tokens": 675,
+        "total_tokens": 2555
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2791,
+        "output_tokens": 1561,
+        "total_tokens": 4352
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2182,
+        "output_tokens": 6280,
+        "total_tokens": 8462
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2150,
+        "output_tokens": 6178,
+        "total_tokens": 8328
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 5917,
+        "total_tokens": 7622
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1844,
+        "output_tokens": 8584,
+        "total_tokens": 10428
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2387,
+        "output_tokens": 496,
+        "total_tokens": 2883
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2315,
+        "output_tokens": 1883,
+        "total_tokens": 4198
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1868,
+        "output_tokens": 2776,
+        "total_tokens": 4644
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1857,
+        "output_tokens": 821,
+        "total_tokens": 2678
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2490,
+        "output_tokens": 4667,
+        "total_tokens": 7157
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1689,
+        "output_tokens": 7300,
+        "total_tokens": 8989
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2247,
+        "output_tokens": 5488,
+        "total_tokens": 7735
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2294,
+        "output_tokens": 4324,
+        "total_tokens": 6618
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1742,
+        "output_tokens": 1178,
+        "total_tokens": 2920
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2285,
+        "output_tokens": 414,
+        "total_tokens": 2699
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2058,
+        "output_tokens": 1381,
+        "total_tokens": 3439
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1998,
+        "output_tokens": 1147,
+        "total_tokens": 3145
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1762,
+        "output_tokens": 1827,
+        "total_tokens": 3589
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1640,
+        "output_tokens": 6782,
+        "total_tokens": 8422
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1996,
+        "output_tokens": 1153,
+        "total_tokens": 3149
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 1705,
+        "output_tokens": 4450,
+        "total_tokens": 6155
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2159,
+        "output_tokens": 1133,
+        "total_tokens": 3292
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2324,
+        "output_tokens": 1401,
+        "total_tokens": 3725
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3879,
+        "output_tokens": 2640,
+        "total_tokens": 6519
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3060,
+        "output_tokens": 853,
+        "total_tokens": 3913
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2892,
+        "output_tokens": 1632,
+        "total_tokens": 4524
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3104,
+        "output_tokens": 3144,
+        "total_tokens": 6248
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2486,
+        "output_tokens": 952,
+        "total_tokens": 3438
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2368,
+        "output_tokens": 1236,
+        "total_tokens": 3604
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2805,
+        "output_tokens": 846,
+        "total_tokens": 3651
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 2769,
+        "output_tokens": 1152,
+        "total_tokens": 3921
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3498,
+        "output_tokens": 1267,
+        "total_tokens": 4765
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4072,
+        "output_tokens": 1128,
+        "total_tokens": 5200
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3115,
+        "output_tokens": 963,
+        "total_tokens": 4078
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3666,
+        "output_tokens": 738,
+        "total_tokens": 4404
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4268,
+        "output_tokens": 2698,
+        "total_tokens": 6966
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3024,
+        "output_tokens": 1952,
+        "total_tokens": 4976
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 4915,
+        "output_tokens": 1768,
+        "total_tokens": 6683
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 3621,
+        "output_tokens": 1720,
+        "total_tokens": 5341
+      },
+      "agent_name": "qwen3.5-plus",
+      "mode": "copilot"
+    }
+  ],
+  "harness_times": {
+    "verilogeval_Prob001_zero_0001": 1.1591241359710693,
+    "verilogeval_Prob002_m2014_q4i_0001": 1.5174694061279297,
+    "verilogeval_Prob003_step_one_0001": 1.5015828609466553,
+    "verilogeval_Prob004_vector2_0001": 1.3337993621826172,
+    "verilogeval_Prob005_notgate_0001": 1.3686110973358154,
+    "verilogeval_Prob006_vectorr_0001": 1.4150919914245605,
+    "verilogeval_Prob007_wire_0001": 1.4610249996185303,
+    "verilogeval_Prob008_m2014_q4h_0001": 1.2862107753753662,
+    "verilogeval_Prob009_popcount3_0001": 1.461456060409546,
+    "verilogeval_Prob010_mt2015_q4a_0001": 1.3547441959381104,
+    "verilogeval_Prob011_norgate_0001": 1.4466397762298584,
+    "verilogeval_Prob012_xnorgate_0001": 1.5678610801696777,
+    "verilogeval_Prob013_m2014_q4e_0001": 1.3823840618133545,
+    "verilogeval_Prob014_andgate_0001": 1.3486042022705078,
+    "verilogeval_Prob015_vector1_0001": 1.4081220626831055,
+    "verilogeval_Prob016_m2014_q4j_0001": 1.3581209182739258,
+    "verilogeval_Prob017_mux2to1v_0001": 1.3977229595184326,
+    "verilogeval_Prob018_mux256to1_0001": 1.334075927734375,
+    "verilogeval_Prob019_m2014_q4f_0001": 1.4682471752166748,
+    "verilogeval_Prob020_mt2015_eq2_0001": 1.429394006729126,
+    "verilogeval_Prob021_mux256to1v_0001": 1.514678955078125,
+    "verilogeval_Prob022_mux2to1_0001": 1.0610020160675049,
+    "verilogeval_Prob023_vector100r_0001": 1.3545746803283691,
+    "verilogeval_Prob024_hadd_0001": 1.3321881294250488,
+    "verilogeval_Prob025_reduction_0001": 1.5126960277557373,
+    "verilogeval_Prob026_alwaysblock1_0001": 1.5593600273132324,
+    "verilogeval_Prob027_fadd_0001": 1.351564884185791,
+    "verilogeval_Prob028_m2014_q4a_0001": 1.5031499862670898,
+    "verilogeval_Prob029_m2014_q4g_0001": 1.3580148220062256,
+    "verilogeval_Prob030_popcount255_0001": 1.4757869243621826,
+    "verilogeval_Prob031_dff_0001": 1.5215890407562256,
+    "verilogeval_Prob032_vector0_0001": 1.5641400814056396,
+    "verilogeval_Prob033_ece241_2014_q1c_0001": 1.3625280857086182,
+    "verilogeval_Prob034_dff8_0001": 1.4255681037902832,
+    "verilogeval_Prob035_count1to10_0001": 1.3629329204559326,
+    "verilogeval_Prob036_ringer_0001": 1.375478982925415,
+    "verilogeval_Prob037_review2015_count1k_0001": 1.3990259170532227,
+    "verilogeval_Prob038_count15_0001": 1.400317907333374,
+    "verilogeval_Prob039_always_if_0001": 1.402843952178955,
+    "verilogeval_Prob040_count10_0001": 1.4698340892791748,
+    "verilogeval_Prob041_dff8r_0001": 1.3869290351867676,
+    "verilogeval_Prob042_vector4_0001": 1.4953968524932861,
+    "verilogeval_Prob043_vector5_0001": 1.208467960357666,
+    "verilogeval_Prob044_vectorgates_0001": 1.362062931060791,
+    "verilogeval_Prob045_edgedetect2_0001": 1.1477267742156982,
+    "verilogeval_Prob046_dff8p_0001": 1.5309617519378662,
+    "verilogeval_Prob047_dff8ar_0001": 1.3503429889678955,
+    "verilogeval_Prob048_m2014_q4c_0001": 1.4529240131378174,
+    "verilogeval_Prob049_m2014_q4b_0001": 1.352931022644043,
+    "verilogeval_Prob050_kmap1_0001": 1.4341270923614502,
+    "verilogeval_Prob051_gates4_0001": 1.440885066986084,
+    "verilogeval_Prob052_gates100_0001": 1.4196059703826904,
+    "verilogeval_Prob053_m2014_q4d_0001": 1.4624629020690918,
+    "verilogeval_Prob054_edgedetect_0001": 1.393139123916626,
+    "verilogeval_Prob055_conditional_0001": 1.4101507663726807,
+    "verilogeval_Prob056_ece241_2013_q7_0001": 1.392348051071167,
+    "verilogeval_Prob057_kmap2_0001": 1.3369479179382324,
+    "verilogeval_Prob058_alwaysblock2_0001": 1.8454999923706055,
+    "verilogeval_Prob059_wire4_0001": 1.5471522808074951,
+    "verilogeval_Prob060_m2014_q4k_0001": 1.0211329460144043,
+    "verilogeval_Prob061_2014_q4a_0001": 1.3977711200714111,
+    "verilogeval_Prob062_bugs_0001": 1.0405800342559814,
+    "verilogeval_Prob062_bugs_mux2_0001": 1.3506889343261719,
+    "verilogeval_Prob063_review2015_shiftcount_0001": 1.3177227973937988,
+    "verilogeval_Prob064_vector3_0001": 1.391425609588623,
+    "verilogeval_Prob065_7420_0001": 1.4747462272644043,
+    "verilogeval_Prob066_edgecapture_0001": 1.1187660694122314,
+    "verilogeval_Prob067_countslow_0001": 1.4152257442474365,
+    "verilogeval_Prob068_countbcd_0001": 1.0112519264221191,
+    "verilogeval_Prob069_truthtable1_0001": 1.4598848819732666,
+    "verilogeval_Prob070_ece241_2013_q2_0001": 1.3487820625305176,
+    "verilogeval_Prob071_always_casez_0001": 1.423691987991333,
+    "verilogeval_Prob072_thermostat_0001": 1.410330057144165,
+    "verilogeval_Prob073_dff16e_0001": 1.3963050842285156,
+    "verilogeval_Prob074_ece241_2014_q4_0001": 1.4812400341033936,
+    "verilogeval_Prob075_counter_2bc_0001": 1.4886960983276367,
+    "verilogeval_Prob076_always_case_0001": 1.8321270942687988,
+    "verilogeval_Prob077_wire_decl_0001": 1.4086871147155762,
+    "verilogeval_Prob078_dualedge_0001": 1.4744629859924316,
+    "verilogeval_Prob079_fsm3onehot_0001": 1.0856590270996094,
+    "verilogeval_Prob080_timer_0001": 1.3429341316223145,
+    "verilogeval_Prob081_7458_0001": 1.371567726135254,
+    "verilogeval_Prob082_lfsr32_0001": 2.1855990886688232,
+    "verilogeval_Prob083_mt2015_q4b_0001": 1.3917429447174072,
+    "verilogeval_Prob084_ece241_2013_q12_0001": 1.4872760772705078,
+    "verilogeval_Prob085_shift4_0001": 1.4075520038604736,
+    "verilogeval_Prob086_lfsr5_0001": 1.4766080379486084,
+    "verilogeval_Prob087_gates_0001": 1.4534950256347656,
+    "verilogeval_Prob088_ece241_2014_q5b_0001": 1.4382538795471191,
+    "verilogeval_Prob089_ece241_2014_q5a_0001": 1.4569642543792725,
+    "verilogeval_Prob090_circuit1_0001": 1.3616623878479004,
+    "verilogeval_Prob091_2012_q2b_0001": 1.4120049476623535,
+    "verilogeval_Prob092_gatesv100_0001": 1.3734681606292725,
+    "verilogeval_Prob093_ece241_2014_q3_0001": 1.3581562042236328,
+    "verilogeval_Prob094_gatesv_0001": 1.5094799995422363,
+    "verilogeval_Prob095_review2015_fsmshift_0001": 1.4119348526000977,
+    "verilogeval_Prob096_review2015_fsmseq_0001": 1.3866798877716064,
+    "verilogeval_Prob097_mux9to1v_0001": 1.4169681072235107,
+    "verilogeval_Prob098_circuit7_0001": 1.5069859027862549,
+    "verilogeval_Prob099_m2014_q6c_0001": 1.4565801620483398,
+    "verilogeval_Prob100_fsm3comb_0001": 1.5033929347991943,
+    "verilogeval_Prob101_circuit4_0001": 1.3553650379180908,
+    "verilogeval_Prob102_circuit3_0001": 1.3502509593963623,
+    "verilogeval_Prob103_circuit2_0001": 1.0731549263000488,
+    "verilogeval_Prob104_mt2015_muxdff_0001": 1.3938837051391602,
+    "verilogeval_Prob105_rotate100_0001": 1.4891610145568848,
+    "verilogeval_Prob106_always_nolatches_0001": 1.1605241298675537,
+    "verilogeval_Prob107_fsm1s_0001": 1.4542689323425293,
+    "verilogeval_Prob108_rule90_0001": 1.5809969902038574,
+    "verilogeval_Prob109_fsm1_0001": 1.4692342281341553,
+    "verilogeval_Prob110_fsm2_0001": 1.5903379917144775,
+    "verilogeval_Prob111_fsm2s_0001": 1.4461541175842285,
+    "verilogeval_Prob112_always_case2_0001": 1.4137208461761475,
+    "verilogeval_Prob113_2012_q1g_0001": 1.4730761051177979,
+    "verilogeval_Prob114_bugs_case_0001": 1.0712220668792725,
+    "verilogeval_Prob115_shift18_0001": 1.488387107849121,
+    "verilogeval_Prob116_m2014_q3_0001": 1.4758501052856445,
+    "verilogeval_Prob117_circuit9_0001": 1.3745617866516113,
+    "verilogeval_Prob118_history_shift_0001": 1.531020164489746,
+    "verilogeval_Prob119_fsm3_0001": 1.4189021587371826,
+    "verilogeval_Prob120_fsm3s_0001": 1.396043062210083,
+    "verilogeval_Prob121_2014_q3bfsm_0001": 1.4727871417999268,
+    "verilogeval_Prob122_kmap4_0001": 1.3917579650878906,
+    "verilogeval_Prob123_bugs_addsubz_0001": 1.388157844543457,
+    "verilogeval_Prob124_rule110_0001": 1.13295316696167,
+    "verilogeval_Prob125_kmap3_0001": 1.420046091079712,
+    "verilogeval_Prob126_circuit6_0001": 1.4742677211761475,
+    "verilogeval_Prob127_lemmings1_0001": 1.0809719562530518,
+    "verilogeval_Prob128_fsm_ps2_0001": 1.0291187763214111,
+    "verilogeval_Prob129_ece241_2013_q8_0001": 1.4228107929229736,
+    "verilogeval_Prob130_circuit5_0001": 1.3601300716400146,
+    "verilogeval_Prob131_mt2015_q4_0001": 1.4405298233032227,
+    "verilogeval_Prob132_always_if2_0001": 1.3500518798828125,
+    "verilogeval_Prob133_2014_q3fsm_0001": 1.5078141689300537,
+    "verilogeval_Prob134_2014_q3c_0001": 1.433655023574829,
+    "verilogeval_Prob135_m2014_q6b_0001": 1.4247150421142578,
+    "verilogeval_Prob136_m2014_q6_0001": 1.567108154296875,
+    "verilogeval_Prob137_fsm_serial_0001": 1.4775419235229492,
+    "verilogeval_Prob138_2012_q2fsm_0001": 1.386565923690796,
+    "verilogeval_Prob139_2013_q2bfsm_0001": 1.5026140213012695,
+    "verilogeval_Prob140_fsm_hdlc_0001": 1.3503060340881348,
+    "verilogeval_Prob141_count_clock_0001": 2.537515878677368,
+    "verilogeval_Prob142_lemmings2_0001": 1.4144291877746582,
+    "verilogeval_Prob143_fsm_onehot_0001": 1.426846981048584,
+    "verilogeval_Prob144_conwaylife_0001": 1.0201218128204346,
+    "verilogeval_Prob145_circuit8_0001": 1.4164230823516846,
+    "verilogeval_Prob146_fsm_serialdata_0001": 1.4211368560791016,
+    "verilogeval_Prob147_circuit10_0001": 1.393460988998413,
+    "verilogeval_Prob148_2013_q2afsm_0001": 1.4703218936920166,
+    "verilogeval_Prob149_ece241_2013_q4_0001": 1.4051380157470703,
+    "verilogeval_Prob150_review2015_fsmonehot_0001": 1.4594879150390625,
+    "verilogeval_Prob151_review2015_fsm_0001": 1.0433390140533447,
+    "verilogeval_Prob152_lemmings3_0001": 1.4659478664398193,
+    "verilogeval_Prob153_gshare_0001": 1.505979299545288,
+    "verilogeval_Prob154_fsm_ps2data_0001": 1.4074170589447021,
+    "verilogeval_Prob155_lemmings4_0001": 1.4633240699768066,
+    "verilogeval_Prob156_review2015_fancytimer_0001": 1.1702148914337158
+  },
+  "generated_at": "2026-04-05T01:04:43.132237"
+}

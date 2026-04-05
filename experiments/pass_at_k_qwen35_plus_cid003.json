@@ -1,0 +1,21 @@
+{
+  "work_copilot-samples_qwen3.5_nonagentic_cid003_n5": {
+    "model": "qwen3.5-plus",
+    "dataset": "/Users/peiyihan/Codes/cvdp_benchmark/dataset/cvdp_v1.0.4_nonagentic_cid003.copilot_transformed.jsonl",
+    "n_samples": 5,
+    "total_problems": 78,
+    "pass_at_k": {
+      "pass@1": 37.44,
+      "pass@3": 57.05,
+      "pass@5": 62.82
+    },
+    "pass_count_distribution": {
+      "0/5": 29,
+      "1/5": 9,
+      "2/5": 9,
+      "3/5": 12,
+      "4/5": 12,
+      "5/5": 7
+    }
+  }
+}

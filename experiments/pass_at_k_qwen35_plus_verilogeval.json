@@ -1,0 +1,21 @@
+{
+  "work_copilot-samples_qwen3.5_verilogeval_n5": {
+    "model": "qwen3.5-plus",
+    "dataset": "/Users/peiyihan/Codes/cvdp_benchmark/dataset_verilogeval/verilogeval.copilot_transformed.jsonl",
+    "n_samples": 5,
+    "total_problems": 157,
+    "pass_at_k": {
+      "pass@1": 87.26,
+      "pass@3": 97.01,
+      "pass@5": 97.45
+    },
+    "pass_count_distribution": {
+      "0/5": 4,
+      "1/5": 1,
+      "2/5": 3,
+      "3/5": 10,
+      "4/5": 47,
+      "5/5": 92
+    }
+  }
+}

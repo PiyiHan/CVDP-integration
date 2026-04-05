@@ -1,0 +1,2091 @@
+{
+  "summary": {
+    "total_problems": 157,
+    "successful": 157,
+    "failed": 0,
+    "total_tokens": {
+      "input": 4058280,
+      "output": 270812,
+      "total": 4329092
+    },
+    "total_cost": {
+      "input": 0,
+      "output": 0,
+      "total": 0
+    },
+    "total_time": 0,
+    "avg_time": 0.0,
+    "harness_time": {
+      "total": 234.70525646209717,
+      "avg": 1.4949379392490265,
+      "min": 1.1031630039215088,
+      "max": 5.130236864089966,
+      "count": 157
+    },
+    "by_mode": {
+      "agentic": {
+        "count": 157,
+        "success": 157,
+        "tokens": 4329092,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "by_agent": {
+      "kimi-k2.5": {
+        "count": 157,
+        "success": 157,
+        "tokens": 4329092,
+        "cost": 0,
+        "time": 0
+      }
+    },
+    "success_rate": 100.0
+  },
+  "individual_metrics": [
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18190,
+        "output_tokens": 718,
+        "total_tokens": 18908
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18160,
+        "output_tokens": 748,
+        "total_tokens": 18908
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18764,
+        "output_tokens": 750,
+        "total_tokens": 19514
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19958,
+        "output_tokens": 1154,
+        "total_tokens": 21112
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19104,
+        "output_tokens": 828,
+        "total_tokens": 19932
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20556,
+        "output_tokens": 1264,
+        "total_tokens": 21820
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18910,
+        "output_tokens": 750,
+        "total_tokens": 19660
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18324,
+        "output_tokens": 698,
+        "total_tokens": 19022
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19794,
+        "output_tokens": 746,
+        "total_tokens": 20540
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18622,
+        "output_tokens": 846,
+        "total_tokens": 19468
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19460,
+        "output_tokens": 820,
+        "total_tokens": 20280
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19322,
+        "output_tokens": 800,
+        "total_tokens": 20122
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18722,
+        "output_tokens": 620,
+        "total_tokens": 19342
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19378,
+        "output_tokens": 936,
+        "total_tokens": 20314
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21166,
+        "output_tokens": 812,
+        "total_tokens": 21978
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20362,
+        "output_tokens": 1472,
+        "total_tokens": 21834
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25754,
+        "output_tokens": 796,
+        "total_tokens": 26550
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20004,
+        "output_tokens": 810,
+        "total_tokens": 20814
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19202,
+        "output_tokens": 866,
+        "total_tokens": 20068
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19730,
+        "output_tokens": 948,
+        "total_tokens": 20678
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26316,
+        "output_tokens": 1190,
+        "total_tokens": 27506
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21004,
+        "output_tokens": 944,
+        "total_tokens": 21948
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19164,
+        "output_tokens": 810,
+        "total_tokens": 19974
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20248,
+        "output_tokens": 910,
+        "total_tokens": 21158
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19346,
+        "output_tokens": 930,
+        "total_tokens": 20276
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21376,
+        "output_tokens": 856,
+        "total_tokens": 22232
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21940,
+        "output_tokens": 1026,
+        "total_tokens": 22966
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 18908,
+        "output_tokens": 1010,
+        "total_tokens": 19918
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19720,
+        "output_tokens": 926,
+        "total_tokens": 20646
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 27312,
+        "output_tokens": 1066,
+        "total_tokens": 28378
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19568,
+        "output_tokens": 906,
+        "total_tokens": 20474
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24502,
+        "output_tokens": 1162,
+        "total_tokens": 25664
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22540,
+        "output_tokens": 1164,
+        "total_tokens": 23704
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19744,
+        "output_tokens": 828,
+        "total_tokens": 20572
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21356,
+        "output_tokens": 828,
+        "total_tokens": 22184
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22044,
+        "output_tokens": 1070,
+        "total_tokens": 23114
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21840,
+        "output_tokens": 828,
+        "total_tokens": 22668
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21276,
+        "output_tokens": 952,
+        "total_tokens": 22228
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24740,
+        "output_tokens": 1358,
+        "total_tokens": 26098
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21448,
+        "output_tokens": 1032,
+        "total_tokens": 22480
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21756,
+        "output_tokens": 896,
+        "total_tokens": 22652
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20552,
+        "output_tokens": 996,
+        "total_tokens": 21548
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21250,
+        "output_tokens": 1428,
+        "total_tokens": 22678
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24814,
+        "output_tokens": 1204,
+        "total_tokens": 26018
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21406,
+        "output_tokens": 1176,
+        "total_tokens": 22582
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22040,
+        "output_tokens": 960,
+        "total_tokens": 23000
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22262,
+        "output_tokens": 1084,
+        "total_tokens": 23346
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19434,
+        "output_tokens": 1208,
+        "total_tokens": 20642
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19422,
+        "output_tokens": 900,
+        "total_tokens": 20322
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21150,
+        "output_tokens": 1504,
+        "total_tokens": 22654
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23226,
+        "output_tokens": 1110,
+        "total_tokens": 24336
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24990,
+        "output_tokens": 1022,
+        "total_tokens": 26012
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19568,
+        "output_tokens": 1142,
+        "total_tokens": 20710
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21156,
+        "output_tokens": 1032,
+        "total_tokens": 22188
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22558,
+        "output_tokens": 1028,
+        "total_tokens": 23586
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22766,
+        "output_tokens": 1642,
+        "total_tokens": 24408
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21984,
+        "output_tokens": 1536,
+        "total_tokens": 23520
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24410,
+        "output_tokens": 1108,
+        "total_tokens": 25518
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23598,
+        "output_tokens": 988,
+        "total_tokens": 24586
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 19704,
+        "output_tokens": 850,
+        "total_tokens": 20554
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20278,
+        "output_tokens": 982,
+        "total_tokens": 21260
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 30952,
+        "output_tokens": 690,
+        "total_tokens": 31642
+      },
+      "llm_call_count": 20,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23254,
+        "output_tokens": 1272,
+        "total_tokens": 24526
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23254,
+        "output_tokens": 1168,
+        "total_tokens": 24422
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28622,
+        "output_tokens": 1248,
+        "total_tokens": 29870
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25968,
+        "output_tokens": 1238,
+        "total_tokens": 27206
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23374,
+        "output_tokens": 1222,
+        "total_tokens": 24596
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23738,
+        "output_tokens": 1234,
+        "total_tokens": 24972
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26922,
+        "output_tokens": 2450,
+        "total_tokens": 29372
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22870,
+        "output_tokens": 1698,
+        "total_tokens": 24568
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 38652,
+        "output_tokens": 3582,
+        "total_tokens": 42234
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22386,
+        "output_tokens": 1268,
+        "total_tokens": 23654
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 29000,
+        "output_tokens": 1146,
+        "total_tokens": 30146
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 31858,
+        "output_tokens": 1404,
+        "total_tokens": 33262
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22434,
+        "output_tokens": 1502,
+        "total_tokens": 23936
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25788,
+        "output_tokens": 1336,
+        "total_tokens": 27124
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24594,
+        "output_tokens": 1326,
+        "total_tokens": 25920
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23302,
+        "output_tokens": 1192,
+        "total_tokens": 24494
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 20662,
+        "output_tokens": 1202,
+        "total_tokens": 21864
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25132,
+        "output_tokens": 2526,
+        "total_tokens": 27658
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23944,
+        "output_tokens": 1288,
+        "total_tokens": 25232
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 27960,
+        "output_tokens": 1464,
+        "total_tokens": 29424
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28748,
+        "output_tokens": 1672,
+        "total_tokens": 30420
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22916,
+        "output_tokens": 1178,
+        "total_tokens": 24094
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 32302,
+        "output_tokens": 2000,
+        "total_tokens": 34302
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25090,
+        "output_tokens": 1630,
+        "total_tokens": 26720
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24202,
+        "output_tokens": 1602,
+        "total_tokens": 25804
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 30990,
+        "output_tokens": 1348,
+        "total_tokens": 32338
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24746,
+        "output_tokens": 1550,
+        "total_tokens": 26296
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26666,
+        "output_tokens": 2734,
+        "total_tokens": 29400
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22440,
+        "output_tokens": 948,
+        "total_tokens": 23388
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26298,
+        "output_tokens": 1912,
+        "total_tokens": 28210
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 27046,
+        "output_tokens": 1898,
+        "total_tokens": 28944
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 27104,
+        "output_tokens": 3142,
+        "total_tokens": 30246
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28318,
+        "output_tokens": 1776,
+        "total_tokens": 30094
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21780,
+        "output_tokens": 1810,
+        "total_tokens": 23590
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 31736,
+        "output_tokens": 1958,
+        "total_tokens": 33694
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26002,
+        "output_tokens": 1522,
+        "total_tokens": 27524
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22320,
+        "output_tokens": 986,
+        "total_tokens": 23306
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24444,
+        "output_tokens": 1746,
+        "total_tokens": 26190
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23430,
+        "output_tokens": 1614,
+        "total_tokens": 25044
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25958,
+        "output_tokens": 1968,
+        "total_tokens": 27926
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25700,
+        "output_tokens": 1918,
+        "total_tokens": 27618
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25844,
+        "output_tokens": 2066,
+        "total_tokens": 27910
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 21904,
+        "output_tokens": 1192,
+        "total_tokens": 23096
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23154,
+        "output_tokens": 1686,
+        "total_tokens": 24840
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26118,
+        "output_tokens": 1124,
+        "total_tokens": 27242
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23534,
+        "output_tokens": 1406,
+        "total_tokens": 24940
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25244,
+        "output_tokens": 1866,
+        "total_tokens": 27110
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23030,
+        "output_tokens": 1294,
+        "total_tokens": 24324
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24000,
+        "output_tokens": 1426,
+        "total_tokens": 25426
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 31030,
+        "output_tokens": 1520,
+        "total_tokens": 32550
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22820,
+        "output_tokens": 1320,
+        "total_tokens": 24140
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 49372,
+        "output_tokens": 15404,
+        "total_tokens": 64776
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26682,
+        "output_tokens": 1898,
+        "total_tokens": 28580
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26622,
+        "output_tokens": 1804,
+        "total_tokens": 28426
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 30508,
+        "output_tokens": 6042,
+        "total_tokens": 36550
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23948,
+        "output_tokens": 1346,
+        "total_tokens": 25294
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28710,
+        "output_tokens": 1650,
+        "total_tokens": 30360
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24728,
+        "output_tokens": 1468,
+        "total_tokens": 26196
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 32400,
+        "output_tokens": 1748,
+        "total_tokens": 34148
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23428,
+        "output_tokens": 2112,
+        "total_tokens": 25540
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25898,
+        "output_tokens": 2866,
+        "total_tokens": 28764
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25738,
+        "output_tokens": 1318,
+        "total_tokens": 27056
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 38202,
+        "output_tokens": 3320,
+        "total_tokens": 41522
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 40414,
+        "output_tokens": 10290,
+        "total_tokens": 50704
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23426,
+        "output_tokens": 1510,
+        "total_tokens": 24936
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 27376,
+        "output_tokens": 1706,
+        "total_tokens": 29082
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22726,
+        "output_tokens": 1560,
+        "total_tokens": 24286
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25120,
+        "output_tokens": 1980,
+        "total_tokens": 27100
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25980,
+        "output_tokens": 1290,
+        "total_tokens": 27270
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25290,
+        "output_tokens": 2728,
+        "total_tokens": 28018
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 24994,
+        "output_tokens": 1418,
+        "total_tokens": 26412
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 35906,
+        "output_tokens": 3000,
+        "total_tokens": 38906
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25408,
+        "output_tokens": 2450,
+        "total_tokens": 27858
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26792,
+        "output_tokens": 3350,
+        "total_tokens": 30142
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 22386,
+        "output_tokens": 1722,
+        "total_tokens": 24108
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 25498,
+        "output_tokens": 2176,
+        "total_tokens": 27674
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 23334,
+        "output_tokens": 1992,
+        "total_tokens": 25326
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 26566,
+        "output_tokens": 2230,
+        "total_tokens": 28796
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28844,
+        "output_tokens": 2684,
+        "total_tokens": 31528
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 48910,
+        "output_tokens": 2856,
+        "total_tokens": 51766
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 31922,
+        "output_tokens": 2464,
+        "total_tokens": 34386
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 33934,
+        "output_tokens": 3364,
+        "total_tokens": 37298
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 33044,
+        "output_tokens": 3016,
+        "total_tokens": 36060
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28284,
+        "output_tokens": 1242,
+        "total_tokens": 29526
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 28194,
+        "output_tokens": 2446,
+        "total_tokens": 30640
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 30580,
+        "output_tokens": 1924,
+        "total_tokens": 32504
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 40042,
+        "output_tokens": 2226,
+        "total_tokens": 42268
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 47858,
+        "output_tokens": 3076,
+        "total_tokens": 50934
+      },
+      "llm_call_count": 12,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 39758,
+        "output_tokens": 2656,
+        "total_tokens": 42414
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 32098,
+        "output_tokens": 2430,
+        "total_tokens": 34528
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 36378,
+        "output_tokens": 2554,
+        "total_tokens": 38932
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 100282,
+        "output_tokens": 5280,
+        "total_tokens": 105562
+      },
+      "llm_call_count": 16,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 33724,
+        "output_tokens": 1952,
+        "total_tokens": 35676
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 44830,
+        "output_tokens": 3054,
+        "total_tokens": 47884
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    },
+    {
+      "success": true,
+      "tokens": {
+        "input_tokens": 36368,
+        "output_tokens": 2968,
+        "total_tokens": 39336
+      },
+      "llm_call_count": 10,
+      "model": "kimi-k2.5",
+      "agent_name": "kimi-k2.5",
+      "mode": "agentic"
+    }
+  ],
+  "harness_times": {
+    "verilogeval_Prob001_zero_0001": 1.4232089519500732,
+    "verilogeval_Prob002_m2014_q4i_0001": 1.3649206161499023,
+    "verilogeval_Prob003_step_one_0001": 1.3664770126342773,
+    "verilogeval_Prob004_vector2_0001": 1.3910140991210938,
+    "verilogeval_Prob005_notgate_0001": 1.3636181354522705,
+    "verilogeval_Prob006_vectorr_0001": 1.921990156173706,
+    "verilogeval_Prob007_wire_0001": 1.4325833320617676,
+    "verilogeval_Prob008_m2014_q4h_0001": 1.5095160007476807,
+    "verilogeval_Prob009_popcount3_0001": 1.3751411437988281,
+    "verilogeval_Prob010_mt2015_q4a_0001": 1.3576931953430176,
+    "verilogeval_Prob011_norgate_0001": 1.43060302734375,
+    "verilogeval_Prob012_xnorgate_0001": 1.4916999340057373,
+    "verilogeval_Prob013_m2014_q4e_0001": 1.457524061203003,
+    "verilogeval_Prob014_andgate_0001": 1.3960919380187988,
+    "verilogeval_Prob015_vector1_0001": 1.500098705291748,
+    "verilogeval_Prob016_m2014_q4j_0001": 1.5008389949798584,
+    "verilogeval_Prob017_mux2to1v_0001": 1.4420890808105469,
+    "verilogeval_Prob018_mux256to1_0001": 1.5626170635223389,
+    "verilogeval_Prob019_m2014_q4f_0001": 1.3979859352111816,
+    "verilogeval_Prob020_mt2015_eq2_0001": 1.3758080005645752,
+    "verilogeval_Prob021_mux256to1v_0001": 1.4771919250488281,
+    "verilogeval_Prob022_mux2to1_0001": 1.4234859943389893,
+    "verilogeval_Prob023_vector100r_0001": 1.4172499179840088,
+    "verilogeval_Prob024_hadd_0001": 1.3722476959228516,
+    "verilogeval_Prob025_reduction_0001": 1.4694757461547852,
+    "verilogeval_Prob026_alwaysblock1_0001": 1.3800358772277832,
+    "verilogeval_Prob027_fadd_0001": 1.4350690841674805,
+    "verilogeval_Prob028_m2014_q4a_0001": 1.3493261337280273,
+    "verilogeval_Prob029_m2014_q4g_0001": 1.4493789672851562,
+    "verilogeval_Prob030_popcount255_0001": 1.4288198947906494,
+    "verilogeval_Prob031_dff_0001": 1.482314109802246,
+    "verilogeval_Prob032_vector0_0001": 1.4548981189727783,
+    "verilogeval_Prob033_ece241_2014_q1c_0001": 1.5082950592041016,
+    "verilogeval_Prob034_dff8_0001": 1.515303134918213,
+    "verilogeval_Prob035_count1to10_0001": 1.4720020294189453,
+    "verilogeval_Prob036_ringer_0001": 1.4045138359069824,
+    "verilogeval_Prob037_review2015_count1k_0001": 1.378283977508545,
+    "verilogeval_Prob038_count15_0001": 1.4197885990142822,
+    "verilogeval_Prob039_always_if_0001": 1.4832570552825928,
+    "verilogeval_Prob040_count10_0001": 1.4009249210357666,
+    "verilogeval_Prob041_dff8r_0001": 1.4658129215240479,
+    "verilogeval_Prob042_vector4_0001": 1.4647738933563232,
+    "verilogeval_Prob043_vector5_0001": 1.4562480449676514,
+    "verilogeval_Prob044_vectorgates_0001": 1.4869298934936523,
+    "verilogeval_Prob045_edgedetect2_0001": 1.5520579814910889,
+    "verilogeval_Prob046_dff8p_0001": 1.4542529582977295,
+    "verilogeval_Prob047_dff8ar_0001": 1.5445051193237305,
+    "verilogeval_Prob048_m2014_q4c_0001": 1.4921088218688965,
+    "verilogeval_Prob049_m2014_q4b_0001": 1.412121057510376,
+    "verilogeval_Prob050_kmap1_0001": 1.4494290351867676,
+    "verilogeval_Prob051_gates4_0001": 1.3558330535888672,
+    "verilogeval_Prob052_gates100_0001": 1.4931328296661377,
+    "verilogeval_Prob053_m2014_q4d_0001": 1.4692449569702148,
+    "verilogeval_Prob054_edgedetect_0001": 1.4450819492340088,
+    "verilogeval_Prob055_conditional_0001": 1.314997911453247,
+    "verilogeval_Prob056_ece241_2013_q7_0001": 1.4953598976135254,
+    "verilogeval_Prob057_kmap2_0001": 1.4721720218658447,
+    "verilogeval_Prob058_alwaysblock2_0001": 1.4767186641693115,
+    "verilogeval_Prob059_wire4_0001": 1.5668270587921143,
+    "verilogeval_Prob060_m2014_q4k_0001": 1.3829169273376465,
+    "verilogeval_Prob061_2014_q4a_0001": 1.509347915649414,
+    "verilogeval_Prob062_bugs_0001": 1.1031630039215088,
+    "verilogeval_Prob062_bugs_mux2_0001": 1.4345998764038086,
+    "verilogeval_Prob063_review2015_shiftcount_0001": 1.470257043838501,
+    "verilogeval_Prob064_vector3_0001": 1.5175957679748535,
+    "verilogeval_Prob065_7420_0001": 1.4737169742584229,
+    "verilogeval_Prob066_edgecapture_0001": 1.3651509284973145,
+    "verilogeval_Prob067_countslow_0001": 1.5373878479003906,
+    "verilogeval_Prob068_countbcd_0001": 1.7744359970092773,
+    "verilogeval_Prob069_truthtable1_0001": 1.409247875213623,
+    "verilogeval_Prob070_ece241_2013_q2_0001": 1.5147631168365479,
+    "verilogeval_Prob071_always_casez_0001": 1.4718329906463623,
+    "verilogeval_Prob072_thermostat_0001": 1.4527270793914795,
+    "verilogeval_Prob073_dff16e_0001": 1.4575307369232178,
+    "verilogeval_Prob074_ece241_2014_q4_0001": 1.3833715915679932,
+    "verilogeval_Prob075_counter_2bc_0001": 1.4201669692993164,
+    "verilogeval_Prob076_always_case_0001": 1.4474220275878906,
+    "verilogeval_Prob077_wire_decl_0001": 1.5001718997955322,
+    "verilogeval_Prob078_dualedge_0001": 1.4379398822784424,
+    "verilogeval_Prob079_fsm3onehot_0001": 1.5403878688812256,
+    "verilogeval_Prob080_timer_0001": 1.4647250175476074,
+    "verilogeval_Prob081_7458_0001": 1.4668190479278564,
+    "verilogeval_Prob082_lfsr32_0001": 2.297943115234375,
+    "verilogeval_Prob083_mt2015_q4b_0001": 1.3961730003356934,
+    "verilogeval_Prob084_ece241_2013_q12_0001": 1.4992692470550537,
+    "verilogeval_Prob085_shift4_0001": 1.3518357276916504,
+    "verilogeval_Prob086_lfsr5_0001": 1.4876351356506348,
+    "verilogeval_Prob087_gates_0001": 1.4696450233459473,
+    "verilogeval_Prob088_ece241_2014_q5b_0001": 1.4822237491607666,
+    "verilogeval_Prob089_ece241_2014_q5a_0001": 1.4620530605316162,
+    "verilogeval_Prob090_circuit1_0001": 1.491729974746704,
+    "verilogeval_Prob091_2012_q2b_0001": 1.426032304763794,
+    "verilogeval_Prob092_gatesv100_0001": 1.4348080158233643,
+    "verilogeval_Prob093_ece241_2014_q3_0001": 1.4478249549865723,
+    "verilogeval_Prob094_gatesv_0001": 1.4904308319091797,
+    "verilogeval_Prob095_review2015_fsmshift_0001": 1.377129077911377,
+    "verilogeval_Prob096_review2015_fsmseq_0001": 1.5434420108795166,
+    "verilogeval_Prob097_mux9to1v_0001": 1.444594383239746,
+    "verilogeval_Prob098_circuit7_0001": 1.4501678943634033,
+    "verilogeval_Prob099_m2014_q6c_0001": 1.3897759914398193,
+    "verilogeval_Prob100_fsm3comb_0001": 1.3944551944732666,
+    "verilogeval_Prob101_circuit4_0001": 1.464785099029541,
+    "verilogeval_Prob102_circuit3_0001": 1.501709222793579,
+    "verilogeval_Prob103_circuit2_0001": 1.395725965499878,
+    "verilogeval_Prob104_mt2015_muxdff_0001": 1.4475889205932617,
+    "verilogeval_Prob105_rotate100_0001": 1.621156930923462,
+    "verilogeval_Prob106_always_nolatches_0001": 1.5457849502563477,
+    "verilogeval_Prob107_fsm1s_0001": 1.4019238948822021,
+    "verilogeval_Prob108_rule90_0001": 1.545732021331787,
+    "verilogeval_Prob109_fsm1_0001": 1.5362358093261719,
+    "verilogeval_Prob110_fsm2_0001": 1.4367291927337646,
+    "verilogeval_Prob111_fsm2s_0001": 1.53006911277771,
+    "verilogeval_Prob112_always_case2_0001": 1.4584791660308838,
+    "verilogeval_Prob113_2012_q1g_0001": 1.3584439754486084,
+    "verilogeval_Prob114_bugs_case_0001": 1.472646951675415,
+    "verilogeval_Prob115_shift18_0001": 1.4731690883636475,
+    "verilogeval_Prob116_m2014_q3_0001": 1.372323989868164,
+    "verilogeval_Prob117_circuit9_0001": 1.4715988636016846,
+    "verilogeval_Prob118_history_shift_0001": 1.4888982772827148,
+    "verilogeval_Prob119_fsm3_0001": 1.4827392101287842,
+    "verilogeval_Prob120_fsm3s_0001": 1.4647271633148193,
+    "verilogeval_Prob121_2014_q3bfsm_0001": 1.4908661842346191,
+    "verilogeval_Prob122_kmap4_0001": 1.5100772380828857,
+    "verilogeval_Prob123_bugs_addsubz_0001": 1.4012808799743652,
+    "verilogeval_Prob124_rule110_0001": 1.7785718441009521,
+    "verilogeval_Prob125_kmap3_0001": 1.4053339958190918,
+    "verilogeval_Prob126_circuit6_0001": 1.431509017944336,
+    "verilogeval_Prob127_lemmings1_0001": 1.417191982269287,
+    "verilogeval_Prob128_fsm_ps2_0001": 1.4211490154266357,
+    "verilogeval_Prob129_ece241_2013_q8_0001": 1.4755818843841553,
+    "verilogeval_Prob130_circuit5_0001": 1.4841480255126953,
+    "verilogeval_Prob131_mt2015_q4_0001": 1.475517988204956,
+    "verilogeval_Prob132_always_if2_0001": 1.4556667804718018,
+    "verilogeval_Prob133_2014_q3fsm_0001": 1.519153356552124,
+    "verilogeval_Prob134_2014_q3c_0001": 1.4410490989685059,
+    "verilogeval_Prob135_m2014_q6b_0001": 1.35856294631958,
+    "verilogeval_Prob136_m2014_q6_0001": 1.4095208644866943,
+    "verilogeval_Prob137_fsm_serial_0001": 1.421231985092163,
+    "verilogeval_Prob138_2012_q2fsm_0001": 1.4736061096191406,
+    "verilogeval_Prob139_2013_q2bfsm_0001": 1.4344890117645264,
+    "verilogeval_Prob140_fsm_hdlc_0001": 1.5217909812927246,
+    "verilogeval_Prob141_count_clock_0001": 2.3601608276367188,
+    "verilogeval_Prob142_lemmings2_0001": 1.6029448509216309,
+    "verilogeval_Prob143_fsm_onehot_0001": 1.374540090560913,
+    "verilogeval_Prob144_conwaylife_0001": 5.130236864089966,
+    "verilogeval_Prob145_circuit8_0001": 1.409909725189209,
+    "verilogeval_Prob146_fsm_serialdata_0001": 1.480759859085083,
+    "verilogeval_Prob147_circuit10_0001": 1.3784971237182617,
+    "verilogeval_Prob148_2013_q2afsm_0001": 1.4697041511535645,
+    "verilogeval_Prob149_ece241_2013_q4_0001": 1.3927009105682373,
+    "verilogeval_Prob150_review2015_fsmonehot_0001": 1.3985919952392578,
+    "verilogeval_Prob151_review2015_fsm_0001": 1.41959810256958,
+    "verilogeval_Prob152_lemmings3_0001": 1.4456779956817627,
+    "verilogeval_Prob153_gshare_0001": 1.4929358959197998,
+    "verilogeval_Prob154_fsm_ps2data_0001": 1.4695119857788086,
+    "verilogeval_Prob155_lemmings4_0001": 1.4232628345489502,
+    "verilogeval_Prob156_review2015_fancytimer_0001": 2.135619640350342
+  },
+  "generated_at": "2026-04-05T01:17:55.057185"
+}

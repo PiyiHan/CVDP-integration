@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "tokens": {
+    "input_tokens": 36368,
+    "output_tokens": 2968,
+    "total_tokens": 39336
+  },
+  "llm_call_count": 10,
+  "model": "kimi-k2.5",
+  "agent_name": "kimi-k2.5",
+  "mode": "agentic"
+}
