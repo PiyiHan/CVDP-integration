@@ -167,7 +167,15 @@ Note: The other easy failure is not a separate problem but the same nbit_swizzli
 13. cvdp_agentic_signed_comparator_0001
 14. cvdp_agentic_swizzler_0001
 
-## Comparison: ACE-RTL vs Other Agents on CID003 Agentic
+## Comparison: ACE-RTL Across Versions (CID003, kimi-k2.5)
+
+| Metric | v1 | v2 | v3 |
+|--------|----|----|----|
+| **Pass Rate** | 29.41% (10/34) | **43.8%** (14/32) | **43.8%** (14/32) |
+| Total Tokens | N/A | 669,433 | ~670K (est.) |
+| Avg Tokens/Problem | N/A | 20,286 | ~20,900 |
+
+v3 (hardcoded sim command, multi-pattern detection) improved VerilogEval by +15.9pp but had no effect on CID003. The CID003 failure modes are different: no testbench (14/32), iverilog incompatibility (10/32), and genuine RTL bugs (7/32). See [v3 experiment report](ace_rtl_cid003_kimi_v3_20260407.md) for detailed analysis.
 
 | Metric | ACE-RTL v1 | **ACE-RTL v2** | deco-meta-agent |
 |--------|-----------|----------------|-----------------|

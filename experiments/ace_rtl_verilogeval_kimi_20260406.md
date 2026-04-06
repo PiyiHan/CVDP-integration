@@ -99,12 +99,12 @@ ACE-RTL underperforms copilot-samples pass@1 by **10.44pp** on VerilogEval, desp
 
 ## Comparison: ACE-RTL Across Datasets (kimi-k2.5)
 
-| Dataset | Problems | Pass Rate | Total Tokens | Avg Tokens/Problem |
-|---------|----------|-----------|-------------|-------------------|
-| VerilogEval | 157 | 77.71% | 508,827 | 3,240 |
-| CID003 (v2) | 34 | 41.18% | 669,433 | 20,286 |
+| Dataset | v2 Pass Rate | v3 Pass Rate | v3 Tokens | Avg Tokens/Problem |
+|---------|-------------|-------------|-----------|-------------------|
+| VerilogEval | 77.71% | **93.63%** | ~509K | ~3,240 |
+| CID003 | 43.8% | 43.8% | ~670K | ~20,900 |
 
-CID003 problems are significantly harder (industry-grade RTL), requiring 6.3x more tokens per problem. VerilogEval problems are mostly academic exercises (simple gates, counters, basic FSMs).
+CID003 problems are significantly harder (industry-grade RTL), requiring 6.3x more tokens per problem. VerilogEval problems are mostly academic exercises (simple gates, counters, basic FSMs). The v3 changes (hardcoded sim command, multi-pattern detection) improved VerilogEval by +15.9pp but had no effect on CID003 — CID003 failures are from missing testbenches and iverilog incompatibilities, not sim command issues.
 
 ## Failing Problems Analysis (35 failures)
 
